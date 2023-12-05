@@ -1,2 +1,2 @@
-# Contabilidade Escrituracao
- projeto para uso pessoal 
+# Contabilidade-Escrituração-Contábil 
+ Projeto para uso pessoal e treinamento
