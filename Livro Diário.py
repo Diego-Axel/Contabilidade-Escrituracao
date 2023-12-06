@@ -19,10 +19,38 @@ print("-----------------------------------------------")
 print("Quantas operações deseja realizar (Máximo de 10 (BETA))? ") #Ainda desenvolvendo...
 numero_op = int(input(""))
 #--------------------------------------------------------------
+print("-----------------------------------------------")
+print("Quantas contas você deseja adicionar? ")
+numero_conta = input("")
 
-if numero_op == 1:
+if numero_conta == 2:
+    print("Se você escolheu 2, então é porque você tem um (D) e um (C) -> a sua primeira conta será atribuida o valor ao débito e a segunda ao crédito.")
     print("-----------------------------------------------")
-    #........................
+
+    conta1 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
+    conta2 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
+    print("-----------------------------------------------")
+
+    valor_c1 = float(input(f"Qual o valor que será atribuido a conta {conta1}? "))
+    valor_c2 = float(input(f"Qual o valor que será atribuido a conta {conta2}? "))
+    print("-----------------------------------------------")
+
+    d1 = conta1 
+    c1 = conta2
+
+    print(f"Você tem a conta {conta1} com um valor de R${valor_c1} ")
+    print(f"Você tem a conta {conta2} com um valor de R${valor_c2} ")
+    print("-----------------------------------------------")
+
+    print("O lançamento ficou:")
+    print("-->")
+    print(f"D - {conta1}   R$ {valor_c1}")
+    print(f"C - {conta2}   R$ {valor_c2}")
+
+  
+  
+  
+  
    
 # CORPO ---> BASE
 #
