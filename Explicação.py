@@ -21,4 +21,8 @@
 # 3º É o Balanço Patrimonial que é um relatório que demonstra de maneira clara e precisa a situação financeira de uma empresa. Para isso, são considerados todos os ativos e passivos de um negócio, ou seja, seus bens, dívidas e lucros.
 #
 #
+# Bom como eu estou falando de contabilidade básica, o Balanço Patrimonial(BP) ele será também feito assim como é visto na faculdade de contabilidade bem ao básico mesmo --->
 #
+# Com o lado esquerdo tendo seus ativos, as suas contas com o seu saldo e o lado direito o passivo que assim oomo o ativo tem suas contas e o seus saldos e logo abaixo do passivo no mesmo lado temos o patrimônio Líquido com seu capital(R$)
+#
+# E ao final de cada um dos dois lados vamos ter o total, que na contabilidade, ATIVO = PASSIVO + PATRIMÔNIO LÍQUIDO.
