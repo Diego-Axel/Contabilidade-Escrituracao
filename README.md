@@ -1,2 +1,2 @@
 # Contabilidade-Escrituração-Contábil
-projeto para uso pessoal 
+projeto para uso pessoal e treinamento
