@@ -22,9 +22,13 @@ numero_op = int(input(""))
 print("-----------------------------------------------")
 print("Quantas contas você deseja adicionar? ")
 numero_conta = input("")
+print("-----------------------------------------------")
 
 if numero_op == 1 and numero_conta == 2:
     print(f"Você escolheu {numero_op} operações. Número de contas você escolheu {numero_conta}, então é porque você tem um (D) e um (C) -> a sua primeira conta será atribuida o valor ao débito e a segunda ao crédito.")
+    print("-----------------------------------------------")
+
+    print("Primeira Operação")
     print("-----------------------------------------------")
 
     conta1 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
@@ -51,6 +55,9 @@ elif numero_op == 2 and numero_conta == 2:
     print(f"Você escolheu {numero_op} operações. Número de contas você escolheu {numero_conta}, então é porque você tem um (D) e um (C) -> a sua primeira conta será atribuida o valor ao débito e a segunda ao crédito.")
     print("-----------------------------------------------")
 
+    print("Primeira Operação")
+    print("-----------------------------------------------")
+
     conta1 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
     conta2 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
     print("-----------------------------------------------")
@@ -72,11 +79,32 @@ elif numero_op == 2 and numero_conta == 2:
     print(f"C - {conta2}   R$ {valor_c2}")
     print("-----------------------------------------------")
 
-    conta3 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
-    conta3 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
-    
+    print("Segunda operação")
     print("-----------------------------------------------")
+
+    conta3 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
+    conta4 = input("Digite o nome da sua conta (caixa, banco, mercadoria...)")
+    print("-----------------------------------------------")
+
+    valor_c3 = float(input(f"Qual o valor que será atribuido a conta {conta3}? "))
+    valor_c4 = float(input(f"Qual o valor que será atribuido a conta {conta4}? "))
+    print("-----------------------------------------------")
+
+    d2 = conta3 
+    c2 = conta4  
+
+    print(f"Você tem a conta {conta3} com um valor de R${valor_c3} ")
+    print(f"Você tem a conta {conta4} com um valor de R${valor_c4} ")
+    print("-----------------------------------------------")  
     
+    print("O lançamento ficou:")
+    print("-->")
+    print(f"D - {conta3}   R$ {valor_c3}")
+    print(f"C - {conta4}   R$ {valor_c4}")
+    print("-----------------------------------------------")
+else:
+    print("END")
+
 
   
   
