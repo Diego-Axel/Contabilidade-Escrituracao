@@ -41,12 +41,14 @@ print(f"")
 print(f"")
 print(f"")
 print("-----------------------------------------------")
+
 print(f"Operação número {numero_op} data xx/xx/xxx") # cadastrar variaveis 
 print(f"")
 print(f"")
 print(f"")
 print(f"")
 print("-----------------------------------------------")
+
 print(f"Operação número {numero_op} data xx/xx/xxx") # cadastrar variaveis 
 print(f"")
 print(f"")
