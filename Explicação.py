@@ -26,3 +26,5 @@
 # Com o lado esquerdo tendo seus ativos, as suas contas com o seu saldo e o lado direito o passivo que assim oomo o ativo tem suas contas e o seus saldos e logo abaixo do passivo no mesmo lado temos o patrimônio Líquido com seu capital(R$)
 #
 # E ao final de cada um dos dois lados vamos ter o total, que na contabilidade, ATIVO = PASSIVO + PATRIMÔNIO LÍQUIDO.
+#
+# O balanço patrimonial é feito com base em um período de tempo, uma vez ao ano. Portanto, é preciso definir quais serão os meses analisados, o que pode variar conforme as necessidades do negócio. 
