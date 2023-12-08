@@ -211,6 +211,283 @@ elif numero_op == 3:
     print(f"C - {conta6}   R$ {valor_c6}")
     print(f"Hitórico da operação: {historico3}")
     print("-----------------------------------------------")
+elif numero_op == 4:
+    print(f"Você escolheu {numero_op} operações. Número de contas você escolheu {numero_conta}, então é porque você tem um (D) e um (C) -> a sua primeira conta será atribuida o valor ao débito e a segunda ao crédito.")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                PRIMEIRA OPERAÇÃO               |")
+    print("--------------------------------------------------")
+
+    data1 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta1 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta2 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico1 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c1 = float(input(f"Qual o valor que será atribuido a conta {conta1}? "))
+    valor_c2 = float(input(f"Qual o valor que será atribuido a conta {conta2}? "))
+    print("-----------------------------------------------")
+
+    d1 = conta1 
+    c1 = conta2       
+
+    print(f"Você tem a conta {conta1} com um valor de R${valor_c1} ")
+    print(f"Você tem a conta {conta2} com um valor de R${valor_c2} ")
+    print("-----------------------------------------------")
+
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data1}")
+    print(f"D - {conta1}   R$ {valor_c1}")
+    print(f"C - {conta2}   R$ {valor_c2}")
+    print(f"Hitórico da operação: {historico1}")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                SEGUNDA OPERAÇÃO                |")
+    print("--------------------------------------------------")
+
+    data2 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta3 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta4 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico2 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c3 = float(input(f"Qual o valor que será atribuido a conta {conta3}? "))
+    valor_c4 = float(input(f"Qual o valor que será atribuido a conta {conta4}? "))
+    print("-----------------------------------------------")
+
+    d2 = conta3 
+    c2 = conta4  
+
+    print(f"Você tem a conta {conta3} com um valor de R${valor_c3} ")
+    print(f"Você tem a conta {conta4} com um valor de R${valor_c4} ")
+    print("-----------------------------------------------")  
+    
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data2}")
+    print(f"D - {conta3}   R$ {valor_c3}")
+    print(f"C - {conta4}   R$ {valor_c4}")
+    print(f"Hitórico da operação: {historico2}")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                TERCEIRA OPERAÇÃO                |")
+    print("--------------------------------------------------")
+
+    data3 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta5 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta6 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico3 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c5 = float(input(f"Qual o valor que será atribuido a conta {conta5}? "))
+    valor_c6 = float(input(f"Qual o valor que será atribuido a conta {conta6}? "))
+    print("-----------------------------------------------")
+
+    d3 = conta5 
+    c3 = conta6  
+
+    print(f"Você tem a conta {conta5} com um valor de R${valor_c5} ")
+    print(f"Você tem a conta {conta6} com um valor de R${valor_c6} ")
+    print("-----------------------------------------------")  
+    
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data3}")
+    print(f"D - {conta5}   R$ {valor_c5}")
+    print(f"C - {conta6}   R$ {valor_c6}")
+    print(f"Hitórico da operação: {historico3}")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                QUARTA OPERAÇÃO                 |")
+    print("--------------------------------------------------")
+
+    data4 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta7 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta8 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico4 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c7 = float(input(f"Qual o valor que será atribuido a conta {conta7}? "))
+    valor_c8 = float(input(f"Qual o valor que será atribuido a conta {conta8}? "))
+    print("-----------------------------------------------")
+
+    d4 = conta7 
+    c4 = conta8  
+
+    print(f"Você tem a conta {conta7} com um valor de R${valor_c7} ")
+    print(f"Você tem a conta {conta8} com um valor de R${valor_c8} ")
+    print("-----------------------------------------------")  
+    
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data4}")
+    print(f"D - {conta7}   R$ {valor_c7}")
+    print(f"C - {conta8}   R$ {valor_c8}")
+    print(f"Hitórico da operação: {historico4}")
+    print("-----------------------------------------------")
+elif numero_op == 5:
+    print(f"Você escolheu {numero_op} operações. Número de contas você escolheu {numero_conta}, então é porque você tem um (D) e um (C) -> a sua primeira conta será atribuida o valor ao débito e a segunda ao crédito.")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                PRIMEIRA OPERAÇÃO               |")
+    print("--------------------------------------------------")
+
+    data1 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta1 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta2 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico1 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c1 = float(input(f"Qual o valor que será atribuido a conta {conta1}? "))
+    valor_c2 = float(input(f"Qual o valor que será atribuido a conta {conta2}? "))
+    print("-----------------------------------------------")
+
+    d1 = conta1 
+    c1 = conta2       
+
+    print(f"Você tem a conta {conta1} com um valor de R${valor_c1} ")
+    print(f"Você tem a conta {conta2} com um valor de R${valor_c2} ")
+    print("-----------------------------------------------")
+
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data1}")
+    print(f"D - {conta1}   R$ {valor_c1}")
+    print(f"C - {conta2}   R$ {valor_c2}")
+    print(f"Hitórico da operação: {historico1}")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                SEGUNDA OPERAÇÃO                |")
+    print("--------------------------------------------------")
+
+    data2 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta3 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta4 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico2 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c3 = float(input(f"Qual o valor que será atribuido a conta {conta3}? "))
+    valor_c4 = float(input(f"Qual o valor que será atribuido a conta {conta4}? "))
+    print("-----------------------------------------------")
+
+    d2 = conta3 
+    c2 = conta4  
+
+    print(f"Você tem a conta {conta3} com um valor de R${valor_c3} ")
+    print(f"Você tem a conta {conta4} com um valor de R${valor_c4} ")
+    print("-----------------------------------------------")  
+    
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data2}")
+    print(f"D - {conta3}   R$ {valor_c3}")
+    print(f"C - {conta4}   R$ {valor_c4}")
+    print(f"Hitórico da operação: {historico2}")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                TERCEIRA OPERAÇÃO                |")
+    print("--------------------------------------------------")
+
+    data3 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta5 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta6 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico3 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c5 = float(input(f"Qual o valor que será atribuido a conta {conta5}? "))
+    valor_c6 = float(input(f"Qual o valor que será atribuido a conta {conta6}? "))
+    print("-----------------------------------------------")
+
+    d3 = conta5 
+    c3 = conta6  
+
+    print(f"Você tem a conta {conta5} com um valor de R${valor_c5} ")
+    print(f"Você tem a conta {conta6} com um valor de R${valor_c6} ")
+    print("-----------------------------------------------")  
+    
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data3}")
+    print(f"D - {conta5}   R$ {valor_c5}")
+    print(f"C - {conta6}   R$ {valor_c6}")
+    print(f"Hitórico da operação: {historico3}")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                QUARTA OPERAÇÃO                 |")
+    print("--------------------------------------------------")
+
+    data4 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta7 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta8 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico4 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c7 = float(input(f"Qual o valor que será atribuido a conta {conta7}? "))
+    valor_c8 = float(input(f"Qual o valor que será atribuido a conta {conta8}? "))
+    print("-----------------------------------------------")
+
+    d4 = conta7 
+    c4 = conta8  
+
+    print(f"Você tem a conta {conta7} com um valor de R${valor_c7} ")
+    print(f"Você tem a conta {conta8} com um valor de R${valor_c8} ")
+    print("-----------------------------------------------")  
+    
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data4}")
+    print(f"D - {conta7}   R$ {valor_c7}")
+    print(f"C - {conta8}   R$ {valor_c8}")
+    print(f"Hitórico da operação: {historico4}")
+    print("-----------------------------------------------")
+
+
+    print("--------------------------------------------------")
+    print("|                QUINTA OPERAÇÃO                 |")
+    print("--------------------------------------------------")
+
+    data5 = input("Digite a data desta operação -> xx/xx/xxxx: ")
+    conta9 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    conta10 = input("Digite o nome da sua conta (caixa, banco, mercadoria...) ")
+    historico5 = input("Digite o Histórico referente a esta operação: ")
+    print("-----------------------------------------------")
+
+    valor_c9 = float(input(f"Qual o valor que será atribuido a conta {conta9}? "))
+    valor_c10 = float(input(f"Qual o valor que será atribuido a conta {conta10}? "))
+    print("-----------------------------------------------")
+
+    d5 = conta9 
+    c5 = conta10  
+
+    print(f"Você tem a conta {conta9} com um valor de R${valor_c9} ")
+    print(f"Você tem a conta {conta10} com um valor de R${valor_c10} ")
+    print("-----------------------------------------------")  
+    
+    print("O lançamento ficou:")
+    print("-----------------------------------------------")
+    print(f"Data da operação: {data5}")
+    print(f"D - {conta9}   R$ {valor_c9}")
+    print(f"C - {conta10}   R$ {valor_c10}")
+    print(f"Hitórico da operação: {historico5}")
+    print("-----------------------------------------------")
+
 else:
     print("END")
 
