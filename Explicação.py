@@ -3,7 +3,7 @@
 # Basicamente a escrituração contábil é meio que você pegar os fatos contábeis, que é tudo aquilo que altera o patrimônio da empresa, e esses fatos podem ser a entrada e saída de dinheiro no caixa da empresa, vendas de mercadorias, estoques, enfim, tudo que estiver envolvido em alteração do patrimônio.
 
 # A escrituração ela é divida em algumas parte ->
-# 1º Livro Diário, onde nele vai ter o Débito(D) e o Crédito(C) que a soma dos débitos e a soma dos créditos, se houver mais de uma daram o mesmo resultado.
+# 1º Livro Diário, onde nele vai ter o Débito(D) e o Crédito(C) que a soma dos débitos e a soma dos créditos, se houver mais de uma daram o mesmo resultado. Para deixar bem claro, no livro Diário, pelo menos no momento deste commit, ele está na fase de aperfeiçoamento. Eu ainda deixarei ele mais automatizado no decorrer que eu for ganahando experiência.
 #--------------------------------------------------------------------------------------------------------------------------------------
 # 2º Livro Razão(RAZONETE) que é representado da seguinte forma:
 #
