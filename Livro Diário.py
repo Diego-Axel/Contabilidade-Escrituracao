@@ -6,7 +6,6 @@ print("-----------------------------------------------")
 print("|                LIVRO DIÁRIO                 |")
 print("-----------------------------------------------")
 
-# Bom, a começar a explicar o que seria um diário para o mundo da contabilidade. Basicamente seria como se a gente estivesse fazendo um resgistro de toda a movimentação que ocorreu na empresa ou comércio da entidade(Pessoa Física ou Pessoa Jurídica), essa movimentação se da por: Compra de mercadoria, fluxo do caixa(Entrada e saída de U$$), recebimento de dinheiro de vendas, enfim, tudo aquilo que possa alterar o patrimônio  da entide.
 
 print("-----------------------------------------------")
 empresa = input("Qual o nome da sua empresa(LTda)? ")
