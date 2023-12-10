@@ -1707,23 +1707,6 @@ else:
 
 print(f" Empresa {empresa}, agora vamos dar continuidade ao Livro Razão(RAZONETE) ")
 
-print("--------------------------------------------------")
-print("|                  LIVRO RAZÃO                   |")
-print("--------------------------------------------------")
-
-print("-----------------------------------------------")
-
-
-  
-  
-  
-  
-
-
-
-
-
-
 
 
 
