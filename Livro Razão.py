@@ -51,5 +51,49 @@
 
 
 print("--------------------------------------------------")
-print("|                  IVRO RAZÃO                    |")
+print("|                 LIVRO RAZÃO                    |")
 print("--------------------------------------------------")
+
+conta = input("Conta 1: ")
+valor_conta = float(input(f"Digite o valor de {conta} "))
+
+print("--------------------------------------------------")
+
+
+print(f"________________{conta}_________________")
+print(f"                  |                    ")
+print(f"                  |                    ")
+print(f"                  |                    ")
+print(f"                  |                    ")
+print(f"                  |                    ")
+print("_________________________________________")
+print(f"                  |                    ")
+
+print("--------------------------------------------------")
+
+
+if conta == "Caixa":
+    conta_nome = input("Essa conta está no DÉBITO(D) OU NO CRÉDITO(C)? ")
+    if conta_nome == "D":
+        print(f"______________________________________{conta}____________________________________")
+        print(f" {conta}  R${valor_conta}                        |                                       ")
+        print(f"                                         |                                       ")
+        print(f"                                         |                                       ")
+        print(f"                                         |                                       ")
+        print(f"                                         |                                       ")
+        print("__________________________________________________________________________________")
+        print(f"                                         |                                       ")
+    elif conta_nome == "C":
+        print(f"______________________________________{conta}____________________________________")
+        print(f"                                         | {conta}  R${valor_conta}              ")
+        print(f"                                         |                                       ")
+        print(f"                                         |                                       ")
+        print(f"                                         |                                       ")
+        print(f"                                         |                                       ")
+        print("__________________________________________________________________________________")
+        print(f"                                         |                                       ")
+    else:
+        print("")
+else:
+    print("")
+         
