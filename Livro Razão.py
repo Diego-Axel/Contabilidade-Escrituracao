@@ -54,13 +54,13 @@ print("--------------------------------------------------")
 print("|                 LIVRO RAZÃO                    |")
 print("--------------------------------------------------")
 
-conta = input("Conta 1: ")
-valor_conta = float(input(f"Digite o valor de {conta} "))
+conta1 = input("Digite o nome da CONTA 1 (Primeira letra maiúscula): ")
+valor_conta1 = float(input(f"Digite o valor de {conta1} "))
 
 print("--------------------------------------------------")
 
 
-print(f"________________{conta}_________________")
+print(f"________________{conta1}_________________")
 print(f"                  |                    ")
 print(f"                  |                    ")
 print(f"                  |                    ")
@@ -72,20 +72,20 @@ print(f"                  |                    ")
 print("--------------------------------------------------")
 
 
-if conta == "Caixa":
-    conta_nome = input("Essa conta está no DÉBITO(D) OU NO CRÉDITO(C)? ")
-    if conta_nome == "D":
-        print(f"______________________________________{conta}____________________________________")
-        print(f" {conta}  R${valor_conta}                        |                                       ")
+if conta1 == "Caixa":
+    conta_tipo = input("Essa conta está no DÉBITO(D) OU NO CRÉDITO(C)? ")
+    if conta_tipo == "D":
+        print(f"______________________________________{conta1}____________________________________")
+        print(f"  R${valor_conta1}                      |                                       ")
         print(f"                                         |                                       ")
         print(f"                                         |                                       ")
         print(f"                                         |                                       ")
         print(f"                                         |                                       ")
         print("__________________________________________________________________________________")
         print(f"                                         |                                       ")
-    elif conta_nome == "C":
-        print(f"______________________________________{conta}____________________________________")
-        print(f"                                         | {conta}  R${valor_conta}              ")
+    elif conta_tipo == "C":
+        print(f"______________________________________{conta1}____________________________________")
+        print(f"                                         |  R${valor_conta1}                     ")
         print(f"                                         |                                       ")
         print(f"                                         |                                       ")
         print(f"                                         |                                       ")
@@ -96,4 +96,48 @@ if conta == "Caixa":
         print("")
 else:
     print("")
-         
+
+print("--------------------------------------------------")
+print(f"Adicione mais valores para a conta {conta1}:")
+valor_caixa = float(input(f"Valor do {conta1} "))
+print("--------------------------------------------------")
+
+conta_tipo2 = input("Essa conta está no DÉBITO(D) OU NO CRÉDITO(C)? ")
+
+if conta_tipo2 == "D":
+    print(f"______________________________________{conta1}____________________________________")
+    print(f" R${valor_conta1}                        |                                       ")
+    print(f" R${valor_caixa}                                       |                                       ")
+    print(f"                                         |                                       ")
+    print(f"                                         |                                       ")
+    print(f"                                         |                                       ")
+    print("__________________________________________________________________________________")
+    print(f"                                         |                                       ")
+elif conta_tipo == "C":
+    print(f"______________________________________{conta1}____________________________________")
+    print(f"                                         |  R${valor_conta1}                     ")
+    print(f"                                         |                                       ")
+    print(f"                                         |                                       ")
+    print(f"                                         |                                       ")
+    print(f"                                         |                                       ")
+    print("__________________________________________________________________________________")
+    print(f"                                         |                                       ")
+else:
+    print("")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("--------------------------------------------------")
+conta2 = input("Digite o nome da CONTA 2 (Primeira letra maiúscula): ")
