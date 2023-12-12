@@ -64,25 +64,45 @@ print("                        |                         ")
 print("                        |                         ")
 print("__________________________________________________")
 print("                        |                         ")
-# Nessa parte aqui, após essa linhas, será o total dos D e do outro lado | o total dos C
+# Nessa parte aqui, após essa linhas, será o total dos D e do outro lado | o total dos C.
 
 print("--------------------------------------------------")
-nome_conta = input("Digite o nome da conta (Primeira letra maiúscula): ")
+nome_conta = input("Digite o NOME DA CONTA (Primeira letra maiúscula): ")
+# Só para lembrar, essa conta pode ser Caixa, Banco, Cliente, Fornecedor, Despesa, enfim.
 print("--------------------------------------------------")
-valor_conta = float(input(f"Digite o valor do(a) {nome_conta} (R$): "))
+valor_conta = float(input(f"Digite o valor do(a, e) {nome_conta} (R$): "))
 print("--------------------------------------------------")
 
 if nome_conta == "Caixa":
     print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
     tipo_conta = input("")
     if tipo_conta == "D":
-        print("...")
-
-
+        print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
+        print(f" R${valor_conta}                                 ")
+        print("                                                  ")
+        print("__________________________________________________")
+    elif tipo_conta == "C":
+         print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
+         print(f"                                  R${valor_conta}")
+         print("                                                  ")
+         print("__________________________________________________")
+    else:
+         print("")
+elif nome_conta == "Banco":
+    print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
+    tipo_conta = input("")
+    if tipo_conta == "D":
+         print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
+         print(f" R${valor_conta}                                 ")
+         print("                                                  ")
+         print("__________________________________________________")
+    elif tipo_conta == "C":
+         print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
+         print(f"                                  R${valor_conta}")
+         print("                                                  ")
+         print("__________________________________________________")
     else:
         print("")
-
-
-
+    
 else:
     print("")
