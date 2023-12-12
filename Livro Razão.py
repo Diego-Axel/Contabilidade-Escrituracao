@@ -54,6 +54,8 @@ print("--------------------------------------------------")
 print("|                 LIVRO RAZÃO                    |")
 print("--------------------------------------------------")
 
+# Assim é para ficar o razonete:
+
 print("_DÉBITOS__________NOME_DA_CONTA__________CRÉDITOS_")
 print("                        |                         ")
 print("                        |                         ")
@@ -62,3 +64,25 @@ print("                        |                         ")
 print("                        |                         ")
 print("__________________________________________________")
 print("                        |                         ")
+# Nessa parte aqui, após essa linhas, será o total dos D e do outro lado | o total dos C
+
+print("--------------------------------------------------")
+nome_conta = input("Digite o nome da conta (Primeira letra maiúscula): ")
+print("--------------------------------------------------")
+valor_conta = float(input(f"Digite o valor do(a) {nome_conta} (R$): "))
+print("--------------------------------------------------")
+
+if nome_conta == "Caixa":
+    print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
+    tipo_conta = input("")
+    if tipo_conta == "D":
+        print("...")
+
+
+    else:
+        print("")
+
+
+
+else:
+    print("")
