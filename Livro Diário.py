@@ -6,6 +6,14 @@ print("-----------------------------------------------")
 print("|                LIVRO DIÁRIO                 |")
 print("-----------------------------------------------")
 
+# Assim que planejo deixar ao final de cada lançamento:
+print("Data do lançamento: xx/xx/xxxx")
+print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)")
+print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)")
+# Pode haver mais de um DÉBITO e mais de um CRÉDITO:
+print("Histórico referente a está operação: xxxxxxxxxxxx")
+print("-----------------------------------------------")
+
 print("Para começar, digite o nome de sua empresa(Ltda):")
 nome_empresa = input("")
 print("-----------------------------------------------")
@@ -16,6 +24,9 @@ print("-----------------------------------------------")
 
 if numero_lancamentos == 2:
     print(f"Número de Lançamentos escolhidos: {numero_lancamentos}")
+    nome_conta = input("Digite o nome da conta (1 Letra maiúscula): ")
+
+
 else:
     print("")
 
