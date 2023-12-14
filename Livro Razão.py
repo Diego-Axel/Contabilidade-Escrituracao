@@ -67,44 +67,44 @@ print("                        |                         ")
 # Nessa parte aqui, após essa linhas, será o total dos D e do outro lado | o total dos C.
 
 print("--------------------------------------------------")
-nome_conta = input("Digite o NOME DA CONTA (Primeira letra maiúscula): ")
+nome_conta = input("Digite o NOME DA CONTA: ")
 # Só para lembrar, essa conta pode ser Caixa, Banco, Cliente, Fornecedor, Despesa, enfim.
 print("--------------------------------------------------")
 valor_conta = float(input(f"Digite o valor do(a, e) {nome_conta} (R$): "))
 print("--------------------------------------------------")
 
-if nome_conta == "Caixa":
+if nome_conta == "Caixa" or nome_conta == "caixa":
     print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
     tipo_conta = input("")
-    if tipo_conta == "D":
+    if tipo_conta == "D" or tipo_conta == "d":
         print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
         print(f" R${valor_conta}                                 ")
         print("                                                  ")
         print("__________________________________________________")
-    elif tipo_conta == "C":
+    elif tipo_conta == "C" or tipo_conta == "c":
          print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
          print(f"                                  R${valor_conta}")
          print("                                                  ")
          print("__________________________________________________")
     else:
-         print("")
-elif nome_conta == "Banco":
+         print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
+elif nome_conta == "Banco" or nome_conta == "banco":
     print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
     tipo_conta = input("")
-    if tipo_conta == "D":
+    if tipo_conta == "D" or tipo_conta == "d":
          print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
          print(f" R${valor_conta}                                 ")
          print("                                                  ")
          print("__________________________________________________")
-    elif tipo_conta == "C":
+    elif tipo_conta == "C" or tipo_conta == "c":
          print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
          print(f"                                  R${valor_conta}")
          print("                                                  ")
          print("__________________________________________________")
     else:
-        print("")
+        print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
     
 else:
-    print("")
+    print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
 
 print("--------------------------------------------------")
