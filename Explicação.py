@@ -17,6 +17,18 @@
 #       |
 #
 # São representados em formato de "T" onde em cima desse "T" fica o nome da conta(Caixa, banco, estoques, fornecedor, clientes,...) do lado esquerdo, os débitos e o lado esquerdo, é a parte dos créditos. É por meio do Razonete que são feitos os registros individuais por conta.
+#
+# Ficaria de uma certa forma desse jeito:
+#
+# print("_DÉBITOS__________NOME_DA_CONTA__________CRÉDITOS_")
+# print("                        |                         ")
+# print("                        |                         ")
+# print("                        |                         ")
+# print("                        |                         ")
+# print("                        |                         ")
+# print("__________________________________________________")
+# print("                        |                         ")
+#
 #--------------------------------------------------------------------------------------------------------------------------------------
 # 3º É o Balanço Patrimonial que é um relatório que demonstra de maneira clara e precisa a situação financeira de uma empresa. Para isso, são considerados todos os ativos e passivos de um negócio, ou seja, seus bens, dívidas e lucros.
 #
