@@ -4,6 +4,14 @@
 
 # A escrituração ela é divida em algumas parte ->
 # 1º Livro Diário, onde nele vai ter o Débito(D) e o Crédito(C) que a soma dos débitos e a soma dos créditos, se houver mais de uma daram o mesmo resultado. Para deixar bem claro, no livro Diário, pelo menos no momento deste commit, ele está na fase de aperfeiçoamento. Eu ainda deixarei ele mais automatizado no decorrer que eu for ganahando experiência.
+
+# Assim que planejo deixar ao final de cada lançamento:
+# print("Data do lançamento: xx/xx/xxxx")
+# print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)")
+# print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)")
+# Pode haver mais de um DÉBITO e mais de um CRÉDITO:
+# print("Histórico referente a está operação: xxxxxxxxxxxx")
+
 #--------------------------------------------------------------------------------------------------------------------------------------
 # 2º Livro Razão(RAZONETE) que é representado da seguinte forma:
 #
