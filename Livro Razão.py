@@ -76,6 +76,7 @@ print("--------------------------------------------------")
 if nome_conta == "Caixa" or nome_conta == "caixa":
     print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
     tipo_conta = input("")
+    print("__________________________________________________")
     if tipo_conta == "D" or tipo_conta == "d":
         print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
         print(f" R${valor_conta}                                 ")
@@ -91,6 +92,7 @@ if nome_conta == "Caixa" or nome_conta == "caixa":
 elif nome_conta == "Banco" or nome_conta == "banco":
     print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
     tipo_conta = input("")
+    print("__________________________________________________")
     if tipo_conta == "D" or tipo_conta == "d":
          print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
          print(f" R${valor_conta}                                 ")
