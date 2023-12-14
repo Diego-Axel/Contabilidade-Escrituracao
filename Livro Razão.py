@@ -118,10 +118,13 @@ elif nome_conta == "Mercadoria" or "mercadoria":
          print("__________________________________________________")
     else:
         print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
-
-
-    
 else:
     print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
 
 print("--------------------------------------------------")
+print("Neste momento, assim está as informações do seu razonete:")
+print("--------------------------------------------------")
+print(f"Nome da conta: {nome_conta}")
+print(f"Valor desta conta: {valor_conta}")
+print(f"Tipo da conta (D ou C): {tipo_conta}")
+
