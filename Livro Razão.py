@@ -87,7 +87,7 @@ if nome_conta == "Caixa" or nome_conta == "caixa":
          print("                                                  ")
          print("__________________________________________________")
     else:
-         print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
+         print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
 elif nome_conta == "Banco" or nome_conta == "banco":
     print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
     tipo_conta = input("")
@@ -102,7 +102,7 @@ elif nome_conta == "Banco" or nome_conta == "banco":
          print("                                                  ")
          print("__________________________________________________")
     else:
-        print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
+        print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
 elif nome_conta == "Mercadoria" or "mercadoria":
     print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
     tipo_conta = input("")
@@ -117,9 +117,9 @@ elif nome_conta == "Mercadoria" or "mercadoria":
          print("                                                  ")
          print("__________________________________________________")
     else:
-        print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
+        print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
 else:
-    print("NÃO FOI DIGITADO O QUE FOI PEDIDO.")
+    print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
 
 print("--------------------------------------------------")
 print("Neste momento, assim está as informações do seu razonete:")
@@ -127,4 +127,40 @@ print("--------------------------------------------------")
 print(f"Nome da conta: {nome_conta}")
 print(f"Valor desta conta: {valor_conta}")
 print(f"Tipo da conta (D ou C): {tipo_conta}")
+print("--------------------------------------------------")
+
+print("Deseja adicionar mais valores em seu razonete?" )
+s_n = input("")
+
+if s_n == "s" or s_n == "sim" or s_n == "Sim":
+     print(f"Você pretende adicionar valor na conta que você escolheu anteriormente: Seus dados são: Conta: {nome_conta}, Valor: {valor_conta}, e Tipo: {tipo_conta}")
+     print("--------------------------------------------------")
+     escolha = input("Pretende adicionat valor ao débito ou ao crédito? ")
+     if escolha == "d" or escolha == "D" or escolha == "Débito" or escolha == "Debito":
+          print(f"Você escolheu: {escolha}")
+          print("--------------------------------------------------")
+          print("Assim está o seu razonete")
+          print("--------------------------------------------------")
+          print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
+          print(f" R${valor_conta}                                 ")
+          print("                                                  ")
+          print("__________________________________________________")
+          valor2_conta = float(input("Digite o valor para essa conta: "))
+          print("--------------------------------------------------")
+          print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
+          print(f" R${valor_conta}                                 ")
+          print(f" R${valor2_conta}                                ")
+          somad = valor_conta + valor2_conta
+          print("__________________________________________________")
+          print("SOMATORIO DOS D____________________SOMATORIO DOS C")
+          print(f"R${somad}                                        ")
+          print("--------------------------------------------------")
+
+     
+     else:
+          print("")
+
+else:
+    print("Você escolheu: NÃO")
+
 
