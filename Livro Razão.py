@@ -49,11 +49,16 @@
 # Vou criar aqui como é para acontecer quando o programa for executado e após fazer todos os testes aqui e ver se está tudo bem e certo, vou repassar para o livro diário para fazer tudo junto, enfim.
 
 
+print("_________________________________________________________________________________________________")
+print("|  .______           ___       ________    ______   .__   __.  _______ .___________. _______    |")
+print("|   |   _  \         /   \     |       /   /  __  \  |  \ |  | |   ____||           ||   ____|  |")
+print("|   |  |_)  |       /  ^  \    `---/  /   |  |  |  | |   \|  | |  |__   `---|  |----`|  |__     |")
+print("|   |      /       /  /_\  \      /  /    |  |  |  | |  . `  | |   __|      |  |     |   __|    |")
+print("|   |  |\  \----. /  _____  \    /  /----.|  `--'  | |  |\   | |  |____     |  |     |  |____   |")
+print("|   | _| `._____|/__/     \__\  /________| \______/  |__| \__| |_______|    |__|     |_______|  |")
+print("|_______________________________________________________________________________________________|")
 
 print("--------------------------------------------------")
-print("|                 LIVRO RAZÃO                    |")
-print("--------------------------------------------------")
-
 # Assim é para ficar o razonete:
 
 print("_DÉBITOS__________NOME_DA_CONTA__________CRÉDITOS_")
@@ -135,8 +140,8 @@ s_n = input("")
 if s_n == "s" or s_n == "sim" or s_n == "Sim":
      print(f"Você pretende adicionar valor na conta que você escolheu anteriormente: Seus dados são: Conta: {nome_conta}, Valor: {valor_conta}, e Tipo: {tipo_conta}")
      print("--------------------------------------------------")
-     escolha = input("Pretende adicionat valor ao débito ou ao crédito? ")
-     if escolha == "d" or escolha == "D" or escolha == "Débito" or escolha == "Debito":
+     escolha = input("Pretende adicionar valor ao débito ou ao crédito? ")
+     if escolha == "d" or escolha == "D" or escolha == "Débito" or escolha == "Debito" or escolha == "debito" or escolha == "débito":
           print(f"Você escolheu: {escolha}")
           print("--------------------------------------------------")
           print("Assim está o seu razonete")
@@ -155,12 +160,31 @@ if s_n == "s" or s_n == "sim" or s_n == "Sim":
           print("SOMATORIO DOS D____________________SOMATORIO DOS C")
           print(f"R${somad}                                        ")
           print("--------------------------------------------------")
-
+     elif escolha == "c" or escolha == "C" or escolha == "Crédito" or escolha == "Credito" or escolha == "credito" or escolha == "crédito":
+          print(f"Você escolheu: {escolha}")
+          print("--------------------------------------------------")
+          print("Assim está o seu razonete")  
+          print("--------------------------------------------------")
+          print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
+          print(f" R${valor_conta}                                 ")
+          print("                                                  ")
+          print("__________________________________________________")  
+          valor2_conta = float(input("Digite o valor para essa conta: "))
+          print("--------------------------------------------------")
+          print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
+          print(f" R${valor_conta}                                 ")
+          print(f"                                R${valor2_conta} ")
+          somad = valor_conta - valor2_conta
+          print("__________________________________________________")
+          print("SOMATORIO DOS D____________________SOMATORIO DOS C")
+          print(f"R${valor_conta}                  R${valor2_conta}")
+          print("--------------------------------------------------")
+          print(f"                    {somad}                       ") 
      
      else:
           print("")
 
 else:
-    print("Você escolheu: NÃO")
+    print("Você escolheu: NÃO, FIM DO PROGRAMA")
 
 
