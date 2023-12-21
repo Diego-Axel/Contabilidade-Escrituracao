@@ -38,7 +38,13 @@
 # print("                        |                         ")
 #
 #--------------------------------------------------------------------------------------------------------------------------------------
-# 3º É o Balanço Patrimonial que é um relatório que demonstra de maneira clara e precisa a situação financeira de uma empresa. Para isso, são considerados todos os ativos e passivos de um negócio, ou seja, seus bens, dívidas e lucros.
+
+# o 3º e OPCIONAL é o Balancete, que consiste e, basicamente tirar uma "prova real" antes do balamço patrimônial , ele dando certo, ou seja, --> ATIVOS == PASSIVOS <-- Tudo ok. 
+  
+
+#--------------------------------------------------------------------------------------------------------------------------------------
+
+# 4º É o Balanço Patrimonial que é um relatório que demonstra de maneira clara e precisa a situação financeira de uma empresa. Para isso, são considerados todos os ativos e passivos de um negócio, ou seja, seus bens, dívidas e lucros.
 #
 #
 # Bom como eu estou falando de contabilidade básica, o Balanço Patrimonial(BP) ele será também feito assim como é visto na faculdade de contabilidade bem ao básico mesmo --->
