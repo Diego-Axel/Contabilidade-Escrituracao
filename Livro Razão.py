@@ -180,7 +180,7 @@ if s_n == "s" or s_n == "sim" or s_n == "Sim":
           print("SOMATORIO DOS D____________________SOMATORIO DOS C")
           print(f"R${valor_conta}                  R${valor2_conta}")
           print("--------------------------------------------------")
-          print(f"                    {somad}                       ") 
+          print(f"                  R${somad}                      ") 
      
      else:
           print("")
