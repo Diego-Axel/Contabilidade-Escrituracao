@@ -28,11 +28,10 @@ print("-------------------------------------------------------------------------
 
 
 # Assim que planejo deixar ao final de cada lançamento:
-print("Data do lançamento: xx/xx/xxxx")
-print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)")
-print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)")
-# Pode haver mais de um DÉBITO e mais de um CRÉDITO:
-print("Histórico referente a está operação: xxxxxxxxxxxx")
+print("Data do lançamento: xx/xx/xxxx") # Data exata da operação
+print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)") # Pode haver mais de um DÉBITO e mais de um CRÉDITO:
+print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)") # E para ressaltar, mais de uma conta
+print("Histórico referente a está operação: xxxxxxxxxxxx") # Histórico daquela operação (Compra de mercadoria, venda, empréstimos, enfim...)
 print("-----------------------------------------------")
 
 print("Para começar, digite o nome de sua empresa(Ltda):")
