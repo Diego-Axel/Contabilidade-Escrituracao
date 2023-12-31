@@ -69,8 +69,8 @@ print("                        |                         ")
 print("                        |                         ")
 print("                        |                         ")
 print("__________________________________________________")
-print("                        |                         ")
-# Nessa parte aqui, após essas linhas, será o total dos D e do outro lado | o total dos C.
+print("                        |                         ") # Nessa parte aqui, após essas linhas, será o total dos D e do outro lado | o total dos C.
+
 
 print("--------------------------------------------------")
 nome_conta = input("Digite o NOME DA CONTA: ") # Só para lembrar, essa conta pode ser Caixa, Banco, Cliente, Fornecedor, Despesa, enfim.
