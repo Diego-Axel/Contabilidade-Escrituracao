@@ -24,3 +24,5 @@ print("##        ##     ##    ##    ##    ##   ##  ##     ## ##     ## ##   ### 
 print("##        ##     ##    ##    ##     ## #### ##     ##  #######  ##    ## #### ##     ## ######## ")
 print("                                                                                                 ")
 
+# ASSIM FICARÁ O LIVRO DIÁRIO FINALIZADO
+
