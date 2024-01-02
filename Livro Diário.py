@@ -27,7 +27,7 @@ print("                                                                         
 print("----------------------------------------------------------------------------------")
 
 
-# Assim que planejo deixar ao final de cada lançamento:
+# ASSIM FICARÁ O LIVRO DIÁRIO FINALIZADO
 print("Data do lançamento: xx/xx/xxxx") # Data exata da operação
 print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)") # Pode haver mais de um DÉBITO e mais de um CRÉDITO:
 print("D/C - (nome da conta) - R$ xx.xxx,xx -> (valor da conta)") # E para ressaltar, mais de uma conta
