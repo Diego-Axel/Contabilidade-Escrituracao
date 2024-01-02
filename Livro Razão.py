@@ -61,7 +61,7 @@ print("|________________________________________________________________________
 
 print("--------------------------------------------------")
 
-# Assim é para ficar o razonete:
+# ASSIM FICARÁ O LIVRO DIÁRIO FINALIZADO
 print("_DÉBITOS__________NOME_DA_CONTA__________CRÉDITOS_")
 print("                        |                         ")
 print("                        |                         ")
