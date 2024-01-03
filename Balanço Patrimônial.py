@@ -24,5 +24,5 @@ print("##        ##     ##    ##    ##    ##   ##  ##     ## ##     ## ##   ### 
 print("##        ##     ##    ##    ##     ## #### ##     ##  #######  ##    ## #### ##     ## ######## ")
 print("                                                                                                 ")
 
-# ASSIM FICARÁ O LIVRO DIÁRIO FINALIZADO
+# ASSIM FICARÁ O BALANÇO PATRIMÔNIAL FINALIZADO
 
