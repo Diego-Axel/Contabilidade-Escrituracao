@@ -1,5 +1,5 @@
+# Projeto simples usando conhecimentos adquirioos em Ciências Contabéis (BÁSICA I and II)
 # PROGRAMA PARA SE UTILIZAR A CONTABILIDADE BÁSICA(DIÁRIO, RAZONETE, BALANECETE E BALANÇO PATRIMONIAL)
-
 # PROJETO APENAS PARA USO PESSOAL COMO TREINAMENTO (NÃO SEI SE LEVAREI ISSO ADIANTE :D )
 
 print("_________________________________________________________________________________")
