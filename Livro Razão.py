@@ -48,6 +48,7 @@
 
 # Vou criar aqui como é para acontecer quando o programa for executado e após fazer todos os testes aqui e ver se está tudo bem e certo, vou repassar para o livro diário para fazer tudo junto, enfim.
 
+# Projeto simples usando conhecimentos adquirioos em Ciências Contabéis (BÁSICA I and II)
 
 print("________________________________________________________________________________")
 print("|  ########     ###    ########  #######  ##    ## ######## ######## ########  |")
