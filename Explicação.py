@@ -1,3 +1,5 @@
+# Projeto simples usando conhecimentos adquirioos em Ciências Contabéis (BÁSICA I and II)
+
 # Uma breve explicação de o que seria escrituração contábil e como eu planejo fazer ela "rodar" em PYTHON
 
 # Basicamente a escrituração contábil é meio que você pegar os fatos contábeis, que é tudo aquilo que altera o patrimônio da empresa, e esses fatos podem ser a entrada e saída de dinheiro no caixa da empresa, vendas de mercadorias, estoques, enfim, tudo que estiver envolvido em alteração do patrimônio.
