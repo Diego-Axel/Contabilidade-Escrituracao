@@ -25,4 +25,19 @@ print("##        ##     ##    ##    ##     ## #### ##     ##  #######  ##    ## 
 print("                                                                                                 ")
 
 # ASSIM FICARÁ O BALANÇO PATRIMÔNIAL FINALIZADO
-
+print("|_____________________________BALANÇO PATRIMÔNIAL___________________________|")
+print("|_____ATIVOS_____R$__________________|____________PASSIVOS_____R$___________|")
+print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+print("|____________________________________|______________________________________|")
+print("|                                    |                                      |")
+print("|____________________________________|____PATRIMÔNIO LÍQUIDO___R$___________|")
+print("|                                    |          contaX         R$ xx.xxx.xx |")
+print("|                                    |          contaX         R$ xx.xxx.xx |")
+print("|                                    |          contaX         R$ xx.xxx.xx |")
+print("|____________________________________|______________________________________|")
+print("| TOTAL = xx.xxx.xx                  | TOTAL = xx.xxx.xx                    |")
+print("|____________________________________|______________________________________|")
