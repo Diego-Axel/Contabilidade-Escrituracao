@@ -1,4 +1,4 @@
-#
+# Projeto simples usando conhecimentos adquirioos em Ciências Contabéis (BÁSICA I and II)
 
 print("########     ###    ##          ###    ##    ##  ######   #######  ")
 print("##     ##   ## ##   ##         ## ##   ###   ## ##    ## ##     ## ")
