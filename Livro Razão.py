@@ -187,6 +187,6 @@ if s_n == "s" or s_n == "sim" or s_n == "Sim":
           print("")
 
 else:
-    print("Você escolheu: NÃO, FIM DO PROGRAMA")
+    print("Você escolheu: NÃO -> FIM DO PROGRAMA")
 
 
