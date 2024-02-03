@@ -24,3 +24,5 @@ print("|-----------------------------------------------------------------|")
 print("|          Conta3                |   R$xx.xxx.xx   |  R$xx.xxx.xx |")
 print("|-----------------------------------------------------------------|")
 # E ASSIM SUCESSIVAMENTE PODENDO TER MAIS CONTAS, E CADA CONTA TERÁ APENAS 1 ÚNICO SALDO, DÉBITO OU CRÉDITO(COLOQUEI OS DOIS COMPLETOS COMO BASE, APENAS)
+
+# Começo:
