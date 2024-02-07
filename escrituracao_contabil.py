@@ -131,13 +131,13 @@ while True:
         else:
             print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
 
-        print("--------------------------------------------------")
-        print("Neste momento, assim está as informações do seu razonete:")
-        print("--------------------------------------------------")
-        print(f"Nome da conta: {nome_conta}")
-        print(f"Valor desta conta: {valor_conta}")
-        print(f"Tipo da conta (D ou C): {tipo_conta}")
-        print("--------------------------------------------------")
+            print("--------------------------------------------------")
+            print("Neste momento, assim está as informações do seu razonete:")
+            print("--------------------------------------------------")
+            print(f"Nome da conta: {nome_conta}")
+            print(f"Valor desta conta: {valor_conta}")
+            print(f"Tipo da conta (D ou C): {tipo_conta}")
+            print("--------------------------------------------------")
 
         print("Deseja adicionar mais valores em seu razonete?" )
         s_n = input("")
