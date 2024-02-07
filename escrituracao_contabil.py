@@ -227,6 +227,24 @@ while True:
         print("##        ##     ##    ##    ##    ##   ##  ##     ## ##     ## ##   ###  ##  ##     ## ##       ")
         print("##        ##     ##    ##    ##     ## #### ##     ##  #######  ##    ## #### ##     ## ######## ")
         print("                                                                                                 ")
+
+        print("|_____________________________BALANÇO PATRIMÔNIAL___________________________|")
+        print("|_____ATIVOS_____R$__________________|____________PASSIVOS_____R$___________|")
+        print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+        print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+        print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+        print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+        print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
+        print("|____________________________________|______________________________________|")
+        print("|                                    |                                      |")
+        print("|____________________________________|____PATRIMÔNIO LÍQUIDO___R$___________|")
+        print("|                                    |          contaX         R$ xx.xxx.xx |")
+        print("|                                    |          contaX         R$ xx.xxx.xx |")
+        print("|                                    |          contaX         R$ xx.xxx.xx |")
+        print("|____________________________________|______________________________________|")
+        print("| TOTAL = xx.xxx.xx                  | TOTAL = xx.xxx.xx                    |")
+        print("|____________________________________|______________________________________|")
+        
     elif escolha == "0":
         print("Saindo do programa. Até mais!")
         break  # Sai do loop se o usuário escolher sair
