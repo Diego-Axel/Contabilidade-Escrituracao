@@ -1,3 +1,10 @@
+import datetime
+
+data = datetime.date.today()
+dia = data.day
+mes = data.month
+ano = data.year
+
 
 print("-----------------------------------------------------")
 print("|               ESCRITURAÇÃO CONTABÍL               |")
