@@ -1,19 +1,27 @@
 
-print("|---------------------------------------------------|")
+print("-----------------------------------------------------")
 print("|               ESCRITURAÇÃO CONTABÍL               |")
-print("|---------------------------------------------------|")
+print("-----------------------------------------------------")
 # Módulos que esse sistemas deve oferecer:
 def Livro_Diario_1():
-    print("Você escolheu LIVRO DIÁRIO.")
+    print("---------------------------------------")
+    print("|     Você escolheu LIVRO DIÁRIO      |")
+    print("---------------------------------------")
 
 def Livro_Razao_2():
-    print("Você escolheu LIVRO RAZÃO")
+    print("---------------------------------------")
+    print("|     Você escolheu LIVRO RAZÃO       |")
+    print("---------------------------------------")
 
 def Balancete_3():
-    print("Você escolheu BALANCETE.")
+    print("---------------------------------------")
+    print("|      Você escolheu BALANCETE        |")
+    print("---------------------------------------")
 
 def Balanco_Patrimonial_4():
-    print("Você escolher BALANÇO PATRIMÔNIAL.")
+    print("---------------------------------------")
+    print("|  Você escolher BALANÇO PATRIMÔNIAL  |")
+    print("---------------------------------------")
 
 while True:
 # Solicitar ao usuário que escolha um módulo
