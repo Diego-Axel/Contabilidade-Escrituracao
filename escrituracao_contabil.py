@@ -255,6 +255,8 @@ while True:
         print("##        ##     ##    ##    ##     ## #### ##     ##  #######  ##    ## #### ##     ## ######## ")
         print("                                                                                                 ")
 
+        print("Assim ficará o Balanço Patrimônial no decorrer desta operação:")
+
         print("|_____________________________BALANÇO PATRIMÔNIAL___________________________|")
         print("|_____ATIVOS_____R$__________________|____________PASSIVOS_____R$___________|")
         print("| contaX         R$ xx.xxx.xx        |             contaX      R$ xx.xxx.xx |")
