@@ -86,7 +86,8 @@ while True:
 
         print("--------------------------------------------------")
 
-        # ASSIM FICARÁ O LIVRO DIÁRIO FINALIZADO
+        print("Assim ficará o Razonete no decorrer desta ação:")
+
         print("_DÉBITOS__________NOME_DA_CONTA__________CRÉDITOS_")
         print("                        |                         ")
         print("                        |                         ")
