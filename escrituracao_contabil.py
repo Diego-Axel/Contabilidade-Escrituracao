@@ -70,8 +70,8 @@ while True:
         print("Assim ficará o Livro Diário no decorrer desta ação:")
 
         print("Data da operação: xx/xx/xxxx")
-        print("D(DÉBITO) - contaX - R$ xx.xxx,xx")
-        print("C(CRÉDITO) - contaX - R$ xx.xxx,xx")
+        print("D(DÉBITO) - contaX1 - R$ xx.xxx,xx")
+        print("C(CRÉDITO) - contaX2 - R$ xx.xxx,xx")
 
 
     elif escolha == "2":
