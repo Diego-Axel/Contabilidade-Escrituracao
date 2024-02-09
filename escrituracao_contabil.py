@@ -1,3 +1,4 @@
+# importações
 import datetime
 
 data = datetime.date.today()
@@ -9,7 +10,7 @@ ano = data.year
 print("-----------------------------------------------------")
 print("|               ESCRITURAÇÃO CONTABÍL               |")
 print("-----------------------------------------------------")
-# Módulos que esse sistemas deve oferecer:
+# Módulos que esse sistemas tem a oferecer:
 def Livro_Diario_1():
     print("---------------------------------------")
     print("|     Você escolheu LIVRO DIÁRIO      |")
@@ -31,7 +32,7 @@ def Balanco_Patrimonial_4():
     print("---------------------------------------")
 
 while True:
-# Solicitar ao usuário que escolha um módulo
+    # Solicitar ao usuário que escolha um módulo
     print("Escolha o módulo:")
     print("1. Livro Diário")
     print("2. Livro Razão")
@@ -40,7 +41,7 @@ while True:
     print("0. Sair")
 
     escolha = input("Digite o número do módulo desejado (ou 0 para sair): ")
-# Estruturar o código com base na escolha do usuário
+    # Estruturar o código com base na escolha do usuário
     if escolha == "1":
         Livro_Diario_1()
         print("_________________________________________________________________________________")
@@ -73,11 +74,11 @@ while True:
         print("D(DÉBITO) - contaX1 - R$ xx.xxx,xx")
         print("C(CRÉDITO) - contaX2 - R$ xx.xxx,xx")
         print("Histórico referente a operação: xxxxx...")
-        
+
 
 
     elif escolha == "2":
-        Livro_Razao_2()
+        Livro_Razao_2()     
         print("________________________________________________________________________________")
         print("|  ########     ###    ########  #######  ##    ## ######## ######## ########  |")
         print("|  ##     ##   ## ##        ##  ##     ## ###   ## ##          ##    ##        |")
@@ -233,6 +234,7 @@ while True:
 
 
 
+
     elif escolha == "4":
         Balanco_Patrimonial_4()
         print("########     ###    ##          ###    ##    ##  ######   #######  ")
@@ -277,6 +279,9 @@ while True:
         print("|____________________________________|______________________________________|")
         print("| TOTAL = xx.xxx.xx                  | TOTAL = xx.xxx.xx                    |")
         print("|____________________________________|______________________________________|")
+
+
+
         
     elif escolha == "0":
         print("Saindo do programa. Até mais!")
