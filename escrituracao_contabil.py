@@ -15,21 +15,29 @@ def Livro_Diario_1():
     print("---------------------------------------")
     print("|     Você escolheu LIVRO DIÁRIO      |")
     print("---------------------------------------")
+    print("                                       ") # espaços
+    print("                                       ")
 
 def Livro_Razao_2():
     print("---------------------------------------")
     print("|     Você escolheu LIVRO RAZÃO       |")
     print("---------------------------------------")
+    print("                                       ") # espaços
+    print("                                       ")
 
 def Balancete_3():
     print("---------------------------------------")
     print("|      Você escolheu BALANCETE        |")
     print("---------------------------------------")
+    print("                                       ") # espaços
+    print("                                       ")
 
 def Balanco_Patrimonial_4():
     print("---------------------------------------")
     print("|  Você escolher BALANÇO PATRIMÔNIAL  |")
     print("---------------------------------------")
+    print("                                       ") # espaços
+    print("                                       ")
 
 while True:
     # Solicitar ao usuário que escolha um módulo
