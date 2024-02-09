@@ -250,6 +250,7 @@ while True:
         print("______________________________________________________________________________________")
 
         print("Assim ficará o Balamcete no decorrer desta operação")
+        print("                                                   ")
 
 
 
@@ -281,6 +282,7 @@ while True:
         print("                                                                                                 ")
 
         print("Assim ficará o Balanço Patrimônial no decorrer desta operação:")
+        print("                                                              ")
 
         print("|_____________________________BALANÇO PATRIMÔNIAL___________________________|")
         print("|_____ATIVOS_____R$__________________|____________PASSIVOS_____R$___________|")
