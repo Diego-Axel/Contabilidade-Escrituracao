@@ -252,6 +252,8 @@ while True:
         print("Assim ficará o Balamcete no decorrer desta operação")
         print("                                                   ")
 
+        print("_________________________________________________________________")
+        print("")
 
 
 
