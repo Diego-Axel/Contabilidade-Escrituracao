@@ -86,6 +86,7 @@ while True:
         print("----------------------------------------------------------------------------------")
 
         print("Assim ficará o Livro Diário no decorrer desta ação:")
+        print("                                                   ")
 
         print("Data da operação: xx/xx/xxxx")
         print("D(DÉBITO) - contaX1 - R$ xx.xxx,xx")
@@ -109,6 +110,7 @@ while True:
         print("--------------------------------------------------")
 
         print("Assim ficará o Razonete no decorrer desta ação:")
+        print("                                               ")
 
         print("_DÉBITOS__________NOME_DA_CONTA__________CRÉDITOS_")
         print("                        |                         ")
