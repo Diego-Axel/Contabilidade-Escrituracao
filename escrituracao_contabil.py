@@ -72,6 +72,8 @@ while True:
         print("Data da operação: xx/xx/xxxx")
         print("D(DÉBITO) - contaX1 - R$ xx.xxx,xx")
         print("C(CRÉDITO) - contaX2 - R$ xx.xxx,xx")
+        print("Histórico referente a operação: xxxxx...")
+        
 
 
     elif escolha == "2":
