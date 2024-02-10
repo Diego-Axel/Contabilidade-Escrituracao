@@ -91,7 +91,12 @@ while True:
         print("Data da operação: xx/xx/xxxx")
         print("D(DÉBITO) - contaX1 - R$ xx.xxx,xx")
         print("C(CRÉDITO) - contaX2 - R$ xx.xxx,xx")
-        print("Histórico referente a operação: xxxxx...")   
+        print("Histórico referente a operação: xxxxx...") 
+        print("                                                   ")
+        print("OBS.: A depender da ocasião, pode-se ter mais de uma conta no Débito e mais de uma conta no crédito.") 
+        print("Contanto que: As somas do Débitos seja igual a soma dos Crédtios, isso é obrigatório independente") 
+
+
 
 
 
