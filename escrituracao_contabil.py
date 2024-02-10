@@ -96,7 +96,8 @@ while True:
         print("OBS.: A depender da ocasião, pode-se ter mais de uma conta no Débito e mais de uma conta no crédito.") 
         print("Contanto que: As somas do Débitos seja igual a soma dos Crédtios, isso é obrigatório independente") 
         print("                                                   ")
-          
+
+        print("Antes de começar escolha quantas operações você deseja realizar:")
 
 
 
