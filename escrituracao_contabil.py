@@ -97,7 +97,21 @@ while True:
         print("Contanto que: As somas do Débitos seja igual a soma dos Crédtios, isso é obrigatório independente") 
         print("                                                   ")
 
-        print("Antes de começar escolha quantas operações você deseja realizar:")
+        numero_operacoes = input("Digite quantas operações deseja realizar (1, 2, 3, 4, 5,) máximo de 5, por enqaunto: ")
+
+        if numero_operacoes == 1:
+            print("")
+        elif numero_operacoes == 2:
+            print("")
+        elif numero_operacoes == 3:
+            print("")
+        elif numero_operacoes == 4:
+            print("")
+        elif numero_operacoes == 5:
+            print("")
+        else:
+            print("Não foi colodado o que se pede.")
+
 
 
 
