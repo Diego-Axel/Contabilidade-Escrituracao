@@ -100,17 +100,17 @@ while True:
         numero_operacoes = input("Digite quantas operações deseja realizar (1, 2, 3, 4, 5,) máximo de 5, por enqaunto: ")
         print("                                                                                                        ")
 
-        if numero_operacoes == 1:
+        if numero_operacoes == "1":
             print("Você escolheu 1 operação.")
             print("                         ")
-            print
-        elif numero_operacoes == 2:
+            numero_contas = input("Agora escolha quantas contas terá nesta operação: ")
+        elif numero_operacoes == "2":
             print("")
-        elif numero_operacoes == 3:
+        elif numero_operacoes == "3":
             print("")
-        elif numero_operacoes == 4:
+        elif numero_operacoes == "4":
             print("")
-        elif numero_operacoes == 5:
+        elif numero_operacoes == "5":
             print("")
         else:
             print("Não foi colodado o que se pede.")
