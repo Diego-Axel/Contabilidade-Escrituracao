@@ -105,13 +105,18 @@ while True:
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação: ")
         elif numero_operacoes == "2":
-            print("")
+            print("Você escolheu 2 operações.")
+            print("                         ")
+            numero_contas = input("Agora escolha quantas contas terá nesta operção: ")
         elif numero_operacoes == "3":
-            print("")
+            print("Você escolheu 3 operações.")
+            print("                         ")
         elif numero_operacoes == "4":
-            print("")
+            print("Você escolheu 4 operações.")
+            print("                         ")
         elif numero_operacoes == "5":
-            print("")
+            print("Você escolheu 5 operações.")
+            print("                         ")
         else:
             print("Não foi colodado o que se pede.")
 
