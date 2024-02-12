@@ -103,23 +103,29 @@ while True:
         if numero_operacoes == "1":
             print("Você escolheu 1 operação.")
             print("                         ")
-            numero_contas = input("Agora escolha quantas contas terá nesta operação: ")
+            numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
+            if numero_contas == "3":
+                print("                                                              ")
+                print
+
+            else:
+                print("")
         elif numero_operacoes == "2":
             print("Você escolheu 2 operações.")
             print("                         ")
-            numero_contas = input("Agora escolha quantas contas terá nesta operção: ")
+            numero_contas = input("Agora escolha quantas contas terá nesta operção(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
         elif numero_operacoes == "3":
             print("Você escolheu 3 operações.")
             print("                         ")
-            numero_contas = input("Agora escolha quantas contas terá nesta operação: ")
+            numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
         elif numero_operacoes == "4":
             print("Você escolheu 4 operações.")
             print("                         ")
-            numero_contas = input("Agora escolha quantas contas terá nesta operação: ")
+            numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
         elif numero_operacoes == "5":
             print("Você escolheu 5 operações.")
             print("                         ")
-            numero_contas = input("Agora escolha quantas contas terá nesta operação: ")
+            numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
         else:
             print("Não foi colodado o que se pede.")
 
