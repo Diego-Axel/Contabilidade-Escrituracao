@@ -103,10 +103,18 @@ while True:
         if numero_operacoes == "1":
             print("Você escolheu 1 operação.")
             print("                         ")
-            numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
+            numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente): ")
             if numero_contas == "3":
                 print("                                                              ")
-                print
+                print("Você escolheu %s contas"%numero_contas)
+                print("                                                              ")
+                qual_conta = input("Você já tem naturalmente, 1 conta de D e uma conta de crédito. Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ")
+                if qual_conta == ("d" or "D" or "débito" or "Débito"):
+                    print("")
+                elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
+                    print("")
+                else:
+                    print("")
 
             else:
                 print("")
