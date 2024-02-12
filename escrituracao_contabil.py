@@ -104,28 +104,57 @@ while True:
             print("Você escolheu 1 operação.")
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente): ")
+
             # COMEÇO DA 2 COLUNA DE CONDICIONAIS
-            if numero_contas == "3":
+            if numero_contas == "2":
+                print("Você escolheu a opçãp padrão a de ter %s contas."%numero_contas)
+                contaD1 = input("Escolha o nome da sua PRIMEIRA CONTA conta que será atribuida ao DÉBITO(POR PADRÃO DE SEQUÊNCIA): ")
+                print("                                                              ")
+                valorD1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaD1))
+                print("                                                              ")
+                contaC1 = input("Escolha o nome da SEGUNDA CONTA que será atribuída ao CRÉDITO(POR PADRÃO DE SEQUÊNCIA): ")
+                print("                                                              ")
+                valorC1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaC1))
+                print("                                                              ")
+                historico1 = input("Digite o histórico referente a está operção: ")
+                print("                                                              ")
+                print("O Lançamaneto referente a está operação no Livro Diário ficou da seguinte forma:")
+                print("                                                              ")
+                print("_________________________Livro Diário_________________________")
+                print("| DATA DA OPERAÇÃO: %02d/%02d/%d                              |"%(dia,mes,ano))
+                print("| D - %s      |    R$ - %d                                    |"%(contaD1,valorD1))
+                print("| C - %s      |    R$ - %d                                    |"%(contaC1,valorC1))
+                print("| HISTÓRICO: %s                                               |"%historico1)
+                print("--------------------------------------------------------------")
+                
+
+            elif numero_contas == "3":    
                 print("                                                              ")
                 print("Você escolheu %s contas"%numero_contas)
                 print("                                                              ")
                 qual_conta = input("Você já tem naturalmente, 1 conta de D(Débito) e 1 conta de C(Crédito). Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ")
 
+                # COMEÇO DA 3 COLUNA DE CONDICIONAIS
                 if qual_conta == ("d" or "D" or "débito" or "Débito"):
                     print("                                                              ")
                     print("Você escolheu adicionar uma conta ao %s."%qual_conta)
                     print("                                                              ")
+                    contaD1 = input("Escolha o nome da sua PRIMEIRA CONTA conta que será atribuida ao DÉBITO(POR PADRÃO DE SEQUÊNCIA): ")
+                    print("                                                              ")
+                    valorD1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaD1))
 
                 
                 elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
                     print("                                                              ")
                     print("Você escolheu adicionar uma conta ao %s."%qual_conta)
                 
+                # FIM DA 3 COLUNA DE CONDICIOANAIS
                 else:
                     print("Não foi colocado o que se pede.")
             # FIM DA 2 COLUNA DE CONDICIONAIS
             else:
                 print("")
+
         elif numero_operacoes == "2":
             print("Você escolheu 2 operações.")
             print("                         ")
