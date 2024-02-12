@@ -99,41 +99,53 @@ while True:
 
         numero_operacoes = input("Digite quantas operações deseja realizar (1, 2, 3, 4, 5,) máximo de 5, por enqaunto: ")
         print("                                                                                                        ")
-
+        # COMEÇO DA 1 COLUNA DE CONDICIONAIS
         if numero_operacoes == "1":
             print("Você escolheu 1 operação.")
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente): ")
+            # COMEÇO DA 2 COLUNA DE CONDICIONAIS
             if numero_contas == "3":
                 print("                                                              ")
                 print("Você escolheu %s contas"%numero_contas)
                 print("                                                              ")
-                qual_conta = input("Você já tem naturalmente, 1 conta de D e uma conta de crédito. Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ")
-                if qual_conta == ("d" or "D" or "débito" or "Débito"):
-                    print("")
-                elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
-                    print("")
-                else:
-                    print("")
+                qual_conta = input("Você já tem naturalmente, 1 conta de D(Débito) e 1 conta de C(Crédito). Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ")
 
+                if qual_conta == ("d" or "D" or "débito" or "Débito"):
+                    print("                                                              ")
+                    print("Você escolheu adicionar uma conta ao %s."%qual_conta)
+                    print("                                                              ")
+
+                
+                elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
+                    print("                                                              ")
+                    print("Você escolheu adicionar uma conta ao %s."%qual_conta)
+                
+                else:
+                    print("Não foi colocado o que se pede.")
+            # FIM DA 2 COLUNA DE CONDICIONAIS
             else:
                 print("")
         elif numero_operacoes == "2":
             print("Você escolheu 2 operações.")
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operção(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
+        
         elif numero_operacoes == "3":
             print("Você escolheu 3 operações.")
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
+        
         elif numero_operacoes == "4":
             print("Você escolheu 4 operações.")
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
+        
         elif numero_operacoes == "5":
             print("Você escolheu 5 operações.")
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
+        # FIM DA 1 COLUNA DE CONDICIONAIS
         else:
             print("Não foi colodado o que se pede.")
 
@@ -178,48 +190,60 @@ while True:
         if nome_conta == "Caixa" or nome_conta == "caixa":
             print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
             tipo_conta = input("")
+            
             if tipo_conta == "D" or tipo_conta == "d":
                 print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
                 print(f" R${valor_conta}                                 ")
                 print("                                                  ")
                 print("__________________________________________________")
+            
             elif tipo_conta == "C" or tipo_conta == "c":
                 print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
                 print(f"                                  R${valor_conta}")
                 print("                                                  ")
                 print("__________________________________________________")
+            
             else:
                 print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
+        
         elif nome_conta == "Banco" or nome_conta == "banco":
             print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
             tipo_conta = input("")
+            
             if tipo_conta == "D" or tipo_conta == "d":
                 print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
                 print(f" R${valor_conta}                                 ")
                 print("                                                  ")
                 print("__________________________________________________")
+            
             elif tipo_conta == "C" or tipo_conta == "c":
                 print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
                 print(f"                                  R${valor_conta}")
                 print("                                                  ")
                 print("__________________________________________________")
+            
             else:
                 print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
+        
         elif nome_conta == "Mercadoria" or "mercadoria":
             print(f"Você quer adicionar a conta {nome_conta} no DÉBITO(D) ou no CRÉDITO(C)?")
             tipo_conta = input("")
+            
             if tipo_conta == "D" or tipo_conta == "d":
                 print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
                 print(f" R${valor_conta}                                 ")
                 print("                                                  ")
                 print("__________________________________________________")
+            
             elif tipo_conta == "C" or tipo_conta == "c":
                 print(f"_DÉBITOS__________{nome_conta}__________CRÉDITOS_")
                 print(f"                                  R${valor_conta}")
                 print("                                                  ")
                 print("__________________________________________________")
+            
             else:
                 print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
+        
         else:
             print("NÃO FOI DIGITADO O QUE FOI PEDIDO TENTE NOVAMENTE.")
 
@@ -234,10 +258,12 @@ while True:
         print("Deseja adicionar mais valores em seu razonete?" )
         s_n = input("")
 
+        
         if s_n == "s" or s_n == "sim" or s_n == "Sim":
             print(f"Você pretende adicionar valor na conta que você escolheu anteriormente: Seus dados são: Conta: {nome_conta}, Valor: {valor_conta}, e Tipo: {tipo_conta}")
             print("--------------------------------------------------")
             escolha = input("Pretende adicionar valor ao débito ou ao crédito? ")
+           
             if escolha == "d" or escolha == "D" or escolha == "Débito" or escolha == "Debito" or escolha == "debito" or escolha == "débito":
                 print(f"Você escolheu: {escolha}")
                 print("--------------------------------------------------")
@@ -257,6 +283,7 @@ while True:
                 print("SOMATORIO DOS D____________________SOMATORIO DOS C")
                 print(f"R${somad}                                        ")
                 print("--------------------------------------------------")
+           
             elif escolha == "c" or escolha == "C" or escolha == "Crédito" or escolha == "Credito" or escolha == "credito" or escolha == "crédito":
                 print(f"Você escolheu: {escolha}")
                 print("--------------------------------------------------")
@@ -278,12 +305,16 @@ while True:
                 print("--------------------------------------------------")
                 print(f"                  R${somad}                      ") 
             
+            
             else:
                 print("")
 
+        
         else:
             print("Você escolheu: NÃO -> FIM DO PROGRAMA")
+    
     elif escolha == "3":
+
         Balancete_3()
         print("______________________________________________________________________________________")
         print(" ########     ###    ##          ###    ##    ##  ######  ######## ######## ########  ")
@@ -304,6 +335,7 @@ while True:
 
 
     elif escolha == "4":
+
         Balanco_Patrimonial_4()
         print("########     ###    ##          ###    ##    ##  ######   #######  ")
         print("##     ##   ## ##   ##         ## ##   ###   ## ##    ## ##     ## ")
@@ -352,14 +384,17 @@ while True:
 
 
         
+    
     elif escolha == "0":
         print("Saindo do programa. Até mais!")
         break  # Sai do loop se o usuário escolher sair
+    
     else:
         print("Escolha inválida. Por favor, digite um número válido de módulo.")
 
 # Perguntar se o usuário deseja escolher outro módulo
     escolha_nova = input("Deseja escolher outro módulo? (Digite 'sim' ou 'nao'): ")
+   
     if escolha_nova.lower() != "sim":
         print("Saindo do programa. Até mais!")
         break  # Sai do loop se o usuário não quiser escolher outro módulo
