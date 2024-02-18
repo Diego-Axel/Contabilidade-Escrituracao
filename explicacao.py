@@ -12,3 +12,5 @@
 
 # Como eu havia dito, cada vez que vou aprendendo algo novo e vejo que esse "novo" pode ser usado para melhorar o programa, eu vou e refaço, o principal motivo deste projeto está no GitHub é para acompanhar meu desempenho e evolução.
 # ----------------------------------------------------------------------------------------------------
+
+# Logo mais embaixo, darei um pouco de explicação, sobre o que seria uma escrituração contábil e o passo-a-passo.
