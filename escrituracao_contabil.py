@@ -125,7 +125,6 @@ while True:
                 print("| D - %s      |    R$ - %d                                    |"%(contaD1,valorD1))
                 print("| C - %s      |    R$ - %d                                    |"%(contaC1,valorC1))
                 print("| HISTÓRICO: %s                                               |"%historico1)
-                print("--------------------------------------------------------------")
                 
 
             elif numero_contas == "3":    
@@ -147,7 +146,7 @@ while True:
                     contaD2 = input("Escolha o nome da OUTRA conta do DÉBITO: ")
                     print("                                                              ")
                     valorD2 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente. "%contaD2))
-                    
+
                 
                 elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
                     print("                                                              ")
