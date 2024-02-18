@@ -121,10 +121,12 @@ while True:
                 print("O Lançamaneto referente a está operação no Livro Diário ficou da seguinte forma:")
                 print("                                                              ")
                 print("_________________________Livro Diário_________________________")
+                print("                                                              ")
                 print("DATA DA OPERAÇÃO: %02d/%02d/%d"%(dia,mes,ano))
                 print("D - %s --- R$ - %d"%(contaD1,valorD1))
                 print("C - %s --- R$ - %d"%(contaC1,valorC1))
                 print("HISTÓRICO: %s"%historico1)
+                print("                                                              ")
                 
 
             elif numero_contas == "3":    
@@ -150,6 +152,19 @@ while True:
                     contaC1 = input("Escolha o nome da SEGUNDA CONTA que será atribuída ao CRÉDITO(POR PADRÃO DE SEQUÊNCIA): ")
                     print("                                                              ")
                     valorC1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaC1))
+                    print("                                                              ")
+                    historico1 = input("Digite o histórico referente a está operção: ")
+                    print("                                                              ")
+                    print("O Lançamaneto referente a está operação no Livro Diário ficou da seguinte forma:")
+                    print("_________________________Livro Diário_________________________")
+                    print("                                                              ")
+                    print("DATA DA OPERAÇÃO: %02d/%02d/%d"%(dia,mes,ano))
+                    print("D - %s --- R$ - %d"%(contaD1,valorD1))
+                    print("D - %s --- R$ - %d"%(contaD2,valorD2))
+                    print("C - %s --- R$ - %d"%(contaC1,valorC1))
+                    print("HISTÓRICO: %s"%historico1)
+                    print("                                                              ")
+                    
 
 
                 
