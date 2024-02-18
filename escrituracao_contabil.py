@@ -138,11 +138,16 @@ while True:
                 if qual_conta == ("d" or "D" or "débito" or "Débito"):
                     print("                                                              ")
                     print("Você escolheu adicionar uma conta ao %s."%qual_conta)
+                    print("Confirmando, você terá DUAS(2) contas de Débito e UMA(1) conta de Crédito.")
                     print("                                                              ")
                     contaD1 = input("Escolha o nome da sua PRIMEIRA CONTA conta que será atribuida ao DÉBITO(POR PADRÃO DE SEQUÊNCIA): ")
                     print("                                                              ")
                     valorD1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaD1))
-
+                    print("                                                              ")
+                    contaD2 = input("Escolha o nome da OUTRA conta do DÉBITO: ")
+                    print("                                                              ")
+                    valorD2 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente. "%contaD2))
+                    
                 
                 elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
                     print("                                                              ")
