@@ -99,13 +99,14 @@ while True:
 
         numero_operacoes = input("Digite quantas operações deseja realizar (1, 2, 3, 4, 5,) máximo de 5, por enqaunto: ")
         print("                                                                                                        ")
-        # COMEÇO DA 1 COLUNA DE CONDICIONAIS
+
+        # COMEÇO DA COLUNA DE CONDICIONAIS DE NÚMEROS DE OPERAÇÕES:
         if numero_operacoes == "1":
             print("Você escolheu 1 operação.")
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente): ")
 
-            # COMEÇO DA 2 COLUNA DE CONDICIONAIS
+            # COMEÇO DA 1 COLUNA DE CONDICIONAIS - NUMERO DE OPERAÇÕES = 1
             if numero_contas == "2":
                 print("Você escolheu a opçãp padrão a de ter %s contas."%numero_contas)
                 contaD1 = input("Escolha o nome da sua PRIMEIRA CONTA conta que será atribuida ao DÉBITO(POR PADRÃO DE SEQUÊNCIA): ")
@@ -135,7 +136,7 @@ while True:
                 print("                                                              ")
                 qual_conta = input("Você já tem naturalmente, 1 conta de D(Débito) e 1 conta de C(Crédito). Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ")
 
-                # COMEÇO DA 3 COLUNA DE CONDICIONAIS
+                # COMEÇO DA 2 COLUNA DE CONDICIONAIS - NÚMERO DE OPERAÇÕES = 1
                 if qual_conta == ("d" or "D" or "débito" or "Débito"):
                     print("                                                              ")
                     print("Você escolheu adicionar uma conta ao %s."%qual_conta)
@@ -195,15 +196,23 @@ while True:
                     print("HISTÓRICO: %s"%historico1)
                     print("                                                              ")
 
+            elif numero_contas == "4":
+                print("                                                              ")
+                print("Você escolheu %s contas"%numero_contas)
+                print("                                                              ")
+                qual_conta = input("Você já tem naturalmente, 1 conta de D(Débito) e 1 conta de C(Crédito). Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ") 
+                
+                     
 
                     
                 
                 # FIM DA 3 COLUNA DE CONDICIOANAIS
                 else:
                     print("Não foi colocado o que se pede.")
-            # FIM DA 2 COLUNA DE CONDICIONAIS
+                
+            # FIM DA 1 COLUNA DE CONDICIONAIS - NUMERO DE OPERAÇÕES = 1
             else:
-                print("")
+                print("Não foi colocado o que se pede.")
 
         elif numero_operacoes == "2":
             print("Você escolheu 2 operações.")
@@ -224,7 +233,8 @@ while True:
             print("Você escolheu 5 operações.")
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente a ele): ")
-        # FIM DA 1 COLUNA DE CONDICIONAIS
+            
+        # FIM DA COLUNA DE CONDICIONAIS DA ESCOLHA DE NÚMERO DE OPERAÇÕES.
         else:
             print("Não foi colodado o que se pede.")
 
