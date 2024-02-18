@@ -204,7 +204,7 @@ while True:
 
                     # COMEÇO DA COLUNA DE NUMEROS DE OPERAÇÕES = 4
                     if qual_conta == ("d" or "D" or "débito" or "Débito"):
-                        print("")
+                        print("PAREI AQUI")
 
                     # FIM DA COLUNA DE NÚMEROS DE OPERAÇÕES = 4
                     else:
