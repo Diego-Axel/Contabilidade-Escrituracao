@@ -146,6 +146,11 @@ while True:
                     contaD2 = input("Escolha o nome da OUTRA conta do DÉBITO: ")
                     print("                                                              ")
                     valorD2 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente. "%contaD2))
+                    print("                                                              ")
+                    contaC1 = input("Escolha o nome da SEGUNDA CONTA que será atribuída ao CRÉDITO(POR PADRÃO DE SEQUÊNCIA): ")
+                    print("                                                              ")
+                    valorC1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaC1))
+
 
                 
                 elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
