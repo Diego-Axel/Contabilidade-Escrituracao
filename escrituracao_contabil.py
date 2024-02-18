@@ -166,11 +166,22 @@ while True:
                     print("                                                              ")
                     
 
-
-                
                 elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
                     print("                                                              ")
                     print("Você escolheu adicionar uma conta ao %s."%qual_conta)
+                    print("Confirmando, você terá UMA(1) conta de Débito e DUAS(2) contas de Crédito.")
+                    print("                                                              ")
+                    contaD1 = input("Escolha o nome da sua PRIMEIRA CONTA conta que será atribuida ao DÉBITO(POR PADRÃO DE SEQUÊNCIA): ")
+                    print("                                                              ")
+                    valorD1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaD1))
+                    print("                                                              ")
+                    contaC1 = input("Escolha o nome da SEGUNDA CONTA que será atribuída ao CRÉDITO(POR PADRÃO DE SEQUÊNCIA): ")
+                    print("                                                              ")
+                    valorC1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaC1))
+                    print("                                                              ")
+                    
+
+                    
                 
                 # FIM DA 3 COLUNA DE CONDICIOANAIS
                 else:
