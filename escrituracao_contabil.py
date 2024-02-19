@@ -106,7 +106,7 @@ while True:
             print("                         ")
             numero_contas = input("Agora escolha quantas contas terá nesta operação(Você já começa com 2 contas, um D e um C comm valor correspondente): ")
 
-            # COMEÇO DA COLUNA DE NUMEROS DE OPERAÇÕES = 2
+            # COMEÇO DA COLUNA DE NUMEROS DE CONTAS = 2
             if numero_contas == "2":
                 print("Você escolheu a opçãp padrão a de ter %s contas."%numero_contas)
                 contaD1 = input("Escolha o nome da sua PRIMEIRA CONTA conta que será atribuida ao DÉBITO(POR PADRÃO DE SEQUÊNCIA): ")
@@ -134,12 +134,12 @@ while True:
                 print("                                                              ")
                 print("Você escolheu %s contas"%numero_contas)
                 print("                                                              ")
-                qual_conta = input("Você já tem naturalmente, 1 conta de D(Débito) e 1 conta de C(Crédito). Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ")
+                qual_conta1 = input("Você já tem naturalmente, 1 conta de D(Débito) e 1 conta de C(Crédito). Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ")
 
-                # COMEÇO DA COLUNA DE NUMEROS DE OPERAÇÕES = 3
-                if qual_conta == ("d" or "D" or "débito" or "Débito"):
+                # COMEÇO DA COLUNA DE NUMEROS DE CONTAS = 3
+                if qual_conta1 == ("d" or "D" or "débito" or "Débito"):
                     print("                                                              ")
-                    print("Você escolheu adicionar uma conta ao %s."%qual_conta)
+                    print("Você escolheu adicionar uma conta ao %s."%qual_conta1)
                     print("Confirmando, você terá DUAS(2) contas de Débito e UMA(1) conta de Crédito.")
                     print("                                                              ")
                     contaD1 = input("Escolha o nome da sua PRIMEIRA CONTA conta que será atribuida ao DÉBITO(POR PADRÃO DE SEQUÊNCIA): ")
@@ -167,9 +167,9 @@ while True:
                     print("                                                              ")
                     
 
-                elif qual_conta ==("c" or "C" "crédito" or "Crédito"):
+                elif qual_conta1 ==("c" or "C" "crédito" or "Crédito"):
                     print("                                                              ")
-                    print("Você escolheu adicionar uma conta ao %s."%qual_conta)
+                    print("Você escolheu adicionar uma conta ao %s."%qual_conta1)
                     print("Confirmando, você terá UMA(1) conta de Débito e DUAS(2) contas de Crédito.")
                     print("                                                              ")
                     contaD1 = input("Escolha o nome da sua PRIMEIRA CONTA conta que será atribuida ao DÉBITO(POR PADRÃO DE SEQUÊNCIA): ")
@@ -200,21 +200,71 @@ while True:
                     print("                                                              ")
                     print("Você escolheu %s contas"%numero_contas)
                     print("                                                              ")
-                    qual_conta = input("Você já tem naturalmente, 1 conta de D(Débito) e 1 conta de C(Crédito). Você decidiu adicionar mais uma ao seu Diário, qual será?(D ou C): ")
+                    qual_conta = input("Você já tem naturalmente, 1 conta de D(Débito) e 1 conta de C(Crédito). Você decidiu adicionar mais duas ao seu Diário, qual será a 1(PRIMEIRA)?(D ou C): ")
 
-                    # COMEÇO DA COLUNA DE NUMEROS DE OPERAÇÕES = 4
-                    if qual_conta == ("d" or "D" or "débito" or "Débito"):
-                        print("PAREI AQUI")
+                    # COMEÇO DA COLUNA DE NUMEROS DE CONTAS = 4
+                    if qual_conta1 == ("d" or "D" or "débito" or "Débito"):
+                        print("                                                              ")
+                        print("Você escolheu adicionar uma conta ao %s."%qual_conta1)
+                        print("Confirmando, você terá DUAS(2) contas de Débito e UMA(1) conta de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+                        print("                                                              ")
+                        
+                        print("Agora que você ja escolheu o TIPO da sua PRIMEIRA CONTA, que para releembrar foi %s, agora chegou a vez de escolher o tipo da sua outra conta:"%qual_conta1)
+                        print("                                                              ")
 
-                    # FIM DA COLUNA DE NÚMEROS DE OPERAÇÕES = 4
+                        qual_conta2 = input("Digite o tipo primitivo da sua OUTRA conta(D,C):")
+                        print("                                                              ")
+
+                        # COMEÇO DE CONDICIONAIS DENTRO DO NÚMERO DE CONTAS = 4
+                        if qual_conta2 == ("d" or "D" or "débito" or "Débito"):
+                            print("                                                              ")
+                            print("Você escolheu adicionar SUA OUTRA CONTA ao %s."%qual_conta2)
+                            print("Confirmando, você terá TRÊS(3) contas de Débito e UMA(1) conta de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+                        
+                        elif qual_conta2 == ("c" or "C" or "crédito" or "Crédito"):
+                            print("                                                              ")
+                            print("Você escolheu adicionar SUA OUTRA CONTA ao %s."%qual_conta2)
+                            print("Confirmando, você terá TRÊS(3) contas de Débito e UMA(1) conta de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+
+
+                        # FIM DE CONDICIONAIS DENTRO DO NÚMERO DE CONTAS = 4
+                        else:
+                            print("Não foi colocado o que se pede.") 
+                    
+                    elif qual_conta1 == ("c" or "C" or "crédito" or "Crédito"):
+                        print("                                                              ")
+                        print("Você escolheu adicionar SUA OUTRA ao %s."%qual_conta2)
+                        print("Confirmando, você terá UMA(1) conta de Débito e TRÊS(3) contas de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+                        print("                                                              ")
+
+                        print("Agora que você ja escolheu o TIPO da sua PRIMEIRA CONTA, que para releembrar foi %s, agora chegou a vez de escolher o tipo da sua outra conta:"%qual_conta1)
+                        print("                                                              ")
+
+                        qual_conta2 = input("Digite o tipo primitivo da sua OUTRA conta(D,C):")
+                        print("                                                              ")
+
+                        # COMEÇO DE CONDICIONAIS DENTRO DO NÚMERO DE CONTAS = 4
+                        if qual_conta2 == ("d" or "D" or "débito" or "Débito"): 
+                            print("                                                              ")
+                            print("Você escolheu adicionar uma conta ao %s."%qual_conta1)
+                            print("Confirmando, você terá DUAS(2) contas de Débito e UMA(1) conta de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+
+
+                        # FIM DE CONDICIONAIS DENTRO DO NÚMERO DE CONTAS = 4
+                        else:
+                            print("Não foi colocado o que se pede.") 
+
+
+
+                    # FIM DA COLUNA DE NÚMEROS DE CONTAS = 4
                     else:
                         print("")
                 
-                # FIM DA COLUNA DE NUMEROS DE OPERAÇÕES = 3
+                # FIM DA COLUNA DE NUMEROS DE CONTAS = 3
                 else:
                     print("Não foi colocado o que se pede.")
                 
-            # FIM DA COLUNA DE NUMEROS DE OPERAÇÕES = 2
+            # FIM DA COLUNA DE NUMEROS DE CONTAS = 2
             else:
                 print("Não foi colocado o que se pede.")
 
