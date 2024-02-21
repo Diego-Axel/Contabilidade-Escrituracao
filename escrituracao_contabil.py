@@ -229,6 +229,12 @@ while True:
                             print("                                                              ")
                             conta_D1 = input("Agora escolha o nome da sua outra conta de DÉBITO escolhida: ")
                             valor_D1 = float(input("Agora escolha o valor(R$) que será atribuída a conta %s, escolhida anteriormente: "))
+                            print("                                                              ")
+                            conta_D2 = input("Agora escolha o nome da sua outra conta de DÉBITO escolhida: ")
+                            valor_D2 = float(input("Agora escolha o valor(R$) que será atribuída a conta %s, escolhida anteriormente: "))
+                            print("                                                              ")
+                            conta_Cinc = input("Escolha o nome da sua PRIMEIRA CONTA DE CRÉDITO(natiralmente): ")
+                            
                         
                         elif qual_conta2 == ("c" or "C" or "crédito" or "Crédito"):
                             print("                                                              ")
