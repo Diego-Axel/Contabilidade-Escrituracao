@@ -225,7 +225,7 @@ while True:
 
                             # UM DIÁRIO AQUI:
                             conta_Dinc = input("Escolha o nome da sua PRIMEIRA CONTA DE DÉBITO(naturalmente): ")
-                            valor_Dinc = float(input("A gora escolha o valor(R$) que será atribuído a conta %s, escolhida anteriormente: "%conta_Dinc))
+                            valor_Dinc = float(input("Agora escolha o valor(R$) que será atribuído a conta %s, escolhida anteriormente: "%conta_Dinc))
                             print("                                                              ")
                             conta_D1 = input("Agora escolha o nome da sua outra conta de DÉBITO escolhida: ")
                             valor_D1 = float(input("Agora escolha o valor(R$) que será atribuída a conta %s, escolhida anteriormente: "))
@@ -234,7 +234,7 @@ while True:
                             valor_D2 = float(input("Agora escolha o valor(R$) que será atribuída a conta %s, escolhida anteriormente: "))
                             print("                                                              ")
                             conta_Cinc = input("Escolha o nome da sua PRIMEIRA CONTA DE CRÉDITO(natiralmente): ")
-                            
+                            valor_Cinc = float(input(""))
                         
                         elif qual_conta2 == ("c" or "C" or "crédito" or "Crédito"):
                             print("                                                              ")
