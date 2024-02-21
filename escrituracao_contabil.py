@@ -181,7 +181,7 @@ while True:
                     print("                                                              ")
                     valorC1 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente."%contaC1))
                     print("                                                              ")
-                    contaC2 = input("Escolha o nome da sua OUTRA conta de C´REDITO: ")
+                    contaC2 = input("Escolha o nome da sua OUTRA conta de CRÉEDITO: ")
                     print("                                                              ")
                     valorC2 = float(input("Escolha o valor(R$) que será atribuida a conta %s nomeada anteriormente"%contaC2))
                     print("                                                              ")
@@ -221,13 +221,18 @@ while True:
                             print("                                                              ")
                             print("Você escolheu adicionar SUA OUTRA CONTA ao %s."%qual_conta2)
                             print("Confirmando, você terá TRÊS(3) contas de Débito e UMA(1) conta de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+                            print("                                                              ")
 
                             # UM DIÁRIO AQUI:
+                            conta_Dinc = input("Escolha o nome da sua PRIMEIRA CONTA DE DÉBITO(naturalmente): ")
+                            valor_Dinc = float(input("A gora escolha o valor que será atribuído a conta %s escolhida anteriormente: "%conta_Dinc))
+                            print("                                                              ")
                         
                         elif qual_conta2 == ("c" or "C" or "crédito" or "Crédito"):
                             print("                                                              ")
                             print("Você escolheu adicionar SUA OUTRA CONTA ao %s."%qual_conta2)
                             print("Confirmando, você terá DUAS(2) contas de Débito e DUAS(2) conta de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+                            print("                                                              ")
 
                             # UM DIÁRIO AQUI:
 
@@ -252,6 +257,7 @@ while True:
                             print("                                                              ")
                             print("Você escolheu adicionar uma conta ao %s."%qual_conta1)
                             print("Confirmando, você terá DUAS(2) contas de Débito e DUAS(2) conta de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+                            print("                                                              ")
 
                             # UM DIÁRIO AQUI:
 
@@ -259,6 +265,7 @@ while True:
                             print("                                                              ")
                             print("Você escolheu adicionar SUA OUTRA CONTA ao %s."%qual_conta2)
                             print("Confirmando, você terá UMA(1) conta de Débito e TRÊS(3) conta de Crédito. Lembrando que, você escolheu a opção de 4 contas nesta operação.")
+                            print("                                                              ")
 
                             # UM DIÁRIO AQUI:
 
