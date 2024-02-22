@@ -311,6 +311,7 @@ while True:
                             
 
 
+
                             
 
                         elif qual_conta2 == ("c" or "C" or "crédito" or "Crédito"):
