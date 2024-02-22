@@ -310,8 +310,6 @@ while True:
                             # UM DIÁRIO AQUI:
                             
 
-
-
                             
 
                         elif qual_conta2 == ("c" or "C" or "crédito" or "Crédito"):
