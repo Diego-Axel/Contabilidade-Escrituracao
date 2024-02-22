@@ -258,6 +258,31 @@ while True:
                             print("                                                              ")
 
                             # UM DIÁRIO AQUI:
+                            conta_Dinc = input("Escolha o nome da sua PRIMEIRA CONTA DE DÉBITO(naturalmente): ")
+                            valor_Dinc = float(input("Agora escolha o valor(R$) que será atribuído a conta %s, escolhida anteriormente: "%conta_Dinc))
+                            print("                                                              ")
+                            conta_D1 = input("Agora escolha o nome da sua OUTRA conta de DÉBITO escolhida: ")
+                            valor_D1 = float(input("Agora escolha o valor(R$) que será atribuída a conta %s, escolhida anteriormente: "))
+                            print("                                                              ")
+                            conta_Cinc = input("Agora escolha o nome da sua PRIMEIRA CONTA DE CRÉDITO(naturalmente): ")
+                            valor_Cinc = float(input("Agora escolha o valor(R$) que será atribuída a conta %s, escolhida anteriormente: "))
+                            print("                                                              ")
+                            conta_C1 = input("Escolha o nome da sua OUTRA conta de CRÉDITO escolhida: ")
+                            valor_C1 = float(input("Agora escolha o valor(R$) que será atribuído a conta %s, escolhida anteriormente: "))
+                            print("                                                              ")
+                            historico1 = input("Digite o histórico referente a está operção: ")
+                            print("                                                              ")
+                            print("                                                              ")
+                            print("O Lançamaneto referente a está operação no Livro Diário ficou da seguinte forma:")
+                            print("_________________________Livro Diário_________________________")
+                            print("                                                              ")
+                            print("DATA DA OPERAÇÃO: %02d/%02d/%d"%(dia,mes,ano))
+                            print("D - %s --- R$ - %d"%(conta_Dinc,valor_Dinc))
+                            print("D - %s --- R$ - %d"%(conta_D1,valor_D1))
+                            print("C - %s --- R$ - %d"%(conta_Cinc,valor_Cinc))
+                            print("C - %s --- R$ - %d"%(conta_C1,valor_C1))
+                            print("HISTÓRICO: %s"%historico1)
+                            print("                                                              ")
 
                         # FIM DE CONDICIONAIS DENTRO DO NÚMERO DE CONTAS = 4
                         else:
