@@ -49,6 +49,7 @@ def Balanco_Patrimonial_4():
     print("                                       ") # espaços
     print("                                       ")
 
+# Começo do while:
 while True:
     # Solicitar ao usuário que escolha um módulo
     print("Escolha o módulo:")
@@ -646,7 +647,7 @@ while True:
         
     
     elif escolha == "0":
-        print("Saindo do programa. Até mais!")
+        print("Saindo do programa. Espero que tenha gostado do programa. Até mais!")
         break  # Sai do loop se o usuário escolher sair
     
     else:
@@ -657,4 +658,5 @@ while True:
    
     if escolha_nova.lower() != "sim":
         print("Saindo do programa. Até mais!")
+        # Fim do while
         break  # Sai do loop se o usuário não quiser escolher outro módulo
