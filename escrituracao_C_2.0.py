@@ -26,6 +26,7 @@ print("|-----Bem vindo-----|")
 print("|-------------------|")
 print("") # espaços para evitar ficar colado
 print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
+print("") # espaços
 
 # MODOLOS
 
@@ -42,7 +43,16 @@ def novo_usuario_2():
 
 # começo do While 1:
 while True < 3:
+    # solicitar ao usuário que escolha um dos dois môdulos:
+    print("|--------------------|")
+    print("| Escolha um môdulo: |")
+    print("|--------------------|")
+    print("") # espaços
+    print("1. Usuário Existente")
+    print("2. Usuário Novo")
+    print("3. Sair")
     break
+
 
 # LOCAL DE CASDATRO
 # NOME DA EMPRESA/MEI/USUARIO
