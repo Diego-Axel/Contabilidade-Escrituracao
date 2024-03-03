@@ -78,14 +78,17 @@ while True < 3:
         nome = input("Digite o nome da sua empresa/ou MEI: ")
         print("") # espaços
         # CPF
-        cpf = input("Digite o seu CPF: ")
+        cpf = int(input("Digite o seu CPF: "))
         print("") # espaços 
         # CNPJ
-        cnpj = input("Digite o seu cnpj: ")
+        cnpj = int(input("Digite o seu cnpj: "))
         print("")
         # ENDEREÇO DE E-MAIL
         email = input("Digite o seu endereço de e-mail: ")
         print("")
+        # TEL. PARA CONTATO(DA EMPRESA PREFERENCIALEMNTE) COM DDD
+        telefone_empresa = int(input("Digite o número de telefone(da empresa preferencialmente) com DDD: "))
+        
         
 
 
@@ -100,7 +103,7 @@ while True < 3:
 
 
 
-# TEL. PARA CONTATO(DA EMPRESA PREFERENCIALEMNTE) COM DDD
+
 # ENDEREÇO DA EMPRESA
 # -------------------------------------------------------      
 # PÓS ESSA PRIMEIRA PARTE  
