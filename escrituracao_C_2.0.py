@@ -72,6 +72,7 @@ while True < 3:
         print("|                                                                      |")
         print("|         Por favor, preeencha esses dados para dar continuidade.      |")
         print("|______________________________________________________________________|")
+        print("")
         
         # NOME DA EMPRESA/MEI/USUARIO
         nome = input("Digite o nome da sua empresa/ou MEI: ")
@@ -82,7 +83,7 @@ while True < 3:
         # CNPJ
         cnpj = input("Digite o seu cnpj: ")
         print("")
-        print("seu CPF: %s  Seu CNPJ: %s"%(cpf,cnpj))
+        
 
 
     else:
