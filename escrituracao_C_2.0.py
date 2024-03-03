@@ -83,6 +83,9 @@ while True < 3:
         # CNPJ
         cnpj = input("Digite o seu cnpj: ")
         print("")
+        # ENDEREÇO DE E-MAIL
+        email = input("Digite o seu endereço de e-mail: ")
+        print("")
         
 
 
@@ -96,7 +99,7 @@ while True < 3:
 
 
 
-# ENDEREÇO DE E-MAIL
+
 # TEL. PARA CONTATO(DA EMPRESA PREFERENCIALEMNTE) COM DDD
 # ENDEREÇO DA EMPRESA
 # -------------------------------------------------------      
