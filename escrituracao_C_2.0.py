@@ -51,7 +51,20 @@ while True < 3:
     print("1. Usuário Existente")
     print("2. Usuário Novo")
     print("3. Sair")
-    break
+    print("") # espaços
+    
+    escolha = input("Digite o môdulo desejado (ou 3 para sair): ")
+    print()
+
+    if escolha == "1":
+        print("Bem vindo(a) de volta!")
+    
+    elif escolha == "2":
+        print("")
+    
+    else:
+        print("Encerrando o programa, até breve!")
+        break #fim do While 1
 
 
 # LOCAL DE CASDATRO
