@@ -35,6 +35,7 @@ def usuario_existente_1():
     print("|---------------------------------|")
     print("| Você escolheu Usuário Existente |")
     print("|---------------------------------|")
+    print("") # espaços
 # NOVO USUAIRO
 def novo_usuario_2():
     print("|---------------------------------|")
