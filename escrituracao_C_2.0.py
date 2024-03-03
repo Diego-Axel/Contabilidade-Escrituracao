@@ -62,6 +62,7 @@ while True < 3:
         print("") #espaços
     
     elif escolha == "2":
+        novo_usuario_2()
         print("|--------------------------------------------------------------|")
         print("|   Vamos seguir para o processo de cadastrar novo usuáriio.   |")
         print("|                                                              |")
