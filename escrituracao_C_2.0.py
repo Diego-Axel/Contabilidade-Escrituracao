@@ -41,6 +41,7 @@ def novo_usuario_2():
     print("|---------------------------------|")
     print("|   Você escolheu Novo Usuário    |")
     print("|---------------------------------|")
+    print("") # espaços
 
 # começo do While 1:
 while True < 3:
