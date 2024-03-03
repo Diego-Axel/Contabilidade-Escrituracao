@@ -22,7 +22,7 @@ ano = data.year
 
 # INICIO
 print("|-------------------|")
-print("|-----Bem vindo-----|")
+print("|---- Bem vindo ----|")
 print("|-------------------|")
 print("") # espaços para evitar ficar colado
 print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
@@ -54,10 +54,11 @@ while True < 3:
     print("") # espaços
     
     escolha = input("Digite o môdulo desejado (ou 3 para sair): ")
-    print()
+    print("") #espaços
 
     if escolha == "1":
         print("Bem vindo(a) de volta!")
+        print("") #espaços
     
     elif escolha == "2":
         print("")
