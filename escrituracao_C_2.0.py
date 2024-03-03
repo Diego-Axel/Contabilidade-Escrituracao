@@ -71,9 +71,14 @@ while True < 3:
         print("|         Vamos seguir para o processo de cadastrar novo usuáriio.     |")
         print("|                                                                      |")
         print("|         Por favor, preeencha esses dados para dar continuidade.      |")
-        print("|                                                                      |")
-        print("___________________________________________________")
+        print("|______________________________________________________________________|")
+        
         # NOME DA EMPRESA/MEI/USUARIO
+        nome = input("Digite o nome da sua empresa/ou MEI: ")
+        print("") # espaços
+        # CPF
+        cpf = input("Digite o seu CPF: ")
+
     else:
         print("Encerrando o programa, até breve!")
         break #fim do While 1
