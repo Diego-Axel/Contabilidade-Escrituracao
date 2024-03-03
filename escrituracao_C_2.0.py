@@ -78,6 +78,12 @@ while True < 3:
         print("") # espaços
         # CPF
         cpf = input("Digite o seu CPF: ")
+        print("") # espaços 
+        # CNPJ
+        cnpj = input("Digite o seu cnpj: ")
+        print("")
+        print("seu CPS: %s    |  Seu CNPJ %d   "%(cpf,cnpj))
+
 
     else:
         print("Encerrando o programa, até breve!")
@@ -87,8 +93,8 @@ while True < 3:
 
 
 
-# CPF
-# CNPJ
+
+
 # ENDEREÇO DE E-MAIL
 # TEL. PARA CONTATO(DA EMPRESA PREFERENCIALEMNTE) COM DDD
 # ENDEREÇO DA EMPRESA
