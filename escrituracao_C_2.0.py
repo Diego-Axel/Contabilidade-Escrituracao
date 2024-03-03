@@ -61,11 +61,15 @@ while True < 3:
         print("") #espaços
     
     elif escolha == "2":
-        print("")
+        print("|--------------------------------------------------------------|")
+        print("|   Vamos seguir para o processo de cadastrar novo usuáriio.   |")
+        print("|                                                              |")
+        print("|   Por favor, preeencha esses dados para dar continuidade.    |")
     
     else:
         print("Encerrando o programa, até breve!")
         break #fim do While 1
+
 
 
 # LOCAL DE CASDATRO
