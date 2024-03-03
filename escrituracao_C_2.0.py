@@ -57,6 +57,7 @@ while True < 3:
     print("") #espaços
 
     if escolha == "1":
+        usuario_existente_1()
         print("Bem vindo(a) de volta!")
         print("") #espaços
     
