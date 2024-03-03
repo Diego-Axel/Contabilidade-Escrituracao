@@ -21,16 +21,36 @@ ano = data.year
 # se tratando de um sistema completo, seria: 
 
 # INICIO
+print("|-------------------|")
+print("|-----Bem vindo-----|")
+print("|-------------------|")
+print("") # espaços para evitar ficar colado
+print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
+
 # MODOLOS
-#   USUARIO EXISTENTE
-#   NOVO USUAIRO
-#       LOCAL DE CASDATRO
-#           NOME DA EMPRESA/MEI/USUARIO
-#           CPF
-#           CNPJ
-#           ENDEREÇO DE E-MAIL
-#           TEL. PARA CONTATO(DA EMPRESA PREFERENCIALEMNTE) COM DDD
-#           ENDEREÇO DA EMPRESA
+
+# USUARIO EXISTENTE
+def usuario_existente_1():
+    print("|---------------------------------|")
+    print("| Você escolheu Usuário Existente |")
+    print("|---------------------------------|")
+# NOVO USUAIRO
+def novo_usuario_2():
+    print("|---------------------------------|")
+    print("|   Você escolheu Novo Usuário    |")
+    print("|---------------------------------|")
+
+# começo do While 1:
+while True < 3:
+    break
+
+# LOCAL DE CASDATRO
+# NOME DA EMPRESA/MEI/USUARIO
+# CPF
+# CNPJ
+# ENDEREÇO DE E-MAIL
+# TEL. PARA CONTATO(DA EMPRESA PREFERENCIALEMNTE) COM DDD
+# ENDEREÇO DA EMPRESA
 # -------------------------------------------------------      
 # PÓS ESSA PRIMEIRA PARTE  
 # MODULOS
