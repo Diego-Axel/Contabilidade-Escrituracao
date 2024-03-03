@@ -65,10 +65,13 @@ while True < 3:
     
     elif escolha == "2":
         novo_usuario_2()
+        # LOCAL DE CASDATRO
         print("|--------------------------------------------------------------|")
         print("|   Vamos seguir para o processo de cadastrar novo usuáriio.   |")
         print("|                                                              |")
         print("|   Por favor, preeencha esses dados para dar continuidade.    |")
+        print("|                                                              |")
+        print("|") 
     
     else:
         print("Encerrando o programa, até breve!")
@@ -76,7 +79,7 @@ while True < 3:
 
 
 
-# LOCAL DE CASDATRO
+
 # NOME DA EMPRESA/MEI/USUARIO
 # CPF
 # CNPJ
