@@ -72,9 +72,8 @@ while True < 3:
         print("|                                                                      |")
         print("|         Por favor, preeencha esses dados para dar continuidade.      |")
         print("|                                                                      |")
+        print("___________________________________________________")
         # NOME DA EMPRESA/MEI/USUARIO
-        nome = input("|    Digite o nome da sua empresa/MEI:                       |")
-    
     else:
         print("Encerrando o programa, até breve!")
         break #fim do While 1
