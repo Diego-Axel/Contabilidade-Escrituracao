@@ -82,7 +82,7 @@ while True < 3:
         # CNPJ
         cnpj = input("Digite o seu cnpj: ")
         print("")
-        print("seu CPS: %s    |  Seu CNPJ %d   "%(cpf,cnpj))
+        print("seu CPF: %s  Seu CNPJ: %s"%(cpf,cnpj))
 
 
     else:
