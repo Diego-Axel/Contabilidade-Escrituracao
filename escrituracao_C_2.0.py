@@ -36,6 +36,7 @@ def usuario_existente_1():
     print("| Você escolheu Usuário Existente |")
     print("|---------------------------------|")
     print("") # espaços
+    
 # NOVO USUAIRO
 def novo_usuario_2():
     print("|---------------------------------|")
@@ -123,6 +124,7 @@ def livro_diario_1():
     print("|                     |")
     print("|    LIVRO DIÁRIO     |")
     print("|_____________________|")
+    print("")
 
 # LIVRO RAZÃO
 def livro_razao_2():
@@ -130,6 +132,7 @@ def livro_razao_2():
     print("|                     |")
     print("|     LIVRO RAZÃO     |")
     print("|_____________________|")
+    print("")
 
 # BALANCETE
 def balancete_3():
@@ -137,6 +140,7 @@ def balancete_3():
     print("|                     |")
     print("|      BALANCETE      |")
     print("|_____________________|")
+    print("")
 
 # BALANÇO PATRIMÔNIAL
 def balanco_patrimonial_4():
@@ -144,6 +148,8 @@ def balanco_patrimonial_4():
     print("|                          |")
     print("|    BALANÇO PATRIMÔNIAL   |")
     print("|__________________________|")
+    print("")
+
 
 # MODULOS
 #   LIVRO DÍARIO
