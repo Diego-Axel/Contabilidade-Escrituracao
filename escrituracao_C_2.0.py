@@ -95,11 +95,16 @@ while True < 3:
         print("")
         print("Seus dados foram cadastrados com sucesso!")
         print("Dê uma conferida:")
+        print("")
+        # mostrnado os daods que o usuário introduziu no programa:
         print("____________________________________________________________________________")
         print(f"|                   Nome da empresa/ou MEI: {nome}                         |")
-        print(f"|                              CPF: {cpf}                                  |")
-        print(f"|                             CNPJ: {cnpj}                                 |")
-        print(f"|")
+        print(f"|                           CPF: {cpf}                                     |")
+        print(f"|                           CNPJ: {cnpj}                                   |")
+        print(f"|                           E-mail {email}                                 |")
+        print(f"|                  Telefone da Empresa: {telefone_empresa}                 |")
+        print(f"|                  Endereço da Empresa: {endereco_empresa}                 |")
+
 
 
     else:
