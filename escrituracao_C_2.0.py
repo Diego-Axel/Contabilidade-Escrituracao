@@ -98,6 +98,7 @@ while True < 3:
         print("")
         # mostrnado os daods que o usuário introduziu no programa:
         print("____________________________________________________________________________")
+        print(" |                                                                          |")
         print(f"|                   Nome da empresa/ou MEI: {nome}                         |")
         print(f"|                           CPF: {cpf}                                     |")
         print(f"|                           CNPJ: {cnpj}                                   |")
