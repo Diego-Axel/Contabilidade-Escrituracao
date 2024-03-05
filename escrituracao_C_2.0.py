@@ -60,7 +60,7 @@ while True < 3:
 
     if escolha == "1":
         usuario_existente_1()
-        print("Bem vindo(a) de volta!")
+        print("Bem vindo(a) de volta!") # quando tiver com os dados e nome da empresa ou do mei fazer com a frase apareça "Bem vindop(a) NOME"
         print("") 
     
     elif escolha == "2":
@@ -92,6 +92,11 @@ while True < 3:
         # ENDEREÇO DA EMPRESA
         endereco_empresa = input("Digite o endereço da empresa: ")
         print("")
+        print("")
+        print("Seus dados foram cadastrados com sucesso!")
+        print("Dê uma conferida:")
+        print("____________________________________________________________________________")
+        print("| Nome da empresa")
 
 
     else:
