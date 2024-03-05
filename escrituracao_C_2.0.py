@@ -104,6 +104,7 @@ while True < 3:
         print(f"|                           E-mail {email}                                 |")
         print(f"|                  Telefone da Empresa: {telefone_empresa}                 |")
         print(f"|                  Endereço da Empresa: {endereco_empresa}                 |")
+        print(" |__________________________________________________________________________|")
 
 
 
