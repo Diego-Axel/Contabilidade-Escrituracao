@@ -36,7 +36,7 @@ def usuario_existente_1():
     print("| Você escolheu Usuário Existente |")
     print("|---------------------------------|")
     print("") # espaços
-    
+
 # NOVO USUAIRO
 def novo_usuario_2():
     print("|---------------------------------|")
@@ -98,7 +98,7 @@ while True < 3:
         print("Dê uma conferida:")
         print("")
         # mostrnado os daods que o usuário introduziu no programa:
-        print("____________________________________________________________________________")
+        print(" ____________________________________________________________________________")
         print(" |                                                                          |")
         print(f"|                   Nome da empresa/ou MEI: {nome}                         |")
         print(f"|                           CPF: {cpf}                                     |")
@@ -148,6 +148,9 @@ def balanco_patrimonial_4():
     print("|                          |")
     print("|    BALANÇO PATRIMÔNIAL   |")
     print("|__________________________|")
+    print("")
+
+while True < 6:
     print("")
 
 
