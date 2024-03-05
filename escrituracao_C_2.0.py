@@ -106,16 +106,13 @@ while True < 3:
         print(f"|                  Endereço da Empresa: {endereco_empresa}                 |")
         print(" |__________________________________________________________________________|")
 
-
-
     else:
         print("Encerrando o programa, até breve!")
         break #fim do While 1
 
-
-
-# -------------------------------------------------------      
+# -------------------------------------------------------
 # PÓS ESSA PRIMEIRA PARTE  
+
 # MODULOS
 #   LIVRO DÍARIO
 #   LIVRO RAZÃO
