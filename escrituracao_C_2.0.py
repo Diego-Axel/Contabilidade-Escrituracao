@@ -96,7 +96,10 @@ while True < 3:
         print("Seus dados foram cadastrados com sucesso!")
         print("Dê uma conferida:")
         print("____________________________________________________________________________")
-        print("| Nome da empresa")
+        print(f"|                   Nome da empresa/ou MEI: {nome}                         |")
+        print(f"|                              CPF: {cpf}                                  |")
+        print(f"|                             CNPJ: {cnpj}                                 |")
+        print(f"|")
 
 
     else:
