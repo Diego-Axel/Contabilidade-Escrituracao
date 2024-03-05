@@ -41,7 +41,7 @@ def novo_usuario_2():
     print("|---------------------------------|")
     print("|   Você escolheu Novo Usuário    |")
     print("|---------------------------------|")
-    print("") # espaços
+    print("") 
 
 # começo do While 1:
 while True < 3:
@@ -49,7 +49,7 @@ while True < 3:
     print("|--------------------|")
     print("| Escolha um môdulo: |")
     print("|--------------------|")
-    print("") # espaços
+    print("") 
     print("1. Usuário Existente")
     print("2. Usuário Novo")
     print("3. Sair")
