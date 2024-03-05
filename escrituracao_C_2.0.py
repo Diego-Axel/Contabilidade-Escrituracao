@@ -76,7 +76,7 @@ while True < 3:
         
         # NOME DA EMPRESA/MEI/USUARIO
         nome = input("Digite o nome da sua empresa/ou MEI: ")
-        print("") # espaços
+        print("") 
         # CPF
         cpf = int(input("Digite o seu CPF: "))
         print("")  
