@@ -79,7 +79,7 @@ while True < 3:
         print("") # espaços
         # CPF
         cpf = int(input("Digite o seu CPF: "))
-        print("") # espaços 
+        print("")  
         # CNPJ
         cnpj = int(input("Digite o seu cnpj: "))
         print("")
