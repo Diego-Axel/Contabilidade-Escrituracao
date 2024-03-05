@@ -117,10 +117,18 @@ while True < 3:
 print("")
 print("")
 
+# LIVRO RAZÃO
 def livro_diario_1():
     print("_______________________")
     print("|                     |")
     print("|    LIVRO DIÁRIO     |")
+    print("|_____________________|")
+
+# LIVRO RAZÃO
+def livro_razao_2():
+    print("_______________________")
+    print("|                     |")
+    print("|     LIVRO RAZÃO     |")
     print("|_____________________|")
 
 
