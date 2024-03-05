@@ -56,7 +56,7 @@ while True < 3:
     print("") # espaços
     
     escolha = input("Digite o môdulo desejado (ou 3 para sair): ")
-    print("") #espaços
+    print("") 
 
     if escolha == "1":
         usuario_existente_1()
