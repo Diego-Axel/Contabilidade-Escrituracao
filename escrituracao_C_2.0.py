@@ -150,7 +150,7 @@ def balanco_patrimonial_4():
     print("|__________________________|")
     print("")
 
-while True < 6:
+while True < 5:
     # solicitar ao usuário que escolha um dos dois môdulos:
     print("|--------------------|")
     print("| Escolha um môdulo: |")
@@ -162,6 +162,9 @@ while True < 6:
     print("4. Balanço Patrimônial")
     print("5. Sair") 
     print("")
+
+    escolha_2 = input("Digite o môdulo desejado (ou 5 para sair): ")
+    print("") 
 
 
 
