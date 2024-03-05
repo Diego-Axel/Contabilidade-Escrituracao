@@ -131,6 +131,19 @@ def livro_razao_2():
     print("|     LIVRO RAZÃO     |")
     print("|_____________________|")
 
+# BALANCETE
+def balancete_3():
+    print("_______________________")
+    print("|                     |")
+    print("|      BALANCETE      |")
+    print("|_____________________|")
+
+# BALANÇO PATRIMÔNIAL
+def balanco_patrimonial_4():
+    print("____________________________")
+    print("|                          |")
+    print("|    BALANÇO PATRIMÔNIAL   |")
+    print("|__________________________|")
 
 # MODULOS
 #   LIVRO DÍARIO
