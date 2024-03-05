@@ -62,7 +62,8 @@ while True < 3:
     if escolha == "1":
         usuario_existente_1()
         print("Bem vindo(a) de volta!") # quando tiver com os dados e nome da empresa ou do mei fazer com a frase apareça "Bem vindop(a) NOME"
-        print("") 
+        print("")
+        break 
     
     elif escolha == "2":
         novo_usuario_2()
@@ -107,10 +108,11 @@ while True < 3:
         print(f"|                  Telefone da Empresa: {telefone_empresa}                 |")
         print(f"|                  Endereço da Empresa: {endereco_empresa}                 |")
         print(" |__________________________________________________________________________|")
+        break
 
     else:
         print("Encerrando o programa, até breve!")
-        break #fim do While 1
+        break 
 
 # -------------------------------------------------------
 # PÓS ESSA PRIMEIRA PARTE
@@ -173,7 +175,7 @@ while True < 5:
     
     else:
         print("Encerrando o programa, até breve!")
-        break # fim do while 2
+        break 
 
 
 
