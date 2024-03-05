@@ -53,7 +53,7 @@ while True < 3:
     print("1. Usuário Existente")
     print("2. Usuário Novo")
     print("3. Sair")
-    print("") # espaços
+    print("") 
     
     escolha = input("Digite o môdulo desejado (ou 3 para sair): ")
     print("") 
