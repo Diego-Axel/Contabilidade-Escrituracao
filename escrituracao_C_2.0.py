@@ -112,7 +112,17 @@ while True < 3:
         break #fim do While 1
 
 # -------------------------------------------------------
-# PÓS ESSA PRIMEIRA PARTE  
+# PÓS ESSA PRIMEIRA PARTE
+    
+print("")
+print("")
+
+def livro_diario_1():
+    print("_______________________")
+    print("|                     |")
+    print("|    LIVRO DIÁRIO     |")
+    print("|_____________________|")
+
 
 # MODULOS
 #   LIVRO DÍARIO
