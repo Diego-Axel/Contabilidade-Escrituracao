@@ -151,12 +151,18 @@ def balanco_patrimonial_4():
     print("")
 
 while True < 6:
+    # solicitar ao usuário que escolha um dos dois môdulos:
+    print("|--------------------|")
+    print("| Escolha um môdulo: |")
+    print("|--------------------|")
+    print("") 
+    print("1. Livro Diário")
+    print("2. Livrro Razão")
+    print("3. Balancete")
+    print("4. Balanço Patrimônial")
+    print("5. Sair") 
     print("")
 
 
-# MODULOS
-#   LIVRO DÍARIO
-#   LIVRO RAZÃO
-#   BALANCETE(OPCIONAL)
-#   BALANÇO PATRIMÔNIAL
+
 # FIM DO PRGRAMA
