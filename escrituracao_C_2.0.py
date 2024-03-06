@@ -89,7 +89,7 @@ while True < 3:
         email = input("Digite o seu endereço de e-mail: ")
         print("")
         # TEL. PARA CONTATO(DA EMPRESA PREFERENCIALEMNTE) COM DDD
-        telefone_empresa = int(input("Digite o número de telefone(da empresa preferencialmente) com DDD: "))
+        telefone_empresa = input("Digite o número de telefone(da empresa preferencialmente) com DDD: ")
         print("")
         # ENDEREÇO DA EMPRESA
         endereco_empresa = input("Digite o endereço da empresa: ")
