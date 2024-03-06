@@ -77,7 +77,7 @@ while True < 3:
         print("")
         
         # NOME DA EMPRESA/MEI/USUARIO
-        nome = input("Digite o nome da sua empresa/ou MEI: ")
+        nome_empresa = input("Digite o nome da sua empresa/ou MEI: ")
         print("") 
         # CPF
         cpf = input("Digite o seu CPF: ")
@@ -99,15 +99,15 @@ while True < 3:
         print("Dê uma conferida:")
         print("")
         # mostrnado os daods que o usuário introduziu no programa:
-        print(" ____________________________________________________________________________")
-        print(" |                                                                          |")
-        print(f"|                   Nome da empresa/ou MEI: {nome}                         |")
-        print(f"|                           CPF: {cpf}                                     |")
-        print(f"|                           CNPJ: {cnpj}                                   |")
-        print(f"|                           E-mail {email}                                 |")
-        print(f"|                  Telefone da Empresa: {telefone_empresa}                 |")
-        print(f"|                  Endereço da Empresa: {endereco_empresa}                 |")
-        print(" |__________________________________________________________________________|")
+        print(" __________________________________________________")
+        print("|                                                  |")
+        print("|             Nome da empresa/ou MEI: %s           |"%nome_empresa)
+        print("|                     CPF: %s                      |"%cpf)
+        print("|                     CNPJ: %s                     |"%cnpj)
+        print("|                     E-mail: %s                   |"%email)
+        print("|              Telefone da Empresa: %s             |"%telefone_empresa)
+        print("|              Endereço da Empresa: %s             |"%endereco_empresa)
+        print("|__________________________________________________|")
         break
 
     else:
@@ -176,7 +176,6 @@ while True < 5:
     else:
         print("Encerrando o programa, até breve!")
         break 
-
 
 
 # FIM DO PRGRAMA
