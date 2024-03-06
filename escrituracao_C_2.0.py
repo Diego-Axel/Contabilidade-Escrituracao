@@ -83,7 +83,7 @@ while True < 3:
         cpf = int(input("Digite o seu CPF: "))
         print("")  
         # CNPJ
-        cnpj = int(input("Digite o seu cnpj: "))
+        cnpj = input("Digite o seu cnpj: ")
         print("")
         # ENDEREÇO DE E-MAIL
         email = input("Digite o seu endereço de e-mail: ")
