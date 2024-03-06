@@ -16,17 +16,25 @@ dia = data.day
 mes = data.month
 ano = data.year
 
-
-
-
 # o que é importante em uma escrituração contábil? o que deve conter, se tratando da básica... ->
 # em ordem seria..
 # se tratando de um sistema completo, seria: 
 
 # INICIO
-print("|-------------------|")
-print("|---- Bem vindo ----|")
-print("|-------------------|")
+
+print("""
+________________________________________________________________________________________________________________
+|  .______    _______ .___  ___.    ____    ____  __  .__   __.  _______    ______     ___     ___      ___    | 
+|  |   _  \  |   ____||   \/   |    \   \  /   / |  | |  \ |  | |       \  /  __  \   /  /    /   \     \  \   | 
+|  |  |_)  | |  |__   |  \  /  |     \   \/   /  |  | |   \|  | |  .--.  ||  |  |  | |  |    /  ^  \     |  |  | 
+|  |   _  <  |   __|  |  |\/|  |      \      /   |  | |  . `  | |  |  |  ||  |  |  | |  |   /  /_\  \    |  |  | 
+|  |  |_)  | |  |____ |  |  |  |       \    /    |  | |  |\   | |  '--'  ||  `--'  | |  |  /  _____  \   |  |  | 
+|  |______/  |_______||__|  |__|        \__/     |__| |__| \__| |_______/  \______/  |  | /__/     \__\  |  |  | 
+|                                                                                     \__\              /__/   | 
+|______________________________________________________________________________________________________________|
+      
+""")
+ 
 print("") # espaços para evitar ficar colado
 print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
 print("") # espaços
@@ -102,15 +110,15 @@ while True < 3:
         print("Dê uma conferida:")
         print("")
         # mostrnado os daods que o usuário introduziu no programa:
-        print(" __________________________________________________")
-        print("|                                                  |")
-        print("|             Nome da empresa/ou MEI: %s           |"%nome_empresa)
-        print("|                     CPF: %s                      |"%cpf)
-        print("|                     CNPJ: %s                     |"%cnpj)
-        print("|                     E-mail: %s                   |"%email)
-        print("|              Telefone da Empresa: %s             |"%telefone_empresa)
-        print("|              Endereço da Empresa: %s             |"%endereco_empresa)
-        print("|__________________________________________________|")
+        print(" _________________________________________________")
+        print("                                                  ")
+        print("             Nome da empresa/ou MEI: %s           "%nome_empresa)
+        print("                     CPF: %s                      "%cpf)
+        print("                     CNPJ: %s                     "%cnpj)
+        print("                     E-mail: %s                   "%email)
+        print("              Telefone da Empresa: %s             "%telefone_empresa)
+        print("              Endereço da Empresa: %s             "%endereco_empresa)
+        print("__________________________________________________")
         break
 
     else:
@@ -179,5 +187,27 @@ while True < 5:
         print("Encerrando o programa, até breve!")
         break 
 
+
+
+
+
+
+print("""
+
+ _______  _______  __  .___________.  ______      .______     ______   .______         
+|   ____||   ____||  | |           | /  __  \     |   _  \   /  __  \  |   _  \      _ 
+|  |__   |  |__   |  | `---|  |----`|  |  |  |    |  |_)  | |  |  |  | |  |_)  |    (_)
+|   __|  |   __|  |  |     |  |     |  |  |  |    |   ___/  |  |  |  | |      /        
+|  |     |  |____ |  |     |  |     |  `--'  |    |  |      |  `--'  | |  |\  \----. _ 
+|__|     |_______||__|     |__|      \______/     | _|       \______/  | _| `._____|(_)
+      
+ _______   __   _______   _______   ______           ___      ___   ___  _______  __      
+|       \ |  | |   ____| /  _____| /  __  \         /   \     \  \ /  / |   ____||  |     
+|  .--.  ||  | |  |__   |  |  __  |  |  |  |       /  ^  \     \  V  /  |  |__   |  |     
+|  |  |  ||  | |   __|  |  | |_ | |  |  |  |      /  /_\  \     >   <   |   __|  |  |     
+|  '--'  ||  | |  |____ |  |__| | |  `--'  |     /  _____  \   /  .  \  |  |____ |  `----.
+|_______/ |__| |_______| \______|  \______/     /__/     \__\ /__/ \__\ |_______||_______|
+
+""")
 
 # FIM DO PRGRAMA
