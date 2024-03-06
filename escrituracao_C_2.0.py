@@ -80,7 +80,7 @@ while True < 3:
         nome = input("Digite o nome da sua empresa/ou MEI: ")
         print("") 
         # CPF
-        cpf = int(input("Digite o seu CPF: "))
+        cpf = input("Digite o seu CPF: ")
         print("")  
         # CNPJ
         cnpj = input("Digite o seu cnpj: ")
