@@ -16,6 +16,9 @@ dia = data.day
 mes = data.month
 ano = data.year
 
+
+
+
 # o que é importante em uma escrituração contábil? o que deve conter, se tratando da básica... ->
 # em ordem seria..
 # se tratando de um sistema completo, seria: 
@@ -114,7 +117,6 @@ while True < 3:
         print("Encerrando o programa, até breve!")
         break 
 
-# -------------------------------------------------------
 # PÓS ESSA PRIMEIRA PARTE
     
 print("")
