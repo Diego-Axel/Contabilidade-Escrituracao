@@ -126,8 +126,8 @@ while True:
                 print("_________________________Livro Diário_________________________")
                 print("                                                              ")
                 print("DATA DA OPERAÇÃO: %02d/%02d/%d"%(dia,mes,ano))
-                print("D - %s --- R$ - %d"%(contaD1,valorD1))
-                print("C - %s --- R$ - %d"%(contaC1,valorC1))
+                print("D - %s --- R$ - %f"%(contaD1,valorD1))
+                print("C - %s --- R$ - %f"%(contaC1,valorC1))
                 print("HISTÓRICO: %s"%historico1)
                 print("                                                              ")
                 
@@ -162,9 +162,9 @@ while True:
                     print("_________________________Livro Diário_________________________")
                     print("                                                              ")
                     print("DATA DA OPERAÇÃO: %02d/%02d/%d"%(dia,mes,ano))
-                    print("D - %s --- R$ - %d"%(contaD1,valorD1))
-                    print("D - %s --- R$ - %d"%(contaD2,valorD2))
-                    print("C - %s --- R$ - %d"%(contaC1,valorC1))
+                    print("D - %s --- R$ - %f"%(contaD1,valorD1))
+                    print("D - %s --- R$ - %f"%(contaD2,valorD2))
+                    print("C - %s --- R$ - %f"%(contaC1,valorC1))
                     print("HISTÓRICO: %s"%historico1)
                     print("                                                              ")
                     
