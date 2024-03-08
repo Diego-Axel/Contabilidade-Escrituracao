@@ -156,6 +156,7 @@ def livro_diario_1():
         if numero_contas == 1:
             print("Você escolheu adiconar 1 conta.")
             print("")
+            print("Como havia falado anteriormeente, você você JA POSSUI duas contas 1 DE DÉBITO E 1 DE CRÉDITO")
         
 
     # PEDIR QUANTAS CONTAS DE DÉBITO(D) E CRÉDITO(C) TERAM CADA OPERAÇÃO
