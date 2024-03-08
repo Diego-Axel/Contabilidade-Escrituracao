@@ -166,7 +166,10 @@ def livro_diario_1():
                 conta_D_main = input("Digite o nome da sua PRIMERIA CONTA de Débito: ")
                 valor_D_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
                 print("__________________________________________________________________")
-                conta_D1 = input("Digite o valor")
+                conta_D1 = input("Digite o valor da sua SEGUNDA CONTA DE DÉBITO: ")
+                valor_D1 = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("__________________________________________________________________")
+                conta_C_main 
         
 
     # PEDIR QUANTAS CONTAS DE DÉBITO(D) E CRÉDITO(C) TERAM CADA OPERAÇÃO
