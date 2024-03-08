@@ -130,7 +130,7 @@ while True < 3:
 print("")
 print("")
 
-# LIVRO RAZÃO
+# LIVRO DIÁRIO
 def livro_diario_1():
     print("_______________________")
     print("|                     |")
