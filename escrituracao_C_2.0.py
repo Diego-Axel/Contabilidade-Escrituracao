@@ -156,7 +156,12 @@ def livro_diario_1():
         if numero_contas == 1:
             print("Você escolheu adiconar 1 conta.")
             print("")
-            print("Como havia falado anteriormeente, você você JA POSSUI duas contas 1 DE DÉBITO E 1 DE CRÉDITO")
+            print("Como havia falado anteriormeente, você você JA POSSUI duas contas 1 DE DÉBITO E 1 DE CRÉDITO.")
+            print("") # ESPAÇOS
+
+            tipo_conta = input("Qual o tipo da conta você deseja adicionar(D ou C):? ")
+            if tipo_conta == "Débito" or "Debtio" or "débito" or "debito" or "D" or "d":
+                print("Você escolheu adiconar uma conta ao tipo DÉBITO:")
         
 
     # PEDIR QUANTAS CONTAS DE DÉBITO(D) E CRÉDITO(C) TERAM CADA OPERAÇÃO
