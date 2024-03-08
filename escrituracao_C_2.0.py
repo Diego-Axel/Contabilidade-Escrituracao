@@ -137,6 +137,27 @@ def livro_diario_1():
     print("|    LIVRO DIÁRIO     |")
     print("|_____________________|")
     print("")
+    # PEDIR O NÚMERO DE OPERAÇÕES
+    numero_operacoes = int(input("Digite quantas operações você deseja realizar: "))
+    print("")
+
+    # CONDICIONAIS DOS NÚMEROS DE OPERAÇÕES:
+    if numero_operacoes == 1:
+        print("""  
+        ______________________
+        |                    |
+        |     1 OPERAÇÃO     |
+        |____________________|
+              
+        """)
+
+        
+
+    # PEDIR QUANTAS CONTAS DE DÉBITO(D) E CRÉDITO(C) TERAM CADA OPERAÇÃO
+    # COLOCAR O VALOR (R$) EM CADA CONTA 
+    # PEDIR O HISTORICO REFERENTE A CADA OPERAÇÃO
+    # MOSTRAR O FINAL DA OPERÇÃO COM TUDO O QUE O USUÁRIO COLOCOU (AS CONTAS CADA UMA COM O SEU VALOR EM R$ E O HISTÓRICO).
+    # FIM DIÁRIO
 
 # LIVRO RAZÃO
 def livro_razao_2():
