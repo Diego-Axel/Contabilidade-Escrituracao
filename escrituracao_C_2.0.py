@@ -153,7 +153,10 @@ def livro_diario_1():
         numero_contas = int(input("Digite o número de contas que você deseja ter nesta operação(LEMBRE-SE, INICIALMENTE VOCÊ TEM UMA CONTA DE DÉBITO(D) E UMA DE CRÉDITO(C) POR PADRÃO -> ESCOLHA ADICIONAR 1,2,3 -> VOCÊ JA COMEÇA COM 2(D,C)):"))
 
         # CONDICIONAIS DOS NÚMEROS DE CONTAS (OPERAÇÃO = 1)
-        if numero_contas == 1:
+        if numero_contas == 0:
+            print("")
+            
+        elif numero_contas == 1:
             print("Você escolheu adiconar 1 conta.")
             print("")
             print("Como havia falado anteriormeente, você você JA POSSUI duas contas 1 DE DÉBITO E 1 DE CRÉDITO.")
@@ -163,13 +166,29 @@ def livro_diario_1():
             if tipo_conta == "Débito" or "Debtio" or "débito" or "debito" or "D" or "d":
                 print("Você escolheu adiconar uma conta ao tipo DÉBITO:")
                 print("")
+
                 conta_D_main = input("Digite o nome da sua PRIMERIA CONTA de Débito: ")
                 valor_D_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
                 print("__________________________________________________________________")
+
                 conta_D1 = input("Digite o valor da sua SEGUNDA CONTA DE DÉBITO: ")
                 valor_D1 = float(input("Digite o valor(R$) dessa respectiva conta: "))
                 print("__________________________________________________________________")
-                conta_C_main 
+
+                conta_C_main = input("Digite o nome da sua PRIMEIRA CONTA de Crédito: ")
+                valor_C_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("___________________________________________________________________")
+
+                histórico1 = input("Digite o histórico referente a está operação: ")
+                print("___________________________________________________________________")
+                print("")
+                print("|____________________________LIVRO_DIÁRIO____________________________|")
+                print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
+                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
+                print("| D -\t%s\tR$ %.2f"%(conta_D1,valor_D1))
+                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
+                print("| Histórico: %s"%histórico1)
+                print("|____________________________________________________________________|")
         
 
     # PEDIR QUANTAS CONTAS DE DÉBITO(D) E CRÉDITO(C) TERAM CADA OPERAÇÃO
