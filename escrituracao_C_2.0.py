@@ -150,7 +150,12 @@ def livro_diario_1():
         |____________________|
               
         """)
-        numero_contas = int(input("Digite o número de contas que você deseja ter nesta operação(LEMBRE-SE, INICIALMENTE VOCÊ TEM UMA CONTA DE DÉBITO(D) E UMA DE CRÉDITO(C) POR PADRÃO):"))
+        numero_contas = int(input("Digite o número de contas que você deseja ter nesta operação(LEMBRE-SE, INICIALMENTE VOCÊ TEM UMA CONTA DE DÉBITO(D) E UMA DE CRÉDITO(C) POR PADRÃO -> ESCOLHA ADICIONAR 1,2,3 -> VOCÊ JA COMEÇA COM 2(D,C)):"))
+
+        # CONDICIONAIS DOS NÚMEROS DE CONTAS (OPERAÇÃO = 1)
+        if numero_contas == 1:
+            print("Você escolheu adiconar 1 conta.")
+            print("")
         
 
     # PEDIR QUANTAS CONTAS DE DÉBITO(D) E CRÉDITO(C) TERAM CADA OPERAÇÃO
