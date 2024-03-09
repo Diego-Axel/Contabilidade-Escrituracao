@@ -154,6 +154,7 @@ def livro_diario_1():
 
         # CONDICIONAIS DOS NÚMEROS DE CONTAS (OPERAÇÃO = 1)
         if numero_contas == 0:
+            print("Você escolheu adicionar nehuma conta ")
             print("")
             
         elif numero_contas == 1:
