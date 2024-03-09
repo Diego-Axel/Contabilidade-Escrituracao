@@ -141,7 +141,7 @@ def livro_diario_1():
     numero_operacoes = int(input("Digite quantas operações você deseja realizar(1,2,3...): "))
     print("")
 
-    # CONDICIONAIS DOS NÚMEROS DE OPERAÇÕES:
+    # INICIO -> CONDICIONAIS DOS NÚMEROS DE OPERAÇÕES:
     if numero_operacoes == 1:
         print("""  
         ______________________
@@ -173,7 +173,7 @@ def livro_diario_1():
             print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
             print("| Histórico: %s"%historico1)
             print("|____________________________________________________________________|")
-
+            print("") # espaços
             
         elif numero_contas == 1:
             print("Você escolheu adiconar 1 conta.")
@@ -182,7 +182,7 @@ def livro_diario_1():
             print("") # ESPAÇOS
 
             tipo_conta = input("Qual o tipo da conta você deseja adicionar(D ou C):? ")
-            if tipo_conta == "Débito" or "Debtio" or "débito" or "debito" or "D" or "d":
+            if tipo_conta == "Débito" or "Debtio" or "débito" or "debito" or "D" or "d": # CONDICIONAL REFERENTE AO TIPO DA CONTA (D OU C)
                 print("Você escolheu adiconar uma conta ao tipo DÉBITO:")
                 print("")
 
@@ -208,9 +208,22 @@ def livro_diario_1():
                 print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
                 print("| Histórico: %s"%historico1)
                 print("|____________________________________________________________________|")
+                print("") # espaços
+            
+            elif tipo_conta == "Crédito" or "Credito" or "crédito" or "credito" or "C" or "c":
+                print("Você escolheu adicionar uma conta aoo tipo CRÉDITO:")
+                print("")
+
+
+        elif numero_contas == 2:
+            print("Você escolheu adicionar 2 contas")
+
+
+        else:
+            print("Não foi colocado o que se pede.") # FIM -> REFERENTE AO NÚMERO DE CONTAS QUANDO A OPERAÇÃO FOR APENAS 1
 
     else:
-        print("Não foi colocado o que se pede.") # else referente ao NÚMERO DE OPERAÇÕES
+        print("Não foi colocado o que se pede.") # FIM -> REFERENTE AO NÚMERO DE OPERAÇÕES
         
 
     # PEDIR QUANTAS CONTAS DE DÉBITO(D) E CRÉDITO(C) TERAM CADA OPERAÇÃO
