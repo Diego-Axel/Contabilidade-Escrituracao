@@ -240,13 +240,7 @@ def livro_diario_1():
             
             else:
                 print("Não foi colocado o que se pede.")
-
-
-
-
-
-
-
+                
 
         elif numero_contas == 2:
             print("Você escolheu adicionar 2 contas")
