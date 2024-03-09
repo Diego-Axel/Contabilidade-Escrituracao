@@ -214,6 +214,37 @@ def livro_diario_1():
                 print("Você escolheu adicionar uma conta aoo tipo CRÉDITO:")
                 print("")
 
+                conta_D_main = input("Digite o nome da sua PRIMERIA CONTA de Débito: ")
+                valor_D_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("__________________________________________________________________")
+
+                conta_C_main = input("Digite o nome da sua PRIMEIRA CONTA de Crédito: ")
+                valor_C_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("___________________________________________________________________")
+
+                conta_C1 = input("Digite o valor da sua SEGUNDA CONTA DE CRÉDITO: ")
+                valor_C1 = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("__________________________________________________________________")
+
+                historico1 = input("Digite o histórico referente a está operação: ")
+                print("__________________________________________________________________")
+                print("")
+                print("|____________________________LIVRO_DIÁRIO____________________________|")
+                print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
+                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
+                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
+                print("| C -\t%s\tR$ %.2f"%(conta_C1,valor_C1))
+                print("| Histórico: %s"%historico1)
+                print("|____________________________________________________________________|")
+                print("") # espaços
+            
+            
+
+
+
+
+
+
 
         elif numero_contas == 2:
             print("Você escolheu adicionar 2 contas")
