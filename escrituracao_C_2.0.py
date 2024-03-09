@@ -315,8 +315,39 @@ def livro_diario_1():
                 print("|____________________________________________________________________|")
                 print("") # espaços
 
-            elif tipo_conta0 == ("Débito","débtio","Debito","debito","D","d") and tipo_conta1 == ("Crédito","crédito","Crédito","credito","C","c"):
+            elif tipo_conta0 == ("Crédito","crédito","Crédito","credito","C","c") and tipo_conta1 == ("Débito","débtio","Debito","debito","D","d"):
+                print("Você escolheu adicionar 1 conta ao Débtio e 1 conta ao Crédito: ")
                 print("")
+
+                conta_D_main = input("Digite o nome da sua PRIMERIA CONTA de Débito: ")
+                valor_D_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("__________________________________________________________________")
+
+                conta_D1 = input("Digite o valor da sua SEGUNDA CONTA DE DÉBITO: ")
+                valor_D1 = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("__________________________________________________________________")
+
+                conta_C_main = input("Digite o nome da sua PRIMEIRA CONTA de Crédito: ")
+                valor_C_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("___________________________________________________________________")
+
+                conta_C1 = input("Digite o valor da sua SEGUNDA CONTA DE CRÉDITO: ")
+                valor_C1 = float(input("Digite o valor(R$) dessa respectiva conta: "))
+
+                historico1 = input("Digite o histórico referente a está operação: ")
+                print("___________________________________________________________________")
+                print("")
+                print("|____________________________LIVRO_DIÁRIO____________________________|")
+                print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
+                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
+                print("| D -\t%s\tR$ %.2f"%(conta_D1,valor_D1))
+                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
+                print("| C -\t%s\tR$ %.2f"%(conta_C1,valor_C1))
+                print("| Histórico: %s"%historico1)
+                print("|____________________________________________________________________|")
+                print("") # espaços
+            
+            elif 
 
 
 
