@@ -231,9 +231,9 @@ def livro_diario_1():
                 print("")
                 print("|____________________________LIVRO_DIÁRIO____________________________|")
                 print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
-                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
-                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
-                print("| C -\t%s\tR$ %.2f"%(conta_C1,valor_C1))
+                print("| D -\t%s\tR$ %.3f"%(conta_D_main,valor_D_main))
+                print("| C -\t%s\tR$ %.3f"%(conta_C_main,valor_C_main))
+                print("| C -\t%s\tR$ %.3f"%(conta_C1,valor_C1))
                 print("| Histórico: %s"%historico1)
                 print("|____________________________________________________________________|")
                 print("") # espaços
@@ -275,10 +275,10 @@ def livro_diario_1():
                 print("")
                 print("|____________________________LIVRO_DIÁRIO____________________________|")
                 print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
-                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
-                print("| D -\t%s\tR$ %.2f"%(conta_D1,valor_D1))
-                print("| D -\t%s\tR$ %.2f"%(conta_D2,valor_D2))
-                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
+                print("| D -\t%s\tR$ %.3f"%(conta_D_main,valor_D_main))
+                print("| D -\t%s\tR$ %.3f"%(conta_D1,valor_D1))
+                print("| D -\t%s\tR$ %.3f"%(conta_D2,valor_D2))
+                print("| C -\t%s\tR$ %.3f"%(conta_C_main,valor_C_main))
                 print("| Histórico: %s"%historico1)
                 print("|____________________________________________________________________|")
                 print("") # espaços
@@ -307,10 +307,10 @@ def livro_diario_1():
                 print("")
                 print("|____________________________LIVRO_DIÁRIO____________________________|")
                 print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
-                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
-                print("| D -\t%s\tR$ %.2f"%(conta_D1,valor_D1))
-                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
-                print("| C -\t%s\tR$ %.2f"%(conta_C1,valor_C1))
+                print("| D -\t%s\tR$ %.3f"%(conta_D_main,valor_D_main))
+                print("| D -\t%s\tR$ %.3f"%(conta_D1,valor_D1))
+                print("| C -\t%s\tR$ %.3f"%(conta_C_main,valor_C_main))
+                print("| C -\t%s\tR$ %.3f"%(conta_C1,valor_C1))
                 print("| Histórico: %s"%historico1)
                 print("|____________________________________________________________________|")
                 print("") # espaços
@@ -339,10 +339,10 @@ def livro_diario_1():
                 print("")
                 print("|____________________________LIVRO_DIÁRIO____________________________|")
                 print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
-                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
-                print("| D -\t%s\tR$ %.2f"%(conta_D1,valor_D1))
-                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
-                print("| C -\t%s\tR$ %.2f"%(conta_C1,valor_C1))
+                print("| D -\t%s\tR$ %.3f"%(conta_D_main,valor_D_main))
+                print("| D -\t%s\tR$ %.3f"%(conta_D1,valor_D1))
+                print("| C -\t%s\tR$ %.3f"%(conta_C_main,valor_C_main))
+                print("| C -\t%s\tR$ %.3f"%(conta_C1,valor_C1))
                 print("| Histórico: %s"%historico1)
                 print("|____________________________________________________________________|")
                 print("") # espaços
@@ -371,10 +371,10 @@ def livro_diario_1():
                 print("")
                 print("|____________________________LIVRO_DIÁRIO____________________________|")
                 print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
-                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
-                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
-                print("| C -\t%s\tR$ %.2f"%(conta_C1,valor_C1))
-                print("| C -\t%s\tR$ %.2f"%(conta_C2,valor_C2))
+                print("| D -\t%s\tR$ %.3f"%(conta_D_main,valor_D_main))
+                print("| C -\t%s\tR$ %.3f"%(conta_C_main,valor_C_main))
+                print("| C -\t%s\tR$ %.3f"%(conta_C1,valor_C1))
+                print("| C -\t%s\tR$ %.3f"%(conta_C2,valor_C2))
                 print("| Histórico: %s"%historico1)
                 print("|____________________________________________________________________|")
                 print("") # espaços
@@ -438,6 +438,8 @@ while True < 5:
 
     if escolha_2 == "1":
         livro_diario_1()
+    
+    elif
         
     else:
         print("Encerrando o programa, até breve!")
