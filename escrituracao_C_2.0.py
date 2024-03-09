@@ -8,7 +8,7 @@
 # OBS: Estou refazendo... Motivos? -> Posso melhorar
 
 # imports
-import datetime
+import datetime # biblioteca para puxar a data do computador
 
 data = datetime.date.today()
 
@@ -156,6 +156,9 @@ def livro_diario_1():
         if numero_contas == 0:
             print("Você escolheu adicionar nehuma conta ")
             print("")
+            conta_D_main = input("Digite o nome da sua PRIMEIRA CONTA de Débito: ")
+            valor_D_main = float(input("Digite o valor (R$) dessa respectiva conta: "))
+            print("__________________________________________________________________")
             
         elif numero_contas == 1:
             print("Você escolheu adiconar 1 conta.")
