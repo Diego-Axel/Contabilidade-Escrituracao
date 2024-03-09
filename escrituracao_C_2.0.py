@@ -283,6 +283,10 @@ def livro_diario_1():
                 print("|____________________________________________________________________|")
                 print("") # espaços
 
+            elif tipo_conta0 == ("Débito","débtio","Debito","debito","D","d") and tipo_conta1 == ("Crédito","crédito","Crédito","credito","C","c"):
+                print("Você escolheu adicionar 1 conta ao Débtio e 1 conta ao Crédito: ")
+                print("") 
+
 
 
 
