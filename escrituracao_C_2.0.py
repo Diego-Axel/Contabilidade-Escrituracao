@@ -347,19 +347,40 @@ def livro_diario_1():
                 print("|____________________________________________________________________|")
                 print("") # espaços
             
-            elif 
+            elif tipo_conta0 == ("Crédito","crédito","Crédito","credito","C","c") and tipo_conta1 == ("Crédito","crédito","Crédito","credito","C","c"):
+                print("Você escolheu adicionar 2 contas ao CRÉDITO.")
+                print("")
 
+                conta_D_main = input("Digite o nome da sua PRIMERIA CONTA de Débito: ")
+                valor_D_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("__________________________________________________________________")
 
+                conta_C_main = input("Digite o nome da sua PRIMEIRA CONTA de Crédito: ")
+                valor_C_main = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("___________________________________________________________________")
 
+                conta_C1 = input("Digite o valor da sua SEGUNDA CONTA DE CRÉDITO: ")
+                valor_C1 = float(input("Digite o valor(R$) dessa respectiva conta: "))
 
+                conta_C2 = input("Digite o valor da sua TERCEIRA CONTA DE CRÉDITO: ")
+                valor_C2 = float(input("Digite o valor(R$) dessa respectiva conta: "))
+                print("__________________________________________________________________")
 
-
-
-
-
-
-
-
+                historico1 = input("Digite o histórico referente a está operação: ")
+                print("___________________________________________________________________")
+                print("")
+                print("|____________________________LIVRO_DIÁRIO____________________________|")
+                print("| Data da operação: %02d/%02d/%d"%(dia,mes,ano))
+                print("| D -\t%s\tR$ %.2f"%(conta_D_main,valor_D_main))
+                print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
+                print("| C -\t%s\tR$ %.2f"%(conta_C1,valor_C1))
+                print("| C -\t%s\tR$ %.2f"%(conta_C2,valor_C2))
+                print("| Histórico: %s"%historico1)
+                print("|____________________________________________________________________|")
+                print("") # espaços
+            
+            else:
+                print("Não foi colocado o que se pede.")
 
         else:
             print("Não foi colocado o que se pede.") # FIM -> REFERENTE AO NÚMERO DE CONTAS QUANDO A OPERAÇÃO FOR APENAS 1
@@ -417,8 +438,7 @@ while True < 5:
 
     if escolha_2 == "1":
         livro_diario_1()
-        print("")
-    
+        
     else:
         print("Encerrando o programa, até breve!")
         break 
