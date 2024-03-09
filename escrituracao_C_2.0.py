@@ -208,6 +208,9 @@ def livro_diario_1():
                 print("| C -\t%s\tR$ %.2f"%(conta_C_main,valor_C_main))
                 print("| Histórico: %s"%historico1)
                 print("|____________________________________________________________________|")
+
+    else:
+        print("Não foi colocado o que se pede.") # else referente ao NÚMERO DE OPERAÇÕES
         
 
     # PEDIR QUANTAS CONTAS DE DÉBITO(D) E CRÉDITO(C) TERAM CADA OPERAÇÃO
