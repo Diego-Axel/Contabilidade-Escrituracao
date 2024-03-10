@@ -67,16 +67,16 @@ while True < 3:
     print("3. Sair")
     print("") 
     
-    escolha = input("Digite o môdulo desejado (ou 3 para sair): ")
+    escolha = int(input("Digite o môdulo desejado (ou 3 para sair): "))
     print("") 
 
-    if escolha == "1":
+    if escolha == 1:
         usuario_existente_1()
         print("Bem vindo(a) de volta!") # quando tiver com os dados e nome da empresa ou do mei fazer com a frase apareça "Bem vindop(a) NOME"
         print("")
         break 
     
-    elif escolha == "2":
+    elif escolha == 2:
         novo_usuario_2()
         # LOCAL DE CASDATRO
         print("________________________________________________________________________")
@@ -433,13 +433,20 @@ while True < 5:
     print("5. Sair") 
     print("")
 
-    escolha_2 = input("Digite o môdulo desejado (ou 5 para sair): ")
+    escolha_2 = int(input("Digite o môdulo desejado (ou 5 para sair): "))
     print("")
 
-    if escolha_2 == "1":
+    if escolha_2 == 1:
         livro_diario_1()
     
-    elif
+    elif escolha_2 == 2:
+        livro_razao_2()
+    
+    elif escolha_2 == 3:
+        balancete_3()
+    
+    elif escolha_2 == 4:
+        balanco_patrimonial_4()
         
     else:
         print("Encerrando o programa, até breve!")
