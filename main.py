@@ -8,7 +8,7 @@
 # OBS: Estou refazendo... Motivos? -> Posso melhorar
 
 # imports
-import clientes # fazendo importação do arquivo onde ficará as funções do CLIENTE (modularizando)
+import cliente # fazendo importação do arquivo onde ficará as funções do CLIENTE (modularizando)
 import funcoes # fazendoimportação do arquivo onde ficará as funções (modularizando)
 import datetime # biblioteca para puxar a data do computador
 
@@ -57,19 +57,18 @@ while True < 3:
     print("") 
 
     if escolha == 1:
-        clientes.usuario_existente_1()
+        cliente.usuario_existente_1()
         break 
     
     elif escolha == 2:
-        clientes.novo_usuario_2()
+        cliente.novo_usuario_2()
         break
 
     else:
+        cliente.sair_3()
         print("Encerrando o programa, até breve!")
         break 
 
-# PÓS ESSA PRIMEIRA PARTE
-    
 print("")
 
 # começo do while 2 
