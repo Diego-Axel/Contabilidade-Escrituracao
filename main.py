@@ -61,7 +61,6 @@ while True < 3:
     
     elif escolha == 2:
         funcoes.novo_usuario_2()
-       
         break
 
     else:
@@ -70,7 +69,6 @@ while True < 3:
 
 # PÓS ESSA PRIMEIRA PARTE
     
-print("")
 print("")
 
 # LIVRO DIÁRIO
