@@ -8,6 +8,7 @@
 # OBS: Estou refazendo... Motivos? -> Posso melhorar
 
 # imports
+import funcoes # fazenzo importação do arquivo onde ficará as funções (modularizando)
 import datetime # biblioteca para puxar a data do computador
 
 data = datetime.date.today()
