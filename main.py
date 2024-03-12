@@ -52,7 +52,7 @@ while True < 3:
     print("2. Usuário Novo")
     print("") 
     
-    escolha = int(input("Digite o môdulo desejado (ou 3 para sair): "))
+    escolha = int(input("Digite o môdulo desejado: "))
     print("") 
 
     if escolha == 1:
