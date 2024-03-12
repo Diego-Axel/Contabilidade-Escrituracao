@@ -53,11 +53,3 @@ def novo_usuario_2():
     print("              Telefone da Empresa: %s             "%telefone_empresa)
     print("              Endereço da Empresa: %s             "%endereco_empresa)
     print("__________________________________________________")
-
-def sair_3():
-    print("""
-
-
-
-
-    """)
