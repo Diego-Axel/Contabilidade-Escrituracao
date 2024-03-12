@@ -50,7 +50,6 @@ while True < 3:
     print("") 
     print("1. Usuário Existente")
     print("2. Usuário Novo")
-    print("3. Sair")
     print("") 
     
     escolha = int(input("Digite o môdulo desejado (ou 3 para sair): "))
@@ -65,9 +64,7 @@ while True < 3:
         break
 
     else:
-        cliente.sair_3()
-        print("Encerrando o programa, até breve!")
-        break 
+        print("") 
 
 print("")
 
