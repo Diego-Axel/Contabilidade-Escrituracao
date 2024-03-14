@@ -16,21 +16,23 @@ def livro_diario_1():
     numero_operacoes = int(input("Digite quantas operações você deseja realizar(1,2,3...): "))
     print("")
 
+    # condicionais 1
     if numero_operacoes == 1:
         numero_contas = int(input("Quantas contas você deseja adiconar em %d operação: "%numero_operacoes))
+        # 
         if numero_contas == 0:
             print("")
-            contaD_main = input("Digite o nome da sua conta D: ")
-            valorD_main = float(input("Digite o valor dessa conta: "))
+            conta_d_main = input("Digite o nome da sua conta D: ")
+            valor_d_main = float(input("Digite o valor dessa conta: "))
             print("")
-            contaC_main = input("Digite o nome da sua conta C: ")
-            valorC_main = float(input("Digite o valor dessa conta: "))
+            conta_c_main = input("Digite o nome da sua conta C: ")
+            valor_c_main = float(input("Digite o valor dessa conta: "))
             print("")
             historico1 = input("Digite o histórico desta operação: ")
             print("")
             print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
-            print("D\t-\t%s\tR$%0.3f"%(contaD_main,valorD_main))
-            print("C\t-\t%s\tR$%0.3f"%(contaC_main,valorC_main))
+            print("D\t-\t%s\tR$%0.3f"%(conta_d_main,valor_d_main))
+            print("C\t-\t%s\tR$%0.3f"%(conta_c_main,valor_c_main))
             print("Histórico:\t%s"%historico1)
             print("")
 
@@ -40,7 +42,7 @@ def livro_diario_1():
 
         else:
             print("")
-
+    # fim -> condiconais 1
     else:
         print("")
 
