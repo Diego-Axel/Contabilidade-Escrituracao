@@ -1,4 +1,4 @@
-import datetime
+import datetime # biblioteca para puxar a data do computador
 
 data = datetime.date.today()
 
