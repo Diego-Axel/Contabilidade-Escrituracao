@@ -33,6 +33,9 @@ def livro_diario_1():
             print("C\t-\t%s\tR$%0.3f"%(contaC_main,valorC_main))
             print("Histórico:\t%s"%historico1)
             print("")
+
+        elif numero_contas == 1:
+            print("")
         
 
         else:
