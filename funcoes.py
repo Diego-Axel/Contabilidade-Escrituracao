@@ -44,6 +44,6 @@ def livro_diario_1():
             print("")
     # fim -> condiconais 1
     else:
-        print("")
+        print("Não foi colocado o que se pede.")
 
         
