@@ -6,7 +6,7 @@ dia = data.day
 mes = data.month
 ano = data.year
 
-def livro_diario_1():
+def livro_diario():
     print("_______________________")
     print("|                     |")
     print("|    LIVRO DIÁRIO     |")
