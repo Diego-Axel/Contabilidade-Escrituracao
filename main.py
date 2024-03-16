@@ -94,10 +94,10 @@ while True < 5:
         print("") # usarei depois...
     
     elif escolha_2 == 3:
-        print("")
+        print("") # usarei depois...
     
     elif escolha_2 == 4:
-        print("")
+        print("") # usarei depois...
 
     else:
         print("Encerrando o programa, até breve!")
