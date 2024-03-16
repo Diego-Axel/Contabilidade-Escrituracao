@@ -42,6 +42,7 @@ print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: "
 print("") # espaços
 
 # começo do While 1:
+client = True
 while True < 3:
     # solicitar ao usuário que escolha um dos dois môdulos:
     print("|--------------------|")
@@ -69,6 +70,7 @@ while True < 3:
 print("")
 
 # começo do while 2 
+escolh = True
 while True < 5:
     # solicitar ao usuário que escolha um dos dois môdulos:
     print("|--------------------|")
