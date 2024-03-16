@@ -88,7 +88,7 @@ while True < 5:
     print("")
 
     if escolha_2 == 1:
-        funcoes_diario.livro_diario()
+        funcoes_diario.livro_diario_1()
     
     elif escolha_2 == 2:
         print("") # usarei depois...
