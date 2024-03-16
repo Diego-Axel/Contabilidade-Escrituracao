@@ -46,8 +46,21 @@ def livro_diario_1():
             print("")
             tipo_conta = input("Escolha qual o tipo da próxima conta que deseja adicionar a operção(D/C): ")
 
-            if tipo_conta == ("Débito" or "débito" or "Debito" or "debito" or "D" or "d"):
+            d1 = ["Débito","débito","Debito","debito","D","d"] # Bom, criei uma variável e na mesma adicionei as possiveis strings que o usuário poderá digitar
+
+            if tipo_conta == d1:
                 print("Escolha = %s"%tipo_conta)
+                conta_d1 = input("Digite o nome da sua conta D: ")
+                valor_d1 = float(input("Digite o valor dessa conta: "))
+                print("")
+                historico1 = input("Digite o histórico desta operação: ")
+                print("")
+                print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
+                print("D\t-\t\t%s\tR$%0.3f"%(conta_d_main,valor_d_main))
+                print("D\t-\t\t%s\tR$%0.3f"%(conta_d1,valor_d1))
+                print("C\t-\t\t%s\tR$%0.3f"%(conta_c_main,valor_c_main))
+                print("Histórico:\t%s"%historico1)
+                print("")
 
             else:
                 print("Não foi colocado o que se pede.")    
