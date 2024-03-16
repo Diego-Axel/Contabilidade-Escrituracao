@@ -9,7 +9,7 @@
 
 # imports
 import cliente # fazendo importação do arquivo onde ficará as funções do CLIENTE (modularizando)
-import funcoes # fazendoimportação do arquivo onde ficará as funções (modularizando)
+import funcoes_diario # fazendoimportação do arquivo onde ficará as funções (modularizando)
 import datetime # biblioteca para puxar a data do computador
 
 data = datetime.date.today()
@@ -88,7 +88,7 @@ while True < 5:
     print("")
 
     if escolha_2 == 1:
-        funcoes.livro_diario_1()
+        
     
     elif escolha_2 == 2:
         print("") # usarei depois...
