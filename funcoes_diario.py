@@ -40,10 +40,22 @@ def livro_diario_1():
             print("")
             conta_d_main = input("Digite o nome da sua conta D: ")
             valor_d_main = float(input("Digite o valor dessa conta: "))
+            print("")
+            conta_c_main = input("Digite o nome da sua conta C: ")
+            valor_c_main = float(input("Digite o valor dessa conta: "))
+            print("")
+            tipo_conta = input("Escolha qual o tipo da próxima conta que deseja adicionar a operção(D/C): ")
+
+            if tipo_conta == ("Débito" or "débito" or "Debito" or "debito" or "D" or "d"):
+                print("Escolha = %s"%tipo_conta)
+
+            else:
+                print("Não foi colocado o que se pede.")    
+
         
         # fim -> condiconais 2
         else:
-            print("")
+            print("Não foi colocado o que se pede.")
     # fim -> condiconais 1
     else:
         print("Não foi colocado o que se pede.")
