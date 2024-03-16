@@ -25,7 +25,7 @@ def novo_usuario_2():
     nome_empresa = input("Digite o nome da sua empresa/ou MEI: ")
     print("") 
     # CPF
-    cpf = input("Digite o seu CPF: ")
+    cpf = input("Digite o seu CPF: ") # São string pois não vou usar esses dados para fazer operações matemáticas.
     print("")  
     # CNPJ
     cnpj = input("Digite o seu cnpj: ")
