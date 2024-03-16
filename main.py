@@ -91,14 +91,14 @@ while True < 5:
         funcoes.livro_diario_1()
     
     elif escolha_2 == 2:
-        funcoes.livro_razao_2()
+        print("") # usarei depois...
     
     elif escolha_2 == 3:
-        funcoes.balancete_3()
+        print("")
     
     elif escolha_2 == 4:
-        funcoes.balanco_patrimonial_4()
-        
+        print("")
+
     else:
         print("Encerrando o programa, até breve!")
         break 
