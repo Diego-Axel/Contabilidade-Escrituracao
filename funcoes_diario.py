@@ -1,4 +1,5 @@
 import datetime # biblioteca para puxar a data do computador
+import os 
 
 data = datetime.date.today()
 
@@ -7,6 +8,7 @@ mes = data.month
 ano = data.year
 
 def livro_diario_1():
+    os.system('clear || cls')
     print("_______________________")
     print("|                     |")
     print("|    LIVRO DIÁRIO     |")
@@ -50,7 +52,7 @@ def livro_diario_1():
 
             c1 = ["Crédito","crédito","Credito","credito","C","c"] # Parte dos C
 
-            if tipo_conta == d1:
+            if tipo_conta in d1:
                 print("Escolha = %s"%tipo_conta)
                 conta_d1 = input("Digite o nome da sua conta D: ")
                 valor_d1 = float(input("Digite o valor dessa conta: "))
@@ -64,7 +66,7 @@ def livro_diario_1():
                 print("Histórico:\t%s"%historico1)
                 print("")
 
-            elif tipo_conta == c1:
+            elif tipo_conta in c1:
                 print("Escolha = %s"%tipo_conta)
                 conta_c1 = input("Digite o nome da sua conta C: ")
                 valor_c1 = float(input("Digite o valor dessa conta: "))
