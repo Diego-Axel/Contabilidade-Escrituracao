@@ -1,5 +1,6 @@
 
-import os
+import os # biblioteca para que tudo que estiver acima dela suma, deixa visualmente mais limpo
+import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
 
 def usuario_existente_1():
     os.system('clear || cls')
@@ -9,6 +10,8 @@ def usuario_existente_1():
     print("") 
     print("Bem vindo(a) de volta!") # quando tiver com os dados e nome da empresa ou do mei fazer com a frase apareça "Bem vindop(a) NOME"
     print("")
+    print("CARREGANDO...")
+    time.sleep(4)
 
 def novo_usuario_2():
     os.system('clear || cls')
@@ -57,3 +60,7 @@ def novo_usuario_2():
     print("              Telefone da Empresa: %s             "%telefone_empresa)
     print("              Endereço da Empresa: %s             "%endereco_empresa)
     print("__________________________________________________")
+    print("")
+    time.sleep(.4)
+    enter = input("APERTE ENTER PARA SAIR ")
+    
