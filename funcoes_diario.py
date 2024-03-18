@@ -1,6 +1,6 @@
 import datetime # biblioteca para puxar a data do computador
-import os 
-import time
+import os # biblioteca para que tudo que estiver acima dela suma, deixa visualmente mais limpo
+import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
 
 data = datetime.date.today()
 
@@ -9,6 +9,7 @@ mes = data.month
 ano = data.year
 
 def livro_diario_1():
+    os.system('clear || cls')
     print("_______________________")
     print("|                     |")
     print("|    LIVRO DIÁRIO     |")
@@ -37,6 +38,8 @@ def livro_diario_1():
             print("C\t-\t%s\tR$%0.3f"%(conta_c_main,valor_c_main))
             print("Histórico:\t%s"%historico1)
             print("")
+            time.sleep(4)
+            enter1 = input("APERTE ENTER PARA FECHAR ")
 
         elif numero_contas == 1:
             print("")
@@ -48,9 +51,9 @@ def livro_diario_1():
             print("")
             tipo_conta = input("Escolha qual o tipo da próxima conta que deseja adicionar a operção(D/C): ")
 
-            d1 = ["Débito","débito","Debito","debito","D","d"] # Bom, criei uma variável e na mesma adicionei as possiveis strings que o usuário poderá digitar para que de continuidade ao programa. Pate dos D
+            d1 = ["Débito","débito","Debito","debito","D","d"] # Bom, criei uma variável e na mesma adicionei as possiveis strings em uma lista que o usuário poderá digitar para que de continuidade ao programa. Pate dos Débitos
 
-            c1 = ["Crédito","crédito","Credito","credito","C","c"] # Parte dos C
+            c1 = ["Crédito","crédito","Credito","credito","C","c"] # Parte dos Créditos
 
             if tipo_conta in d1:
                 print("Escolha = %s"%tipo_conta)
@@ -65,6 +68,8 @@ def livro_diario_1():
                 print("C\t-\t\t%s\tR$%0.3f"%(conta_c_main,valor_c_main))
                 print("Histórico:\t%s"%historico1)
                 print("")
+                time.sleep(4)
+                enter1 = input("APERTE ENTER PARA FECHAR ")
 
             elif tipo_conta in c1:
                 print("Escolha = %s"%tipo_conta)
@@ -79,6 +84,8 @@ def livro_diario_1():
                 print("C\t-\t\t%s\tR$%0.3f"%(conta_c1,valor_c1))
                 print("Histórico:\t%s"%historico1)
                 print("")
+                time.sleep(4)
+                enter1 = input("APERTE ENTER PARA FECHAR ")
 
             # fim -> condiconais 2
             else:
