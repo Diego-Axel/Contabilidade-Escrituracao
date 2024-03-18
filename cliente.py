@@ -1,5 +1,8 @@
-# FUNÇÃO DE INÍCIO -> ESCOLHA DO USUÁRIO:
+
+import os
+
 def usuario_existente_1():
+    os.system('clear || cls')
     print("|---------------------------------|")
     print("| Você escolheu Usuário Existente |")
     print("|---------------------------------|")
@@ -8,6 +11,7 @@ def usuario_existente_1():
     print("")
 
 def novo_usuario_2():
+    os.system('clear || cls')
     print("|---------------------------------|")
     print("|   Você escolheu Novo Usuário    |")
     print("|---------------------------------|")
