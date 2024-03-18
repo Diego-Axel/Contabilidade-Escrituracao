@@ -8,7 +8,6 @@ mes = data.month
 ano = data.year
 
 def livro_diario_1():
-    os.system('clear || cls')
     print("_______________________")
     print("|                     |")
     print("|    LIVRO DIÁRIO     |")
