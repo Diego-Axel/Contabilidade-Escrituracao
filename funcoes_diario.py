@@ -1,5 +1,6 @@
 import datetime # biblioteca para puxar a data do computador
 import os 
+import time
 
 data = datetime.date.today()
 
