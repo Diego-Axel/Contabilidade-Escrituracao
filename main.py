@@ -12,7 +12,7 @@ import cliente # fazendo importação do arquivo onde ficará as funções do CL
 import funcoes_diario # fazendoimportação do arquivo onde ficará as funções (modularizando)
 import datetime # biblioteca para puxar a data do computador
 import os # biblioteca para que as informações já selecionadas acabem sumindo
-import time
+import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
 
 data = datetime.date.today()
 
@@ -25,7 +25,7 @@ ano = data.year
 # se tratando de um sistema completo, seria: 
 
 # INICIO
-os.system('clear || cls')
+os.system('clear || cls') # limpar a tela do TERMINAL
 
 print("""
 ________________________________________________________________________________________________________________
