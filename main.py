@@ -11,7 +11,8 @@
 import cliente # fazendo importação do arquivo onde ficará as funções do CLIENTE (modularizando)
 import funcoes_diario # fazendoimportação do arquivo onde ficará as funções (modularizando)
 import datetime # biblioteca para puxar a data do computador
-import os 
+import os # biblioteca para que as informações já selecionadas acabem sumindo
+import time
 
 data = datetime.date.today()
 
@@ -24,6 +25,7 @@ ano = data.year
 # se tratando de um sistema completo, seria: 
 
 # INICIO
+os.system('clear || cls')
 
 print("""
 ________________________________________________________________________________________________________________
@@ -41,6 +43,7 @@ ________________________________________________________________________________
 print("") # espaços para evitar ficar colado
 print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
 print("") # espaços
+time.sleep(5)
 
 # começo do While 1:
 client = True
