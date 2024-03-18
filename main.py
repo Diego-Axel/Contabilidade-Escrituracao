@@ -7,7 +7,7 @@
 
 # OBS: Estou refazendo... Motivos? -> Posso melhorar
 
-# imports
+# imports:
 import cliente # fazendo importação do arquivo onde ficará as funções do CLIENTE (modularizando)
 import funcoes_diario # fazendoimportação do arquivo onde ficará as funções (modularizando)
 import datetime # biblioteca para puxar a data do computador
@@ -19,10 +19,6 @@ data = datetime.date.today()
 dia = data.day
 mes = data.month
 ano = data.year
-
-# o que é importante em uma escrituração contábil? o que deve conter, se tratando da básica... ->
-# em ordem seria..
-# se tratando de um sistema completo, seria: 
 
 # INICIO
 os.system('clear || cls') # limpar a tela do TERMINAL
@@ -42,8 +38,8 @@ ________________________________________________________________________________
  
 print("") # espaços para evitar ficar colado
 print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
-print("") # espaços
-time.sleep(5)
+print("")
+time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 
 # começo do While 1:
 client = True
@@ -60,6 +56,7 @@ while True < 3:
     
     escolha = int(input("Digite o môdulo desejado: "))
     print("") 
+    time.sleep(.3) 
 
     if escolha == 1:
         cliente.usuario_existente_1()
@@ -89,6 +86,7 @@ while True < 5:
     print("4. Balanço Patrimônial")
     print("5. Sair") 
     print("")
+    time.sleep(.3)
 
     escolha_2 = int(input("Digite o môdulo desejado (ou 5 para sair): "))
     print("")
