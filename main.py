@@ -11,6 +11,7 @@
 import cliente # fazendo importação do arquivo onde ficará as funções do CLIENTE (modularizando)
 import funcoes_diario # fazendoimportação do arquivo onde ficará as funções (modularizando)
 import datetime # biblioteca para puxar a data do computador
+import os 
 
 data = datetime.date.today()
 
@@ -45,6 +46,7 @@ print("") # espaços
 client = True
 while True < 3:
     # solicitar ao usuário que escolha um dos dois môdulos:
+    os.system('clear || cls')
     print("|--------------------|")
     print("| Escolha um môdulo: |")
     print("|--------------------|")
@@ -73,6 +75,7 @@ print("")
 escolh = True
 while True < 5:
     # solicitar ao usuário que escolha um dos dois môdulos:
+    os.system('clear || cls')
     print("|--------------------|")
     print("| Escolha um môdulo: |")
     print("|--------------------|")
