@@ -11,7 +11,7 @@
 import cliente # fazendo importação do arquivo onde ficará as funções do CLIENTE (modularizando)
 import funcoes_diario # fazendoimportação do arquivo onde ficará as funções (modularizando)
 import datetime # biblioteca para puxar a data do computador
-import os # biblioteca para que as informações já selecionadas acabem sumindo
+import os # biblioteca para que tudo que estiver acima dela suma, deixa visualmente mais limpo
 import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
 
 data = datetime.date.today()
@@ -39,6 +39,7 @@ ________________________________________________________________________________
 print("") # espaços para evitar ficar colado
 print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
 print("")
+print("CARREGANDO...")
 time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 
 # começo do While 1:
