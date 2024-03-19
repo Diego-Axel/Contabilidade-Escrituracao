@@ -63,4 +63,6 @@ def novo_usuario_2():
     print("")
     time.sleep(.4)
     enter = input("APERTE ENTER PARA SAIR ")
-    
+
+
+# FIM CLIENTES
