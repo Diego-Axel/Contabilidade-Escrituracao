@@ -90,7 +90,9 @@ def livro_diario_1():
             # fim -> condiconais 2
             else:
                 print("Não foi colocado o que se pede.")    
-                
+        
+        elif # 
+
         # fim -> condiconais 2
         else:
             print("Não foi colocado o que se pede.")
