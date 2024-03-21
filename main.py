@@ -146,6 +146,3 @@ print("""
 
 
 # FIM DO PRGRAMA
-
-
-
