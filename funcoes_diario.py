@@ -21,7 +21,7 @@ def livro_diario_1():
 
     # condicionais 1
     if numero_operacoes == 1:
-        numero_contas = int(input("Quantas contas você deseja adiconar em %d operação: "%numero_operacoes))
+        numero_contas = int(input("Quantas contas você deseja adiconar em %d operação(ões): "%numero_operacoes))
         # condicionais 2
         if numero_contas == 0:
             print("")
@@ -93,6 +93,13 @@ def livro_diario_1():
         
         elif numero_contas == 2:
             print("")
+            conta_d_main = input("Digite o nome da sua conta D: ")
+            valor_d_main = float(input("Digite o valor dessa conta: "))
+            print("")
+            conta_c_main = input("Digite o nome da sua conta C: ")
+            valor_c_main = float(input("Digite o valor dessa conta: "))
+            print("")
+            tipo_conta = input("Escolha qual o tipo da próxima conta que deseja adicionar a operção(D/C): ")
 
         # fim -> condiconais 2
         else:
