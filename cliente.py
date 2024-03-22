@@ -46,7 +46,6 @@ def novo_usuario_2():
     print("")
     # ENDEREÇO DA EMPRESA
     endereco_empresa = input("Digite o endereço da empresa: ")
-    endereco_empresa = endereco_empresa.upper()
     print("")
     print("")
     print("Seus dados foram cadastrados com sucesso!")
