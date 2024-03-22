@@ -30,7 +30,7 @@ def novo_usuario_2():
         
     # NOME DA EMPRESA/MEI/USUARIO
     nome_empresa = input("Digite o nome da sua empresa/ou MEI: ")
-    nome_empresa = nome_empresa.upper() # DEIXANDO O NOME DA EMPRESA MAISCULO -> 
+    nome_empresa = nome_empresa.upper() # DEIXANDO O NOME DA EMPRESA MAISCULO -> <cond>.upper() MAISCULO | <cond>.lower() MINUSCULA
     print("") 
     # CPF
     cpf = input("Digite o seu CPF: ") # São string pois não vou usar esses dados para fazer operações matemáticas.
@@ -52,7 +52,7 @@ def novo_usuario_2():
     print("Seus dados foram cadastrados com sucesso!")
     print("Dê uma conferida:")
     print("")
-    # mostrnado os daods que o usuário introduziu no programa:
+    # mostrnado os dados que o usuário introduziu no programa:
     print(" _________________________________________________")
     print("                                                  ")
     print("             Nome da empresa/ou MEI: %s           "%nome_empresa)
