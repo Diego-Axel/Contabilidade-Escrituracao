@@ -109,5 +109,4 @@ def livro_diario_1():
         print("Não foi colocado o que se pede.")
 
 
-
-        
+# FIM DE FUNÇÕES DIÁRIO        
