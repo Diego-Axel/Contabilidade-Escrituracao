@@ -108,4 +108,6 @@ def livro_diario_1():
     else:
         print("Não foi colocado o que se pede.")
 
+
+
         
