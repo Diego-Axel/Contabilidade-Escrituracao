@@ -75,6 +75,7 @@ def livro_diario_1():
                 enter1 = input("APERTE ENTER PARA FECHAR ")
 
             elif tipo_conta in c1:
+                tipo_conta = tipo_conta.upper()
                 print("Escolha = %s"%tipo_conta)
                 conta_c1 = input("Digite o nome da sua conta C: ")
                 valor_c1 = float(input("Digite o valor dessa conta: "))
@@ -111,8 +112,31 @@ def livro_diario_1():
 
             if tipo_conta in d1:
                 tipo_conta = tipo_conta.upper()
+                print("Escolha = %s"%tipo_conta)
+                conta_d1 = input("Digite o nome da sua conta D: ")
+                valor_d1 = float(input("Digite o valor dessa conta: "))
+                print("")
+                tipo_conta2 = input("Escolha qual o tipo da próxima conta que deseja adicionar a operação(D/C): ")
+
+                d2 = ["Débito","débito","Debito","debito","D","d"]
+
+                c2 = ["Crédito","crédito","Credito","credito","C","c"]
+
+
+            elif tipo_conta in c1:
+                tipo_conta = tipo_conta.upper()
+                print("Escolha = %s"%tipo_conta)
+                conta_c1 = input("Digite o nome da sua conta C: ")
+                valor_c1 = float(input("Digite o valor dessa conta: "))
+                print("")
+                tipo_conta2 = input("Escolha qual o tipo da próxima conta que deseja adicionar a operação(D/C): ")
+
+                d2 = []
+
+                c2 = []
+
                 
-                
+
 
         # fim -> condiconais 2
         else:
