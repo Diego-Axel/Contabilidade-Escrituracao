@@ -70,6 +70,7 @@ def livro_diario_1():
                 print("C\t-\t\t%s\tR$%0.3f"%(conta_c_main,valor_c_main))
                 print("Histórico:\t%s"%historico1)
                 print("")
+                print("CARREGANDO...")
                 time.sleep(4)
                 enter1 = input("APERTE ENTER PARA FECHAR ")
 
@@ -86,6 +87,7 @@ def livro_diario_1():
                 print("C\t-\t\t%s\tR$%0.3f"%(conta_c1,valor_c1))
                 print("Histórico:\t%s"%historico1)
                 print("")
+                print("CARREGANDO...")
                 time.sleep(4)
                 enter1 = input("APERTE ENTER PARA FECHAR ")
 
