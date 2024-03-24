@@ -101,6 +101,10 @@ def livro_diario_1():
             print("")
             tipo_conta = input("Escolha qual o tipo da próxima conta que deseja adicionar a operção(D/C): ")
 
+            d1 = ["Débito","débito","Debito","debito","D","d"]
+
+            
+
         # fim -> condiconais 2
         else:
             print("Não foi colocado o que se pede.")
