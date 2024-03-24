@@ -103,6 +103,8 @@ def livro_diario_1():
 
             d1 = ["Débito","débito","Debito","debito","D","d"]
 
+            c1 = ["Crédito","crédito","Credito","credito","C","c"]
+
             
 
         # fim -> condiconais 2
