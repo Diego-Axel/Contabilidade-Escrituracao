@@ -194,7 +194,7 @@ def livro_diario_1():
 
                 if tipo_conta2 in c2:
                     tipo_conta2 = tipo_conta2.upper()
-                    print("")
+                    
 
                 
 
