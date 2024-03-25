@@ -140,6 +140,26 @@ def livro_diario_1():
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA FECHAR ")
+                
+                elif tipo_conta2 in c2:
+                    tipo_conta2 = tipo_conta2.upper()
+                    print("Escolha = %s"%tipo_conta)
+                    conta_c2 = input("Digite o nome da sua conta D: ")
+                    valor_c2 = float(input("Digite o valor dessa conta: "))
+                    print("")
+                    historico1 = input("Digite o histórico desta operação: ")
+                    print("")
+                    print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
+                    print("D\t-\t\t%s\tR$%0.3f"%(conta_d_main,valor_d_main))
+                    print("D\t-\t\t%s\tR$%0.3f"%(conta_d1,valor_d1))
+                    print("C\t-\t\t%s\tR$%0.3f"%(conta_c_main,valor_c_main))
+                    print("C\t-\t\t%s\tR$%0.3f"%(conta_c2,valor_c2))
+                    print("Histórico:\t%s"%historico1)
+                    print("")
+                    print("CARREGANDO...")
+                    time.sleep(4)
+                    enter1 = input("APERTE ENTER PARA FECHAR ")
+
 
 
 
@@ -155,6 +175,10 @@ def livro_diario_1():
                 d2 = ["Débito","débito","Debito","debito","D","d"]
 
                 c2 = ["Crédito","crédito","Credito","credito","C","c"]
+
+                if tipo_conta2 in c2:
+                    tipo_conta2 = tipo_conta2.upper()
+                    print("")
 
                 
 
