@@ -20,7 +20,10 @@ def livro_diario_1():
     |_______||__|     \__/     | _| `._____| \______/     |_______/ |__| /__/     \__\ | _| `._____||__|  \______/ 
  
     """)
+
+    print("CARREGANDO...")
     time.sleep(4)
+    os.system('clear || cls')
 
 
     print("_______________________")
@@ -49,7 +52,7 @@ def livro_diario_1():
             print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
             print("D\t-\t%s\tR$%0.3f"%(conta_d_main,valor_d_main))
             print("C\t-\t%s\tR$%0.3f"%(conta_c_main,valor_c_main))
-            print("Histórico:\t%s"%historico1)
+            print("Histórico:%s"%historico1)
             print("")
             print("CARREGANDO...")
             time.sleep(4)
