@@ -170,7 +170,7 @@ def livro_diario_1():
                     print("D\t-\t\t%s\tR$%0.3f"%(conta_d1,valor_d1))
                     print("C\t-\t\t%s\tR$%0.3f"%(conta_c_main,valor_c_main))
                     print("C\t-\t\t%s\tR$%0.3f"%(conta_c2,valor_c2))
-                    print("Histórico:\t%s"%historico1)
+                    print("Histórico: %s"%historico1)
                     print("")
                     print("CARREGANDO...")
                     time.sleep(4)
