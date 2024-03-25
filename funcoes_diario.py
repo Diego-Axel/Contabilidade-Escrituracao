@@ -10,6 +10,15 @@ ano = data.year
 
 def livro_diario_1():
     os.system('clear || cls')
+
+    print("""
+
+
+
+    
+    """)
+
+
     print("_______________________")
     print("|                     |")
     print("|    LIVRO DIÁRIO     |")
