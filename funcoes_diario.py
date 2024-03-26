@@ -235,3 +235,5 @@ def livro_diario_1():
 
 
 # FIM DE FUNÇÕES DIÁRIO        
+
+# OBS: Eu ainda vou fazer muito mais por aqui, mas, como ainda estou na fase de testes, estou fazendo com um tamanho reduzido.
