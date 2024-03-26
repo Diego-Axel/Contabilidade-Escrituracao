@@ -2,13 +2,14 @@ import datetime # biblioteca para puxar a data do computador
 import os # biblioteca para que tudo que estiver acima dela suma, deixa visualmente mais limpo
 import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
 
+
 data = datetime.date.today()
 
 dia = data.day
 mes = data.month
 ano = data.year
 
-def livro_diario_1():
+def livro_diario():
     os.system('clear || cls')
 
     print("""
@@ -22,6 +23,7 @@ def livro_diario_1():
     """)
 
     print("CARREGANDO...")
+    print("")
     time.sleep(4)
     os.system('clear || cls')
 
@@ -57,6 +59,7 @@ def livro_diario_1():
             print("CARREGANDO...")
             time.sleep(4)
             enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
+            print("")
 
         elif numero_contas == 1:
             print("")
@@ -89,6 +92,7 @@ def livro_diario_1():
                 print("CARREGANDO...")
                 time.sleep(4)
                 enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
+                print("")
 
             elif tipo_conta in c1:
                 tipo_conta = tipo_conta.upper()
@@ -107,6 +111,7 @@ def livro_diario_1():
                 print("CARREGANDO...")
                 time.sleep(4)
                 enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
+                print("")
 
             # fim -> condiconais 2
             else:
@@ -156,6 +161,7 @@ def livro_diario_1():
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
+                    print("")
                 
                 elif tipo_conta2 in c2:
                     tipo_conta2 = tipo_conta2.upper()
@@ -175,6 +181,7 @@ def livro_diario_1():
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
+                    print("")
 
             elif tipo_conta in c1:
                 tipo_conta = tipo_conta.upper()
@@ -207,6 +214,7 @@ def livro_diario_1():
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
+                    print("")
 
                 elif tipo_conta2 in d2:
                     tipo_conta2 = tipo_conta2.upper()
@@ -225,6 +233,7 @@ def livro_diario_1():
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
+                    print("")
                     
         # fim -> condiconais 2
         else:
@@ -233,6 +242,9 @@ def livro_diario_1():
     else:
         print("Não foi colocado o que se pede.")
 
+    print("CARREGANDO...")
+    print("")
+    time.sleep(.4)
 
 # FIM DE FUNÇÕES DIÁRIO        
 
