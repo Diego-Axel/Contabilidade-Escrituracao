@@ -61,7 +61,7 @@ def livro_diario():
             enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
             print("")
 
-        elif numero_contas == 1:
+        elif (numero_contas == 1):
             print("")
             conta_d_main = input("Digite o nome da sua conta D: ")
             valor_d_main = float(input("Digite o valor dessa conta: "))
