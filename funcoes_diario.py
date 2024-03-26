@@ -206,7 +206,7 @@ def livro_diario_1():
                     print("")
                     print("CARREGANDO...")
                     time.sleep(4)
-                    enter1 = input("APERTE ENTER PARA FECHAR ")
+                    enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
 
                 elif tipo_conta2 in d2:
                     tipo_conta2 = tipo_conta2.upper()
@@ -224,7 +224,7 @@ def livro_diario_1():
                     print("")
                     print("CARREGANDO...")
                     time.sleep(4)
-                    enter1 = input("APERTE ENTER PARA FECHAR ")
+                    enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
                     
         # fim -> condiconais 2
         else:
