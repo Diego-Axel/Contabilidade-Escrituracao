@@ -38,7 +38,7 @@ def livro_diario():
     print("")
 
     # condicionais 1
-    if numero_operacoes == 1:
+    if (numero_operacoes == 1):
         numero_contas = int(input("Quantas contas você deseja adiconar em %d operação(ões): "%numero_operacoes))
         # condicionais 2
         if numero_contas == 0:
