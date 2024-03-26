@@ -11,6 +11,7 @@ def usuario_existente_1():
     print("Bem vindo(a) de volta!") # quando tiver com os dados e nome da empresa ou do mei fazer com a frase apareça "Bem vindop(a) NOME"
     print("")
     print("CARREGANDO...")
+    print("")
     time.sleep(4)
 
 def novo_usuario_2():
