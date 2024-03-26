@@ -8,8 +8,9 @@
 # OBS: Estou refazendo... Motivos? -> Posso melhorar
 
 # imports:
-import cliente # fazendo importação do arquivo onde ficará as funções do CLIENTE (modularizando)
-import funcoes_diario # fazendoimportação do arquivo onde ficará as funções (modularizando)
+import cliente # fazendo a importação do arquivo onde ficará as funções do cliente (modularizando)
+import funcoes_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
+import funcoes_razao # fazendo a importação do arquivo onde ficará as funções do razão (modularizando)
 import datetime # biblioteca para puxar a data do computador
 import os # biblioteca para que tudo que estiver acima dela suma, deixa visualmente mais limpo
 import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
@@ -40,10 +41,11 @@ print("") # espaços para evitar ficar colado
 print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
 print("")
 print("CARREGANDO...")
+print("")
 time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 
 # começo do While 1:
-client = True
+client_modulo = True
 while True < 3:
     # solicitar ao usuário que escolha um dos dois môdulos:
     os.system('clear || cls')
@@ -72,41 +74,24 @@ while True < 3:
 
 print("")
 
-# começo do while 2 
-escolh = True
-while True < 5:
-    # solicitar ao usuário que escolha um dos dois môdulos:
-    os.system('clear || cls')
-    print("|--------------------|")
-    print("| Escolha um môdulo: |")
-    print("|--------------------|")
-    print("") 
-    print("1. Livro Diário")
-    print("2. Livrro Razão")
-    print("3. Balancete")
-    print("4. Balanço Patrimônial")
-    print("5. Sair") 
-    print("")
-    time.sleep(.3)
 
-    escolha_2 = int(input("Digite o môdulo desejado (ou 5 para sair): "))
-    print("")
+os.system('clear || cls')
+print("|------------------------------------------------|")
+print("| Môdulos que iram ser executados (em sequência) |")
+print("|------------------------------------------------|")
+print("") 
+print("1. Livro Diário")
+print("2. Livrro Razão")
+print("3. Balancete (Opcional)")
+print("4. Balanço Patrimônial")
+print("")
+print("CARREGANDO...")
+print("")
+time.sleep(8)
 
-    if escolha_2 == 1:
-        funcoes_diario.livro_diario_1()
-    
-    elif escolha_2 == 2:
-        print("") # usarei depois...
-    
-    elif escolha_2 == 3:
-        print("") # usarei depois...
-    
-    elif escolha_2 == 4:
-        print("") # usarei depois...
+print(funcoes_diario.livro_diario()) 
+print(funcoes_razao.livro_razao())  
 
-    else:
-        print("Encerrando o programa, até breve!")
-        break 
 
 
 # em desenvolvimento...
