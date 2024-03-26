@@ -117,7 +117,7 @@ def livro_diario():
             else:
                 print("Não foi colocado o que se pede.")    
         
-        elif numero_contas == 2:
+        elif (numero_contas == 2):
             print("")
             conta_d_main = input("Digite o nome da sua conta D: ")
             valor_d_main = float(input("Digite o valor dessa conta: "))
