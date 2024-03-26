@@ -12,7 +12,7 @@ import cliente # fazendo a importação do arquivo onde ficará as funções do 
 import funcoes_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
 import funcoes_razao # fazendo a importação do arquivo onde ficará as funções do razão (modularizando)
 import datetime # biblioteca para puxar a data do computador
-import os # biblioteca para que tudo que estiver acima dela suma, deixa visualmente mais limpo
+import os # biblioteca para interagir com o sistema operacional, estou usando para que tudo que esteja acima dela, seja limpo(console ou terminal). fica mais "limpo" de se vizualizar
 import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
 
 data = datetime.date.today()
@@ -22,7 +22,7 @@ mes = data.month
 ano = data.year
 
 # INICIO
-os.system('clear || cls') # limpar a tela do TERMINAL
+os.system('clear || cls') # limpar a tela do console ou terminal, tanto em sistema operacional Windows quanto em Linux
 
 print("""
     ________________________________________________________________________________________________________________
@@ -70,7 +70,7 @@ while True < 3:
         break
 
     else:
-        print("") 
+        print("Não foi colocado o que se pede.") 
 
 print("")
 
@@ -89,8 +89,9 @@ print("CARREGANDO...")
 print("")
 time.sleep(8)
 
+# execução dos môdulos referentes a escrituração:
 print(funcoes_diario.livro_diario()) 
-print(funcoes_razao.livro_razao())  
+print(funcoes_razao.livro_razao()) 
 
 
 
