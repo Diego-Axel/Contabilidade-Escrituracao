@@ -195,10 +195,10 @@ def livro_diario():
 
                 c2 = ["Crédito","crédito","Credito","credito","C","c"]
 
-                if tipo_conta2 in c2:
+                if (tipo_conta2 in c2):
                     tipo_conta2 = tipo_conta2.upper()
                     print("Escolha = %s"%tipo_conta2)
-                    conta_c2 = input("Digite o nome da sua conta: ")
+                    conta_c2 = input("Digite o nome da sua conta C: ")
                     valor_c2 = float(input("Digite o valor dessa conta: "))
                     print("")
                     historico1 = input("Digite o histórico desta operação: ")
