@@ -56,7 +56,7 @@ def livro_diario_1():
             print("")
             print("CARREGANDO...")
             time.sleep(4)
-            enter1 = input("APERTE ENTER PARA FECHAR ")
+            enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
 
         elif numero_contas == 1:
             print("")
@@ -88,7 +88,7 @@ def livro_diario_1():
                 print("")
                 print("CARREGANDO...")
                 time.sleep(4)
-                enter1 = input("APERTE ENTER PARA FECHAR ")
+                enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
 
             elif tipo_conta in c1:
                 tipo_conta = tipo_conta.upper()
@@ -106,7 +106,7 @@ def livro_diario_1():
                 print("")
                 print("CARREGANDO...")
                 time.sleep(4)
-                enter1 = input("APERTE ENTER PARA FECHAR ")
+                enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
 
             # fim -> condiconais 2
             else:
@@ -155,7 +155,7 @@ def livro_diario_1():
                     print("")
                     print("CARREGANDO...")
                     time.sleep(4)
-                    enter1 = input("APERTE ENTER PARA FECHAR ")
+                    enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
                 
                 elif tipo_conta2 in c2:
                     tipo_conta2 = tipo_conta2.upper()
@@ -174,7 +174,7 @@ def livro_diario_1():
                     print("")
                     print("CARREGANDO...")
                     time.sleep(4)
-                    enter1 = input("APERTE ENTER PARA FECHAR ")
+                    enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
 
             elif tipo_conta in c1:
                 tipo_conta = tipo_conta.upper()
