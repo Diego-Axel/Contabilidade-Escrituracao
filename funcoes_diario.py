@@ -1,5 +1,5 @@
 import datetime # biblioteca para puxar a data do computador
-import os # biblioteca para que tudo que estiver acima dela suma, deixa visualmente mais limpo
+import os # biblioteca para interagir com o sistema operacional, estou usando para que tudo que esteja acima dela, seja removido. fica mais "limpo" de se vizualizar
 import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
 
 
@@ -145,8 +145,8 @@ def livro_diario():
 
                 if tipo_conta2 in d2:
                     tipo_conta2 = tipo_conta2.upper()
-                    print("Escolha = %s"%tipo_conta)
-                    conta_d2 = input("Digite o nome da sua conta D: ")
+                    print("Escolha = %s"%tipo_conta2)
+                    conta_d2 = input("Digite o nome da sua conta: ")
                     valor_d2 = float(input("Digite o valor dessa conta: "))
                     print("")
                     historico1 = input("Digite o histórico desta operação: ")
@@ -165,8 +165,8 @@ def livro_diario():
                 
                 elif tipo_conta2 in c2:
                     tipo_conta2 = tipo_conta2.upper()
-                    print("Escolha = %s"%tipo_conta)
-                    conta_c2 = input("Digite o nome da sua conta D: ")
+                    print("Escolha = %s"%tipo_conta2)
+                    conta_c2 = input("Digite o nome da sua conta: ")
                     valor_c2 = float(input("Digite o valor dessa conta: "))
                     print("")
                     historico1 = input("Digite o histórico desta operação: ")
@@ -186,7 +186,7 @@ def livro_diario():
             elif tipo_conta in c1:
                 tipo_conta = tipo_conta.upper()
                 print("Escolha = %s"%tipo_conta)
-                conta_c1 = input("Digite o nome da sua conta C: ")
+                conta_c1 = input("Digite o nome da sua conta: ")
                 valor_c1 = float(input("Digite o valor dessa conta: "))
                 print("")
                 tipo_conta2 = input("Escolha qual o tipo da próxima conta que deseja adicionar a operação(D/C): ")
@@ -197,9 +197,8 @@ def livro_diario():
 
                 if tipo_conta2 in c2:
                     tipo_conta2 = tipo_conta2.upper()
-                    tipo_conta2 = tipo_conta2.upper()
-                    print("Escolha = %s"%tipo_conta)
-                    conta_c2 = input("Digite o nome da sua conta D: ")
+                    print("Escolha = %s"%tipo_conta2)
+                    conta_c2 = input("Digite o nome da sua conta: ")
                     valor_c2 = float(input("Digite o valor dessa conta: "))
                     print("")
                     historico1 = input("Digite o histórico desta operação: ")
@@ -218,8 +217,8 @@ def livro_diario():
 
                 elif tipo_conta2 in d2:
                     tipo_conta2 = tipo_conta2.upper()
-                    print("Escolha = %s"%tipo_conta)
-                    conta_d2 = input("Digite o nome da sua conta D: ")
+                    print("Escolha = %s"%tipo_conta2)
+                    conta_d2 = input("Digite o nome da sua conta: ")
                     valor_d2 = float(input("Digite o valor dessa conta: "))
                     print("")
                     historico1 = input("Digite o histórico desta operação: ")
@@ -227,7 +226,7 @@ def livro_diario():
                     print("D\t-\t%s\t\tR$%0.3f"%(conta_d_main,valor_d_main))
                     print("D\t-\t%s\t\tR$%0.3f"%(conta_d2,valor_d2))
                     print("C\t-\t%s\t\tR$%0.3f"%(conta_c_main,valor_c_main))
-                    print("C\t-\t%s\t\tR$%0.3f"%(conta_c2,valor_c2))
+                    print("C\t-\t%s\t\tR$%0.3f"%(conta_c1,valor_c1))
                     print("Histórico: %s"%historico1)
                     print("")
                     print("CARREGANDO...")
@@ -238,13 +237,15 @@ def livro_diario():
         # fim -> condiconais 2
         else:
             print("Não foi colocado o que se pede.")
+
     # fim -> condiconais 1
     else:
         print("Não foi colocado o que se pede.")
 
-    print("CARREGANDO...")
-    print("")
-    time.sleep(.4)
+print("")
+print("CARREGANDO...")
+print("")
+time.sleep(.4)
 
 # FIM DE FUNÇÕES DIÁRIO        
 
