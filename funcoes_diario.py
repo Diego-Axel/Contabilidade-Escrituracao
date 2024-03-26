@@ -225,11 +225,7 @@ def livro_diario_1():
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA FECHAR ")
-
-
-                
-
-
+                    
         # fim -> condiconais 2
         else:
             print("Não foi colocado o que se pede.")
