@@ -94,7 +94,7 @@ def livro_diario():
                 enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
                 print("")
 
-            elif tipo_conta in c1:
+            elif (tipo_conta in c1):
                 tipo_conta = tipo_conta.upper()
                 print("Escolha = %s"%tipo_conta)
                 conta_c1 = input("Digite o nome da sua conta C: ")
