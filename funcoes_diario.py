@@ -215,10 +215,10 @@ def livro_diario():
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
                     print("")
 
-                elif tipo_conta2 in d2:
+                elif (tipo_conta2 in d2):
                     tipo_conta2 = tipo_conta2.upper()
                     print("Escolha = %s"%tipo_conta2)
-                    conta_d2 = input("Digite o nome da sua conta: ")
+                    conta_d2 = input("Digite o nome da sua conta D: ")
                     valor_d2 = float(input("Digite o valor dessa conta: "))
                     print("")
                     historico1 = input("Digite o histórico desta operação: ")
