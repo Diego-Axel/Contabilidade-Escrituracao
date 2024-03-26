@@ -1,5 +1,5 @@
 
-import os # biblioteca para que tudo que estiver acima dela suma, deixa visualmente mais limpo
+import os # biblioteca para interagir com o sistema operacional, estou usando para que tudo que esteja acima dela, seja removido. fica mais "limpo" de se vizualizar
 import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
 
 def usuario_existente_1():
