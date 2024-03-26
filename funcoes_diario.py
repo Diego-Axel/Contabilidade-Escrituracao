@@ -131,7 +131,7 @@ def livro_diario():
 
             c1 = ["Crédito","crédito","Credito","credito","C","c"]
 
-            if tipo_conta in d1:
+            if (tipo_conta in d1):
                 tipo_conta = tipo_conta.upper()
                 print("Escolha = %s"%tipo_conta)
                 conta_d1 = input("Digite o nome da sua conta D: ")
