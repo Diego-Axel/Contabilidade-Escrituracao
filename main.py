@@ -89,6 +89,8 @@ print("CARREGANDO...")
 print("")
 time.sleep(8)
 
+os.system('clear || cls')
+
 # execução dos môdulos referentes a escrituração:
 print(funcoes_diario.livro_diario()) 
 print(funcoes_razao.livro_razao()) 
