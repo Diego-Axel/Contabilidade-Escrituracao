@@ -91,14 +91,14 @@ print("")
 time.sleep(8)
 os.system('clear || cls')
 
-print("Eis o modelo de cada um dos passos apresentados:\nOBS: OS NOMES E QUNATIDADES SÃO APENAS EXEMPLOS.")
+print("Embaixo está o modelo de cada um dos passos apresentados:\nOBS: OS NOMES E QUNATIDADES SÃO APENAS EXEMPLOS.")
 time.sleep(5)
 os.system('clear || cls')
 
 
 print("""
       
-    |         LIVRO DIÁRIO          |
+            |         LIVRO DIÁRIO          |
       
       data da operação: xx/xx/xxxx
       D - xxxx - R$ xx.xxx,xx
@@ -128,7 +128,7 @@ os.system('clear || cls')
 
 print("""
 
-    |       BALANCETE(OPCIONAL)       |
+            |       BALANCETE(OPCIONAL)       |
     
     ____________________________________________________
     |     CONTAS     |              SALDOS             |
@@ -140,15 +140,22 @@ print("""
     |    Veículos    | R$ xx.xxxx,xx  |                |
     | Contas a pagar |                | R$ xx.xxxx,xx  |
     |________________|________________|________________|
-    |______TOTAL_____|________________|________________|
+    |______TOTAL_____|________________|_____ TOTAL_____|
+    |__R$_xx.xxx,xx__|________=_______|__R$_xx.xxx,xx__|
 
-
-
-
-    
     """)
 time.sleep(4)
 os.system('clear || cls')
+
+print("""
+
+            |       BALANÇO PATRIMÔNIAL       |
+    ____________________________________________________
+
+
+    
+
+    """)
 
 # execução dos môdulos referentes a escrituração:
 print(funcoes_diario.livro_diario()) 
