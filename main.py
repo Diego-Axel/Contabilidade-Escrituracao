@@ -128,7 +128,7 @@ os.system('clear || cls')
 
 print("""
 
-            |       BALANCETE(OPCIONAL)       |
+             |       BALANCETE(OPCIONAL)       |
     
     ____________________________________________________
     |     CONTAS     |              SALDOS             |
