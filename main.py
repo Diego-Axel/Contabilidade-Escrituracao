@@ -100,11 +100,11 @@ print("""
       
     |         LIVRO DIÁRIO          |
       
-    data da operação: xx/xx/xxxx
-    D - xxxx - R$ xx.xxx,xx
-    C - xxxx - R$ xx.xxx,xx
-    histórico: xxxxxxxxxxxx
-    (Pode ter mais de uma conta de débito e crédito.)
+      data da operação: xx/xx/xxxx
+      D - xxxx - R$ xx.xxx,xx
+      C - xxxx - R$ xx.xxx,xx
+      histórico: xxxxxxxxxxxx
+      (Pode ter mais de uma conta de débito e crédito.)
           
     """)
 time.sleep(4)
@@ -116,15 +116,34 @@ print("""
     
     _________________CAIXA___________________
       R$ xx.xxx,xx     |     R$ xx.xxx,xx
-
+                       |
+                       |
+                       |
+                       |
+    ______TOTAL__________________TOTAL________
 
     
 
 
 
     """)
-
+time.sleep(4)
 os.system('clear || cls')
+
+print("""
+
+    |       BALANCETE(OPCIONAL)       |
+    
+    ____________________________________________________
+    |     CONTAS     |              SALDOS             |
+    |________________|_____Débtios____|____Créditos____|
+    |     caixa      | 
+
+
+
+
+    
+    """)
 
 # execução dos môdulos referentes a escrituração:
 print(funcoes_diario.livro_diario()) 
