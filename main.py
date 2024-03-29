@@ -90,6 +90,21 @@ print("CARREGANDO...")
 print("")
 time.sleep(8)
 
+print("Eis o modelo de cada um dos passos apresentados:")
+print("""
+
+
+
+
+
+
+
+
+
+
+
+    """)
+
 os.system('clear || cls')
 
 # execução dos môdulos referentes a escrituração:
