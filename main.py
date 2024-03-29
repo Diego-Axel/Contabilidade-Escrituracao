@@ -142,6 +142,7 @@ print("""
     |________________|________________|________________|
     |______TOTAL_____|________________|_____ TOTAL_____|
     |__R$_xx.xxx,xx__|________=_______|__R$_xx.xxx,xx__|
+    |________________|________________|________________|
 
     """)
 time.sleep(4)
@@ -166,10 +167,9 @@ print("""
     |___TOTAL ATIVOS (R$)___|___TOTAL PASSIVOS + PL____|
     |_______________________|__________________________|
 
-
-    
-
     """)
+time.sleep(4)
+os.system('clear || cls')
 
 # execução dos môdulos referentes a escrituração:
 print(funcoes_diario.livro_diario()) 
