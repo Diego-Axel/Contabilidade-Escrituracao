@@ -87,9 +87,13 @@ print("4. Balanço Patrimônial")
 print("")
 print("")
 print("CARREGANDO...")
+print("")
 time.sleep(8)
+os.system('clear || cls')
 
 print("Eis o modelo de cada um dos passos apresentados:\nOBS: OS NOMES E QUNATIDADES SÃO APENAS EXEMPLOS.")
+time.sleep(5)
+os.system('clear || cls')
 
 
 print("""
@@ -108,7 +112,7 @@ os.system('clear || cls')
 
 print("""
 
-    |         LIVRO RAZÃO          |
+        |         LIVRO RAZÃO           |
     
     _________________CAIXA___________________
       R$ xx.xxx,xx     |     R$ xx.xxx,xx
