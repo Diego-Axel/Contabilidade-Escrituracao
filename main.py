@@ -38,7 +38,7 @@ print("""
 """)
  
 print("") # espaços para evitar ficar colado
-print("Antes de prosseguir, por favor realize o logins ou entre com um usuário existente.")
+print("Antes de prosseguir, por favor realize o login ou entre com um usuário existente.")
 print("")
 print("CARREGANDO...")
 print("")
@@ -57,7 +57,7 @@ while True < 3:
     print("2. Usuário Novo")
     print("") 
     
-    escolha = int(input("Digite o môdulo desejado: "))
+    escolha = int(input("Digite a forma de login desejada: "))
     print("") 
     time.sleep(.3) 
 
@@ -88,10 +88,10 @@ print("")
 print("")
 print("CARREGANDO...")
 print("")
-time.sleep(8)
+time.sleep(7)
 os.system('clear || cls')
 
-print("Embaixo está o modelo de cada um dos passos apresentados:\nOBS: OS NOMES E QUNATIDADES SÃO APENAS EXEMPLOS.")
+print("Embaixo está o modelo de cada um dos passos apresentados:\nOBS: OS NOMES E QUANTIDADES SÃO APENAS EXEMPLOS!")
 time.sleep(5)
 os.system('clear || cls')
 
@@ -172,6 +172,7 @@ time.sleep(4)
 os.system('clear || cls')
 
 # execução dos môdulos referentes a escrituração:
+time.sleep(.3)
 print(funcoes_diario.livro_diario()) 
 print(funcoes_razao.livro_razao()) 
 
