@@ -137,7 +137,14 @@ print("""
     ____________________________________________________
     |     CONTAS     |              SALDOS             |
     |________________|_____Débtios____|____Créditos____|
-    |     caixa      | 
+    |     Caixa      | R$ xx.xxxx,xx  |                |
+    |     Banco      | R$ xx.xxxx,xx  |                |
+    |   Fornecedor   |                | R$ xx.xxxx,xx  |
+    |    Estoques    | R$ xx.xxxx,xx  |                | 
+    |    Veículos    | R$ xx.xxxx,xx  |                |
+    | Contas a pagar |                | R$ xx.xxxx,xx  |
+    |________________|________________|________________|
+    |______TOTAL_____|________________|________________|
 
 
 
