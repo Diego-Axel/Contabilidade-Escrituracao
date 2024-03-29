@@ -122,10 +122,6 @@ print("""
                        |
     ______TOTAL__________________TOTAL________
 
-    
-
-
-
     """)
 time.sleep(4)
 os.system('clear || cls')
@@ -151,6 +147,8 @@ print("""
 
     
     """)
+time.sleep(4)
+os.system('clear || cls')
 
 # execução dos môdulos referentes a escrituração:
 print(funcoes_diario.livro_diario()) 
