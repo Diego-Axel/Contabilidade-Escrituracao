@@ -38,7 +38,7 @@ print("""
 """)
  
 print("") # espaços para evitar ficar colado
-print("Antes de prosseguir, por favor insira qual môdulo você quer escolher: ")
+print("Antes de prosseguir, por favor realize o logins ou entre com um usuário existente.")
 print("")
 print("CARREGANDO...")
 print("")
@@ -49,9 +49,9 @@ client_modulo = True
 while True < 3:
     # solicitar ao usuário que escolha um dos dois môdulos:
     os.system('clear || cls')
-    print("|--------------------|")
-    print("| Escolha um môdulo: |")
-    print("|--------------------|")
+    print("|-----------------------------|")
+    print("| Escolha uma forma de Login: |")
+    print("|-----------------------------|")
     print("") 
     print("1. Usuário Existente")
     print("2. Usuário Novo")
