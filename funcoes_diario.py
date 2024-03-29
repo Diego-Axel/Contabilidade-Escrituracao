@@ -43,6 +43,7 @@ def livro_diario():
         numero_contas = int(input("Quantas contas você deseja adiconar em %d operação(ões): "%numero_operacoes))
         # condicionais 2
         if numero_contas == 0:
+            os.system('clear || cls')
 
             print("")
             conta_d_main = input("Digite o nome da sua conta D: ")
@@ -123,6 +124,7 @@ def livro_diario():
                 print("Não foi colocado o que se pede.")    
         
         elif (numero_contas == 2):
+            os.system('clear || cls')
 
             print("")
             conta_d_main = input("Digite o nome da sua conta D: ")
