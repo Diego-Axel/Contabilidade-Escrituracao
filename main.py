@@ -89,7 +89,8 @@ print("")
 print("CARREGANDO...")
 time.sleep(8)
 
-print("Eis o modelo de cada um dos passos apresentados:")
+print("Eis o modelo de cada um dos passos apresentados:\nOBS: OS NOMES E QUNATIDADES SÃO APENAS EXEMPLOS.")
+
 
 print("""
       
@@ -103,10 +104,14 @@ print("""
           
     """)
 time.sleep(4)
+os.system('clear || cls')
 
 print("""
 
-    |
+    |         LIVRO RAZÃO          |
+    
+    _________________CAIXA___________________
+      R$ xx.xxx,xx     |     R$ xx.xxx,xx
 
 
     
