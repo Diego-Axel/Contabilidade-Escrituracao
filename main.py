@@ -91,7 +91,7 @@ print("")
 time.sleep(7)
 os.system('clear || cls')
 
-print("Embaixo está o modelo de cada um dos passos apresentados:\nOBS: OS NOMES E QUANTIDADES SÃO APENAS EXEMPLOS!")
+print("Embaixo está os modelos de cada um dos passos apresentados:\nOBS: OS NOMES E QUANTIDADES SÃO APENAS EXEMPLOS!")
 time.sleep(5)
 os.system('clear || cls')
 
@@ -105,6 +105,9 @@ print("""
       C - xxxx - R$ xx.xxx,xx
       histórico: xxxxxxxxxxxx
       (Pode ter mais de uma conta de débito e crédito.)
+
+    
+    CARREGANDO EXEMPLO LIVRO RAZÃO...
           
     """)
 time.sleep(4)
@@ -120,7 +123,10 @@ print("""
                        |
                        |
                        |
-    ______TOTAL__________________TOTAL________
+    ______TOTAL________|_________TOTAL________
+      
+
+    CARREGANDO EXEMPLO BALANCETE...
 
     """)
 time.sleep(4)
@@ -143,6 +149,9 @@ print("""
     |______TOTAL_____|________________|_____ TOTAL_____|
     |__R$_xx.xxx,xx__|________=_______|__R$_xx.xxx,xx__|
     |________________|________________|________________|
+      
+    
+    CARREGANDO EXEMPLO BALANÇO PATRIMÔNIAL...
 
     """)
 time.sleep(4)
@@ -166,6 +175,9 @@ print("""
     |_______________________|__________________________|
     |___TOTAL ATIVOS (R$)___|___TOTAL PASSIVOS + PL____|
     |_______________________|__________________________|
+      
+    
+    CARREGANDO 1º MÔDULO (LIVRO DIÁRIO)...
 
     """)
 time.sleep(4)
