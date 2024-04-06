@@ -8,7 +8,6 @@
 # OBS: Estou refazendo... Motivos? -> Posso melhorar
 # Em desenvolvimento :)
 
-
 # imports:
 import cliente # fazendo a importação do arquivo onde ficará as funções do cliente (modularizando)
 import funcoes_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
