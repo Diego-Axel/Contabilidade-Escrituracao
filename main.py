@@ -6,6 +6,7 @@
 ############################################################
 
 # OBS: Estou refazendo... Motivos? -> Posso melhorar
+# Em desenvolvimento :)
 
 # imports:
 import cliente # fazendo a importação do arquivo onde ficará as funções do cliente (modularizando)
