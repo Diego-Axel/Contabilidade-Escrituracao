@@ -38,11 +38,11 @@ print("""
       
 """)
  
-print("") # espaços para evitar ficar colado
+print() # espaços para evitar ficar colado
 print("Antes de prosseguir, por favor realize o login ou entre com um usuário existente.")
-print("")
+print()
 print("CARREGANDO...")
-print("")
+print()
 time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 
 # começo do While 1:
