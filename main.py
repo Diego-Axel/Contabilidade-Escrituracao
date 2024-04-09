@@ -64,7 +64,7 @@ while client_modulo <= 2:
 
     if client_modulo == 1:
         cliente.usuario_existente_1()
-        break 
+         
     
     elif client_modulo == 2:
         cliente.novo_usuario_2()
