@@ -47,7 +47,7 @@ time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir
 
 # começo do While 1:
 client_modulo = 0
-while client_modulo < 3:
+while client_modulo <= 2:
     # solicitar ao usuário que escolha um dos dois môdulos:
     os.system('clear || cls')
     print("|-----------------------------|")
