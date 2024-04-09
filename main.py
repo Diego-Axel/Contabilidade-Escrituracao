@@ -64,11 +64,11 @@ while client_modulo <= 2:
 
     if client_modulo == 1:
         cliente.usuario_existente_1()
-         
+        client_modulo = client_modulo + 2
     
     elif client_modulo == 2:
         cliente.novo_usuario_2()
-        break
+        client_modulo = client_modulo + 2
 
     else:
         print("Não foi colocado o que se pede.") 
