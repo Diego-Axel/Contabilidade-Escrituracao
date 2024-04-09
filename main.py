@@ -58,15 +58,15 @@ while client_modulo < 3:
     print("2. Usuário Novo")
     print("") 
     
-    escolha = int(input("Digite a forma de login desejada: "))
+    client_modulo = int(input("Digite a forma de login desejada: "))
     print("") 
     time.sleep(.3) 
 
-    if escolha == 1:
+    if client_modulo == 1:
         cliente.usuario_existente_1()
         break 
     
-    elif escolha == 2:
+    elif client_modulo == 2:
         cliente.novo_usuario_2()
         break
 
