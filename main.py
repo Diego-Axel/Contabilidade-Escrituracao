@@ -53,13 +53,13 @@ while client_modulo <= 2:
     print("|-----------------------------|")
     print("| Escolha uma forma de Login: |")
     print("|-----------------------------|")
-    print("") 
+    print() 
     print("1. Usuário Existente")
     print("2. Usuário Novo")
-    print("") 
+    print() 
     
     client_modulo = int(input("Digite a forma de login desejada: "))
-    print("") 
+    print() 
     time.sleep(.3) 
 
     if client_modulo == 1:
@@ -73,7 +73,7 @@ while client_modulo <= 2:
     else:
         print("Não foi colocado o que se pede.") 
 
-print("")
+print()
 
 
 os.system('clear || cls')
