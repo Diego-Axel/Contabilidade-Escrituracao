@@ -46,8 +46,8 @@ print()
 time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 
 # começo do While 1:
-client_modulo = True
-while client_modulo:
+cliente_modulo = True
+while cliente_modulo:
     # solicitar ao usuário que escolha um dos dois môdulos:
     os.system('clear || cls')
     print("|-----------------------------|")
@@ -58,17 +58,17 @@ while client_modulo:
     print("2. Usuário Novo")
     print() 
     
-    client_modulo = int(input("Digite a forma de login desejada: "))
+    cliente_modulo = int(input("Digite a forma de login desejada: "))
     print() 
     time.sleep(.3) 
 
-    if client_modulo == 1:
+    if cliente_modulo == 1:
         cliente.usuario_existente_1()
-        client_modulo = False
+        cliente_modulo = False
 
     else:
         cliente.novo_usuario_2()
-        client_modulo = False
+        cliente_modulo = False
 
 print()
 
