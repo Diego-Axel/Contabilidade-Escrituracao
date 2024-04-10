@@ -45,29 +45,27 @@ print("CARREGANDO...")
 print()
 time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 
-cliente_modulo = True # MATHEUS DINIZ mandou a BRABA. Obrigado Matheus.
-while cliente_modulo:
-    # solicitar ao usuário que escolha um dos dois môdulos:
-    os.system('clear || cls')
-    print("|-----------------------------|")
-    print("| Escolha uma forma de Login: |")
-    print("|-----------------------------|")
-    print() 
-    print("1. Usuário Existente")
-    print("2. Usuário Novo")
-    print() 
+
+# solicitar ao usuário que escolha um dos dois môdulos:
+os.system('clear || cls')
+print("|-----------------------------|")
+print("| Escolha uma forma de Login: |")
+print("|-----------------------------|")
+print() 
+print("1. Usuário Existente")
+print("2. Usuário Novo")
+print() 
     
-    cliente_modulo = int(input("Digite a forma de login desejada: "))
-    print() 
-    time.sleep(.3) 
+modulo_escolha = int(input("Digite a forma de login desejada: "))
+print() 
+time.sleep(.3) 
 
-    if cliente_modulo == 1:
-        cliente.usuario_existente_1()
-        cliente_modulo = False
-
-    else:
-        cliente.novo_usuario_2()
-        cliente_modulo = False
+if modulo_escolha == 1:
+    cliente.usuario_existente_1()
+    
+else:
+    cliente.novo_usuario_2()
+        
 
 print()
 
