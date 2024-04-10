@@ -18,6 +18,7 @@ def novo_usuario_2():
     os.system('clear || cls')
     editar = True
     while editar:
+        os.system('clear || cls')
         print("|---------------------------------|")
         print("|   Você escolheu Novo Usuário    |")
         print("|---------------------------------|")
@@ -81,7 +82,5 @@ def novo_usuario_2():
         
     print()
     enter = input("APERTE ENTER PARA SAIR ")
-
-
 
 # FIM CLIENTES
