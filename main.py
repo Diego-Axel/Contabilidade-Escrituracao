@@ -45,8 +45,7 @@ print("CARREGANDO...")
 print()
 time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 
-# começo do While 1:
-cliente_modulo = True
+cliente_modulo = True # MATHEUS DINIZ mandou a BRABA. Obrigado Matheus.
 while cliente_modulo:
     # solicitar ao usuário que escolha um dos dois môdulos:
     os.system('clear || cls')
