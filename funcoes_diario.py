@@ -23,7 +23,7 @@ def livro_diario():
     """)
 
     print("CARREGANDO...")
-    print("")
+    print()
     time.sleep(4)
     os.system('clear || cls')
 
@@ -32,10 +32,10 @@ def livro_diario():
     print("|                     |")
     print("|    LIVRO DIÁRIO     |")
     print("|_____________________|")
-    print("")
+    print()
     # PEDIR O NÚMERO DE OPERAÇÕES
     numero_operacoes = int(input("Digite quantas operações você deseja realizar(1,2,3...): "))
-    print("")
+    print()
 
     # condicionais 1
     if (numero_operacoes == 1):
@@ -45,35 +45,35 @@ def livro_diario():
         if numero_contas == 0:
             os.system('clear || cls')
 
-            print("")
+            print()
             conta_d_main = input("Digite o nome da sua conta D: ")
             valor_d_main = float(input("Digite o valor dessa conta: "))
-            print("")
+            print()
             conta_c_main = input("Digite o nome da sua conta C: ")
             valor_c_main = float(input("Digite o valor dessa conta: "))
-            print("")
+            print()
             historico1 = input("Digite o histórico desta operação: ")
-            print("")
+            print()
             os.system('clear || cls')
             print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
             print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d_main,valor_d_main))
             print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c_main,valor_c_main))
             print("Histórico: %s"%historico1)
-            print("")
+            print()
             print("CARREGANDO...")
             time.sleep(4)
             enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
-            print("")
+            print()
 
         elif (numero_contas == 1):
 
-            print("")
+            print()
             conta_d_main = input("Digite o nome da sua conta D: ")
             valor_d_main = float(input("Digite o valor dessa conta: "))
-            print("")
+            print()
             conta_c_main = input("Digite o nome da sua conta C: ")
             valor_c_main = float(input("Digite o valor dessa conta: "))
-            print("")
+            print()
             tipo_conta = input("Escolha qual o tipo da próxima conta que deseja adicionar a operção(D/C): ")
 
             d1 = ["Débito","débito","Debito","debito","D","d"] # Bom, criei uma variável e na mesma adicionei as possiveis strings em uma lista que o usuário poderá digitar para que de continuidade ao programa. Pate dos Débitos
@@ -86,20 +86,20 @@ def livro_diario():
                 print("Escolha = %s"%tipo_conta)
                 conta_d1 = input("Digite o nome da sua conta D: ")
                 valor_d1 = float(input("Digite o valor dessa conta: "))
-                print("")
+                print()
                 historico1 = input("Digite o histórico desta operação: ")
-                print("")
+                print()
                 os.system('clear || cls')
                 print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                 print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d_main,valor_d_main))
                 print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d1,valor_d1))
                 print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c_main,valor_c_main))
                 print("Histórico: %s"%historico1)
-                print("")
+                print()
                 print("CARREGANDO...")
                 time.sleep(4)
                 enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
-                print("")
+                print()
 
             elif (tipo_conta in c1):
 
@@ -107,20 +107,20 @@ def livro_diario():
                 print("Escolha = %s"%tipo_conta)
                 conta_c1 = input("Digite o nome da sua conta C: ")
                 valor_c1 = float(input("Digite o valor dessa conta: "))
-                print("")
+                print()
                 historico1 = input("Digite o histórico desta operação: ")
-                print("")
+                print()
                 os.system('clear || cls')
                 print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                 print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d_main,valor_d_main))
                 print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c_main,valor_c_main))
                 print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c1,valor_c1))
                 print("Histórico: %s"%historico1)
-                print("")
+                print()
                 print("CARREGANDO...")
                 time.sleep(4)
                 enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
-                print("")
+                print()
 
             # fim -> condiconais 2
             else:
@@ -129,13 +129,13 @@ def livro_diario():
         elif (numero_contas == 2):
             os.system('clear || cls')
 
-            print("")
+            print()
             conta_d_main = input("Digite o nome da sua conta D: ")
             valor_d_main = float(input("Digite o valor dessa conta: "))
-            print("")
+            print()
             conta_c_main = input("Digite o nome da sua conta C: ")
             valor_c_main = float(input("Digite o valor dessa conta: "))
-            print("")
+            print()
             tipo_conta = input("Escolha qual o tipo da próxima conta que deseja adicionar a operção(D/C): ")
 
             d1 = ["Débito","débito","Debito","debito","D","d"]
@@ -148,7 +148,7 @@ def livro_diario():
                 print("Escolha = %s"%tipo_conta)
                 conta_d1 = input("Digite o nome da sua conta D: ")
                 valor_d1 = float(input("Digite o valor dessa conta: "))
-                print("")
+                print()
                 tipo_conta2 = input("Escolha qual o tipo da próxima conta que deseja adicionar a operação(D/C): ")
 
                 d2 = ["Débito","débito","Debito","debito","D","d"]
@@ -161,9 +161,9 @@ def livro_diario():
                     print("Escolha = %s"%tipo_conta2)
                     conta_d2 = input("Digite o nome da sua conta D: ")
                     valor_d2 = float(input("Digite o valor dessa conta: "))
-                    print("")
+                    print()
                     historico1 = input("Digite o histórico desta operação: ")
-                    print("")
+                    print()
                     os.system('clear || cls')
                     print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                     print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d_main,valor_d_main))
@@ -171,11 +171,11 @@ def livro_diario():
                     print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d2,valor_d2))
                     print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c_main,valor_c_main))
                     print("Histórico: %s"%historico1)
-                    print("")
+                    print()
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
-                    print("")
+                    print()
                 
                 elif (tipo_conta2 in c2):
 
@@ -183,9 +183,9 @@ def livro_diario():
                     print("Escolha = %s"%tipo_conta2)
                     conta_c2 = input("Digite o nome da sua conta C: ")
                     valor_c2 = float(input("Digite o valor dessa conta: "))
-                    print("")
+                    print()
                     historico1 = input("Digite o histórico desta operação: ")
-                    print("")
+                    print()
                     os.system('clear || cls')
                     print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                     print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d_main,valor_d_main))
@@ -197,7 +197,7 @@ def livro_diario():
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
-                    print("")
+                    print()
 
             elif (tipo_conta in c1):
 
@@ -205,7 +205,7 @@ def livro_diario():
                 print("Escolha = %s"%tipo_conta)
                 conta_c1 = input("Digite o nome da sua conta C: ")
                 valor_c1 = float(input("Digite o valor dessa conta: "))
-                print("")
+                print()
                 tipo_conta2 = input("Escolha qual o tipo da próxima conta que deseja adicionar a operação(D/C): ")
 
                 d2 = ["Débito","débito","Debito","debito","D","d"]
@@ -218,9 +218,9 @@ def livro_diario():
                     print("Escolha = %s"%tipo_conta2)
                     conta_c2 = input("Digite o nome da sua conta C: ")
                     valor_c2 = float(input("Digite o valor dessa conta: "))
-                    print("")
+                    print()
                     historico1 = input("Digite o histórico desta operação: ")
-                    print("")
+                    print()
                     os.system('clear || cls')
                     print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                     print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d_main,valor_d_main))
@@ -228,11 +228,11 @@ def livro_diario():
                     print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c1,valor_c1))
                     print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c2,valor_c2))
                     print("Histórico: %s"%historico1)
-                    print("")
+                    print()
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
-                    print("")
+                    print()
 
                 elif (tipo_conta2 in d2):
                     
@@ -240,20 +240,20 @@ def livro_diario():
                     print("Escolha = %s"%tipo_conta2)
                     conta_d2 = input("Digite o nome da sua conta D: ")
                     valor_d2 = float(input("Digite o valor dessa conta: "))
-                    print("")
+                    print()
                     historico1 = input("Digite o histórico desta operação: ")
-                    print("")
+                    print()
                     os.system('clear || cls')
                     print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d_main,valor_d_main))
                     print("D\t-\t%s\t\t\tR$%0.3f"%(conta_d2,valor_d2))
                     print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c_main,valor_c_main))
                     print("C\t-\t%s\t\t\tR$%0.3f"%(conta_c1,valor_c1))
                     print("Histórico: %s"%historico1)
-                    print("")
+                    print()
                     print("CARREGANDO...")
                     time.sleep(4)
                     enter1 = input("APERTE ENTER PARA PROSSEGUIR ")
-                    print("")
+                    print()
                     
         # fim -> condiconais 2
         else:
@@ -263,9 +263,9 @@ def livro_diario():
     else:
         print("Não foi colocado o que se pede.")
 
-print("")
+print()
 print("CARREGANDO...")
-print("")
+print()
 time.sleep(.4)
 
 # FIM DE FUNÇÕES DIÁRIO        
