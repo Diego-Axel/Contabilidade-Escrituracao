@@ -70,9 +70,16 @@ def novo_usuario_2():
         print("")
         time.sleep(.4)
 
-        editar = input("Errou alguma informação, sem problemas")
-        
+        editar = input("Após as informações, deseja refazer para corrijir algo (S/N)? ")
+        editar = editar.upper()
 
+        if editar == "S":
+            editar = True
+        
+        else:
+            editar = False
+        
+    print()
     enter = input("APERTE ENTER PARA SAIR ")
 
 
