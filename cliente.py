@@ -7,22 +7,22 @@ def usuario_existente_1():
     print("|---------------------------------|")
     print("| Você escolheu Usuário Existente |")
     print("|---------------------------------|")
-    print("") 
+    print() 
     print("Bem vindo(a) de volta!") # quando tiver com os dados e nome da empresa ou do mei fazer com a frase apareça "Bem vindop(a) NOME"
-    print("")
+    print()
     print("CARREGANDO...")
-    print("")
+    print()
     time.sleep(4)
 
 def novo_usuario_2():
     os.system('clear || cls')
-    editar = True
+    editar = True # MATHEUS DINIZ mandou a BRABA. Obrigado Matheus.
     while editar:
         os.system('clear || cls')
         print("|---------------------------------|")
         print("|   Você escolheu Novo Usuário    |")
         print("|---------------------------------|")
-        print("") 
+        print() 
         # LOCAL DE CASDATRO
         print("________________________________________________________________________")
         print("|                                                                      |")
@@ -30,33 +30,34 @@ def novo_usuario_2():
         print("|                                                                      |")
         print("|         Por favor, preeencha esses dados para dar continuidade.      |")
         print("|______________________________________________________________________|")
-        print("")
+        print()
 
         # NOME DO USUÁRIO
         nome_usuario = input("Digite o seu nome: ")
-        nome_usuario = nome_usuario.upper() # DEIXANDO O NOME DO USUARIO MAISCULO -> <cond>.upper() MAISCULO | <cond>.lower() MINUSCULA    
+        nome_usuario = nome_usuario.upper() # DEIXANDO O NOME DO USUARIO MAISCULO -> <cond>.upper() MAISCULO | <cond>.lower() MINUSCULA  
+        print()  
         # NOME DA EMPRESA/MEI/USUARIO
         nome_empresa = input("Digite o nome da sua empresa/ou MEI: ")
-        print("") 
+        print() 
         # CPF
         cpf = input("Digite o seu CPF: ") # São string pois não vou usar esses dados para fazer operações matemáticas.
-        print("")  
+        print()  
         # CNPJ
         cnpj = input("Digite o seu cnpj: ")
-        print("")
+        print()
         # ENDEREÇO DE E-MAIL
         email = input("Digite o seu endereço de e-mail: ")
-        print("")
+        print()
         # TEL. PARA CONTATO(DA EMPRESA PREFERENCIALEMNTE) COM DDD
         telefone_empresa = input("Digite o número de telefone(da empresa preferencialmente) com DDD: ")
-        print("")
+        print()
         # ENDEREÇO DA EMPRESA
         endereco_empresa = input("Digite o endereço da empresa: ")
-        print("")
-        print("")
+        print()
+        print()
         print("Seus dados foram cadastrados com sucesso!")
         print("Dê uma conferida:")
-        print("")
+        print()
         # mostrnado os dados que o usuário introduziu no programa:
         print(" _________________________________________________")
         print("                                                  ")
@@ -68,19 +69,16 @@ def novo_usuario_2():
         print("              Telefone da Empresa: %s             "%telefone_empresa)
         print("              Endereço da Empresa: %s             "%endereco_empresa)
         print("__________________________________________________")
-        print("")
+        print()
         time.sleep(.4)
 
-        editar = input("Após as informações, deseja refazer para corrijir algo (S/N)? ")
-        editar = editar.upper()
+        editar_informacao = input("Após as informações, deseja refazer para corrijir algo (S/N)? ")
+        editar_informacao = editar_informacao.upper()
 
-        if editar == "S":
-            editar = True
-        
-        else:
+        if editar_informacao == "N":
             editar = False
         
     print()
-    enter = input("APERTE ENTER PARA SAIR ")
+    enter = input("APERTE ENTER PARA PROSSEGUIR ")
 
 # FIM CLIENTES
