@@ -10,3 +10,18 @@ def exemplo_livro_diario():
       (Pode ter mais de uma conta de débito e crédito.)
       
     """)
+
+def exemplo_livro_razao():
+    print("""
+
+        |         LIVRO RAZÃO           |
+    
+    _________________CAIXA___________________
+      R$ xx.xxx,xx     |     R$ xx.xxx,xx
+                       |
+                       |
+                       |
+                       |
+    ______TOTAL________|_________TOTAL________
+      
+    """)
