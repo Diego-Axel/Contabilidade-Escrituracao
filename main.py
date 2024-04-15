@@ -68,35 +68,48 @@ print("2. Livrro Razão")
 print("3. Balancete (Opcional)")
 print("4. Balanço Patrimônial")
 print()
-print()
 print("CARREGANDO...")
 print()
 time.sleep(7)
-os.system('clear || cls')
-
-print("Embaixo está os modelos de cada um dos passos apresentados:\nOBS: OS NOMES E QUANTIDADES SÃO APENAS EXEMPLOS!")
-time.sleep(5)
 print()
 
-print(exemplos_modulos.exemplo_livro_diario())
-print("CARREGANDO EXEMPLO LIVRO RAZÃO...")
-time.sleep(4)
+resp = input("VOCÊ DESEJA VER OS EXEMPLOS DE CADA UM DOS MÔDULOS? ")
 print()
+resp = resp.upper()
+dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM"]
 
-print(exemplos_modulos.exemplo_livro_razao())
-print("CARREGANDO EXEMPLO BALANCETE...")
-time.sleep(4)
+if resp in dic:
+
+    print("OBS: OS NOMES E VALORES SÃO APENAS PARA FINS DE EXEMPLO.")
+    time.sleep(4)
+    print()
+
+    print(exemplos_modulos.exemplo_livro_diario())
+    print("CARREGANDO EXEMPLO LIVRO RAZÃO...")
+    time.sleep(4)
+    print()
+
+    print(exemplos_modulos.exemplo_livro_razao())
+    print("CARREGANDO EXEMPLO BALANCETE...")
+    time.sleep(4)
+    print()
+
+    print(exemplos_modulos.exemplo_balancete())
+    print("CARREGANDO EXEMPLO BALANÇO PATRIMÔNIAL...")
+    time.sleep(4)
+    print()
+
+    print(exemplos_modulos.exemplo_balanco_patrimonial())
+    time.sleep(4)
+    print()
+
+    enter = input("APERTE ENTER PARA PROSSEGUIR")
+
+else:
+    print("CERTO, ENTÃO IRA SE INICIAR OS MÔDULOS PROPOSTOS LOGO EM CIMA")
+
 print()
-
-print(exemplos_modulos.exemplo_balancete())
-print("CARREGANDO EXEMPLO BALANÇO PATRIMÔNIAL...")
-time.sleep(4)
-print()
-
-print(exemplos_modulos.exemplo_balanco_patrimonial())
 print("CARREGANDO 1º MÔDULO (LIVRO DIÁRIO)...")
-time.sleep(4)
-os.system('clear || cls')
 
 # execução dos môdulos referentes a escrituração:
 time.sleep(.3)
