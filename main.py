@@ -175,7 +175,7 @@ print(funcoes_razao.livro_razao())
 
 
 # em desenvolvimento...
-
+print(ascii.em_dev())
 
 
 
