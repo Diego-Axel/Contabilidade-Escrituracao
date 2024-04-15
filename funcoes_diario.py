@@ -15,20 +15,12 @@ ano = data.year
 def livro_diario():
     os.system('clear || cls')
 
-    print("""
-     __       __  ____    ____ .______        ______       _______   __       ___      .______       __    ______   
-    |  |     |  | \   \  /   / |   _  \      /  __  \     |       \ |  |     /   \     |   _  \     |  |  /  __  \  
-    |  |     |  |  \   \/   /  |  |_)  |    |  |  |  |    |  .--.  ||  |    /  ^  \    |  |_)  |    |  | |  |  |  | 
-    |  |     |  |   \      /   |      /     |  |  |  |    |  |  |  ||  |   /  /_\  \   |      /     |  | |  |  |  | 
-    |  `----.|  |    \    /    |  |\  \----.|  `--'  |    |  '--'  ||  |  /  _____  \  |  |\  \----.|  | |  `--'  | 
-    |_______||__|     \__/     | _| `._____| \______/     |_______/ |__| /__/     \__\ | _| `._____||__|  \______/ 
- 
-    """)
+    print(ascii.livro_diario_ascii)
 
-print("CARREGANDO...")
-print()
-time.sleep(4)
-os.system('clear || cls')
+    print("CARREGANDO...")
+    print()
+    time.sleep(4)
+    os.system('clear || cls')
 
 
 # FIM DE FUNÇÕES DIÁRIO        
