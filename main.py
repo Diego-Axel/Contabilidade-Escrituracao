@@ -76,44 +76,17 @@ os.system('clear || cls')
 
 print("Embaixo está os modelos de cada um dos passos apresentados:\nOBS: OS NOMES E QUANTIDADES SÃO APENAS EXEMPLOS!")
 time.sleep(5)
-os.system('clear || cls')
+print()
 
-
-print("""
-      
-            |         LIVRO DIÁRIO          |
-      
-      data da operação: xx/xx/xxxx
-      D - xxxx - R$ xx.xxx,xx
-      C - xxxx - R$ xx.xxx,xx
-      histórico: xxxxxxxxxxxx
-      (Pode ter mais de uma conta de débito e crédito.)
-
-    
-    CARREGANDO EXEMPLO LIVRO RAZÃO...
-          
-    """)
+print(exemplos_modulos.exemplo_livro_diario())
+print("CARREGANDO EXEMPLO LIVRO RAZÃO...")
 time.sleep(4)
-os.system('clear || cls')
+print()
 
-print("""
-
-        |         LIVRO RAZÃO           |
-    
-    _________________CAIXA___________________
-      R$ xx.xxx,xx     |     R$ xx.xxx,xx
-                       |
-                       |
-                       |
-                       |
-    ______TOTAL________|_________TOTAL________
-      
-
-    CARREGANDO EXEMPLO BALANCETE...
-
-    """)
+print(exemplos_modulos.exemplo_livro_razao())
+print("CARREGANDO EXEMPLO BALANCETE...")
 time.sleep(4)
-os.system('clear || cls')
+print()
 
 print("""
 
