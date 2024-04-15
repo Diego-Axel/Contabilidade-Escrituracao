@@ -9,6 +9,7 @@
 # Em desenvolvimento :)
 
 # imports:
+import ascii
 import cliente # fazendo a importação do arquivo onde ficará as funções do cliente (modularizando)
 import funcoes_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
 import funcoes_razao # fazendo a importação do arquivo onde ficará as funções do razão (modularizando)
