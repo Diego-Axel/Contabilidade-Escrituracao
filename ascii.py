@@ -45,10 +45,4 @@ def feito_por_diego_axel():
 
 
 
-
-
-
-
-def livro_diario():
-    
-    
+ 
