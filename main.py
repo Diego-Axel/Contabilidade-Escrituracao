@@ -68,10 +68,6 @@ print("2. Livrro Razão")
 print("3. Balancete (Opcional)")
 print("4. Balanço Patrimônial")
 print()
-print("CARREGANDO...")
-print()
-time.sleep(7)
-print()
 
 resp = input("VOCÊ DESEJA VER OS EXEMPLOS DE CADA UM DOS MÔDULOS? ")
 print()
@@ -110,6 +106,7 @@ else:
 
 print()
 print("CARREGANDO 1º MÔDULO (LIVRO DIÁRIO)...")
+time.sleep(5)
 
 # execução dos môdulos referentes a escrituração:
 time.sleep(.3)
