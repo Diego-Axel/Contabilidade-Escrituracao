@@ -25,3 +25,25 @@ def exemplo_livro_razao():
     ______TOTAL________|_________TOTAL________
       
     """)
+
+def exemplo_balancete():
+    print("""
+
+             |       BALANCETE(OPCIONAL)       |
+    
+    ____________________________________________________
+    |     CONTAS     |              SALDOS             |
+    |________________|_____Débtios____|____Créditos____|
+    |     Caixa      | R$ xx.xxxx,xx  |                |
+    |     Banco      | R$ xx.xxxx,xx  |                |
+    |   Fornecedor   |                | R$ xx.xxxx,xx  |
+    |    Estoques    | R$ xx.xxxx,xx  |                | 
+    |    Veículos    | R$ xx.xxxx,xx  |                |
+    | Contas a pagar |                | R$ xx.xxxx,xx  |
+    |________________|________________|________________|
+    |______TOTAL_____|________________|_____ TOTAL_____|
+    |__R$_xx.xxx,xx__|________=_______|__R$_xx.xxx,xx__|
+    |________________|________________|________________|
+      
+    """)
+
