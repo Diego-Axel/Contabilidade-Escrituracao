@@ -88,54 +88,13 @@ print("CARREGANDO EXEMPLO BALANCETE...")
 time.sleep(4)
 print()
 
-print("""
-
-             |       BALANCETE(OPCIONAL)       |
-    
-    ____________________________________________________
-    |     CONTAS     |              SALDOS             |
-    |________________|_____Débtios____|____Créditos____|
-    |     Caixa      | R$ xx.xxxx,xx  |                |
-    |     Banco      | R$ xx.xxxx,xx  |                |
-    |   Fornecedor   |                | R$ xx.xxxx,xx  |
-    |    Estoques    | R$ xx.xxxx,xx  |                | 
-    |    Veículos    | R$ xx.xxxx,xx  |                |
-    | Contas a pagar |                | R$ xx.xxxx,xx  |
-    |________________|________________|________________|
-    |______TOTAL_____|________________|_____ TOTAL_____|
-    |__R$_xx.xxx,xx__|________=_______|__R$_xx.xxx,xx__|
-    |________________|________________|________________|
-      
-    
-    CARREGANDO EXEMPLO BALANÇO PATRIMÔNIAL...
-
-    """)
+print(exemplos_modulos.exemplo_balancete())
+print("CARREGANDO EXEMPLO BALANÇO PATRIMÔNIAL...")
 time.sleep(4)
-os.system('clear || cls')
+print()
 
-print("""
-
-            |       BALANÇO PATRIMÔNIAL       |
-    ____________________________________________________
-    |        ATIVOS         |         PASSIVOS         |
-    |_______________________|__________________________|
-    |  Caixa R$ xx.xxx,xx   |  Fornecedor R$ xx.xxx,xx |
-    |  Banco R$ xx.xxx,xx   | Conta/pagar R$ xx.xxx,xx |
-    | Estoques R$ xx.xxx,xx |                          |
-    | Veículos R$ xx.xxx,xx |                          |
-    |_______________________|__________________________|
-    |                       |    PATRIMÔNIO LÍQUIDO    |
-    |_______________________|__________________________|
-    |                       | Cap.Social  R$ xx.xxx,xx |
-    |                       |                          |
-    |_______________________|__________________________|
-    |___TOTAL ATIVOS (R$)___|___TOTAL PASSIVOS + PL____|
-    |_______________________|__________________________|
-      
-    
-    CARREGANDO 1º MÔDULO (LIVRO DIÁRIO)...
-
-    """)
+print(exemplos_modulos.exemplo_balanco_patrimonial())
+print("CARREGANDO 1º MÔDULO (LIVRO DIÁRIO)...")
 time.sleep(4)
 os.system('clear || cls')
 
