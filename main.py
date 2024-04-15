@@ -9,7 +9,7 @@
 # Em desenvolvimento :)
 
 # imports:
-import ascii
+import ascii # importação do meu arquivo com so ASCII
 import cliente # fazendo a importação do arquivo onde ficará as funções do cliente (modularizando)
 import funcoes_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
 import funcoes_razao # fazendo a importação do arquivo onde ficará as funções do razão (modularizando)
@@ -55,9 +55,7 @@ if modulo_escolha == 1:
 else:
     cliente.novo_usuario_2()
         
-
 print()
-
 
 os.system('clear || cls')
 print("|------------------------------------------------|")
@@ -177,8 +175,7 @@ print(funcoes_razao.livro_razao())
 # em desenvolvimento...
 print(ascii.em_dev())
 
-
-
 # feito por Diêgo Axel
+print(ascii.feito_por_diego_axel())
 
 # FIM DO PRGRAMA
