@@ -72,7 +72,7 @@ print()
 resp = input("VOCÊ DESEJA VER OS EXEMPLOS DE CADA UM DOS MÔDULOS? ")
 print()
 resp = resp.upper()
-dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM"]
+dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM", "OK", "TA", "TÁ"]
 
 if resp in dic:
 
