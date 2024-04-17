@@ -27,7 +27,7 @@ ano = data.year
 # INICIO
 os.system('clear || cls') # limpar a tela do console ou terminal, tanto em sistema operacional Windows quanto em Linux
 
-print(ascii.bem_vindo())
+ascii.bem_vindo()
  
 print("Antes de prosseguir, por favor realize o login ou entre com um usuário existente.")
 print()
@@ -116,9 +116,9 @@ print(funcoes_razao.livro_razao())
 
 
 # em desenvolvimento...
-print(ascii.em_dev())
+ascii.em_dev()
 
 # feito por Diêgo Axel
-print(ascii.feito_por_diego_axel())
+ascii.feito_por_diego_axel()
 
 # FIM DO PRGRAMA
