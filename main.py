@@ -80,22 +80,22 @@ if resp in dic:
     time.sleep(4)
     print()
 
-    print(exemplos_modulos.exemplo_livro_diario())
+    exemplos_modulos.exemplo_livro_diario()
     print("CARREGANDO EXEMPLO LIVRO RAZÃO...")
     time.sleep(4)
     print()
 
-    print(exemplos_modulos.exemplo_livro_razao())
+    exemplos_modulos.exemplo_livro_razao()
     print("CARREGANDO EXEMPLO BALANCETE...")
     time.sleep(4)
     print()
 
-    print(exemplos_modulos.exemplo_balancete())
+    exemplos_modulos.exemplo_balancete()
     print("CARREGANDO EXEMPLO BALANÇO PATRIMÔNIAL...")
     time.sleep(4)
     print()
 
-    print(exemplos_modulos.exemplo_balanco_patrimonial())
+    exemplos_modulos.exemplo_balanco_patrimonial()
     time.sleep(4)
     print()
 
