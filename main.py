@@ -110,7 +110,7 @@ time.sleep(5)
 
 # execução dos môdulos referentes a escrituração:
 time.sleep(.3)
-print(funcoes_diario.livro_diario()) 
+funcoes_diario.livro_diario()
 print(funcoes_razao.livro_razao()) 
 
 
