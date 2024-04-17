@@ -15,7 +15,7 @@ ano = data.year
 def livro_diario():
     os.system('clear || cls')
 
-    print(ascii.livro_diario_ascii())
+    ascii.livro_diario_ascii()
 
     print("CARREGANDO...")
     print()
