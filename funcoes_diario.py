@@ -22,6 +22,17 @@ def livro_diario():
     time.sleep(4)
     os.system('clear || cls')
 
+    print("_______________________")
+    print("|                     |")
+    print("|    LIVRO DIÁRIO     |")
+    print("|_____________________|")
+    print()
+
+    # PEDIR O NÚMERO DE OPERAÇÕES
+    numero_operacoes = int(input("Digite quantas operações você deseja realizar (1,2,3,4...): "))
+    
+
+
 
 # FIM DE FUNÇÕES DIÁRIO        
 
