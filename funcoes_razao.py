@@ -14,4 +14,4 @@ ano = data.year
 
 def livro_razao():
     os.system('clear || cls')
-    print(ascii.livro_razao_ascii)
+    ascii.livro_razao_ascii
