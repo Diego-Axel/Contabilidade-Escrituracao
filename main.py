@@ -35,26 +35,27 @@ print("CARREGANDO...")
 print()
 time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 
+resp = ""
+while resp != "0":
+    # solicitar ao usuário que escolha um dos dois môdulos:
+    os.system('clear || cls')
+    print("|-----------------------------|")
+    print("| Escolha uma forma de Login: |")
+    print("|-----------------------------|")
+    print() 
+    print("1. Usuário Existente")
+    print("2. Usuário Novo")
+    print()  
+    time.sleep(.3) 
+    resp = input("| Digite o môdulo de sua escolha: ")
 
-# solicitar ao usuário que escolha um dos dois môdulos:
-os.system('clear || cls')
-print("|-----------------------------|")
-print("| Escolha uma forma de Login: |")
-print("|-----------------------------|")
-print() 
-print("1. Usuário Existente")
-print("2. Usuário Novo")
-print() 
+    if resp == "1":
+        cliente.usuario_existente_1()
+        resp = "0"
     
-modulo_escolha = int(input("Digite a forma de login desejada: "))
-print() 
-time.sleep(.3) 
-
-if modulo_escolha == 1:
-    cliente.usuario_existente_1()
-    
-else:
-    cliente.novo_usuario_2()
+    elif resp == "2":
+        cliente.novo_usuario_2()
+        resp = "0"
         
 print()
 
@@ -72,7 +73,7 @@ print()
 resp = input("VOCÊ DESEJA VER OS EXEMPLOS DE CADA UM DOS MÔDULOS? ")
 print()
 resp = resp.upper()
-dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM", "OK", "TA", "TÁ"]
+dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM", "OK", "TA", "TÁ"] # possiveis respotas do usuário
 
 if resp in dic:
 
@@ -99,7 +100,7 @@ if resp in dic:
     time.sleep(4)
     print()
 
-    enter = input("APERTE ENTER PARA PROSSEGUIR")
+    input("tecle <ENTER> para prosseguir...")
 
 else:
     print("CERTO, ENTÃO IRA SE INICIAR OS MÔDULOS PROPOSTOS LOGO EM CIMA")
