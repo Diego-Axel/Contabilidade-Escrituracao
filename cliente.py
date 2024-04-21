@@ -54,7 +54,6 @@ def novo_usuario_2():
         # ENDEREÇO DA EMPRESA
         endereco_empresa = input("Digite o endereço da empresa: ")
         print()
-        print()
         print("Seus dados foram cadastrados com sucesso!")
         print("Dê uma conferida:")
         print()
@@ -72,13 +71,14 @@ def novo_usuario_2():
         print()
         time.sleep(.4)
 
-        editar_informacao = input("Após as informações, deseja refazer para corrijir algo (S/N)? ")
-        editar_informacao = editar_informacao.upper()
-
-        if editar_informacao == "N":
+        editar = input("Após as informações, deseja refazer para corrijir algo (S/N)? ")
+        editar = editar.upper()
+        
+        dic = ["NÃO", "NAO", "N"]
+        if editar in dic:
             editar = False
         
     print()
-    enter = input("APERTE ENTER PARA PROSSEGUIR ")
+    input("tecle <ENTER> para prosseguir...")
 
 # FIM CLIENTES
