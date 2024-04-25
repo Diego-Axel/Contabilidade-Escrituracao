@@ -30,7 +30,7 @@ ascii.bem_vindo()
 print()
 print("CARREGANDO...")
 print()
-time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
+time.sleep(2) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
 print()
 
 os.system('clear || cls')
@@ -52,45 +52,44 @@ dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SI
 if resp in dic:
 
     print("OBS: OS NOMES E VALORES SÃO APENAS PARA FINS DE EXEMPLO.")
-    time.sleep(4)
+    time.sleep(3)
     print()
 
     exemplos_modulos.exemplo_livro_diario()
     print("CARREGANDO EXEMPLO LIVRO RAZÃO...")
-    time.sleep(4)
+    time.sleep(3)
     print()
 
     exemplos_modulos.exemplo_livro_razao()
     print("CARREGANDO EXEMPLO BALANCETE...")
-    time.sleep(4)
+    time.sleep(3)
     print()
 
     exemplos_modulos.exemplo_balancete()
     print("CARREGANDO EXEMPLO BALANÇO PATRIMÔNIAL...")
-    time.sleep(4)
+    time.sleep(3)
     print()
 
     exemplos_modulos.exemplo_balanco_patrimonial()
-    time.sleep(4)
+    time.sleep(3)
     print()
 
     input("tecle <ENTER> para prosseguir...")
 
 else:
-    print("CERTO, ENTÃO IRA SE INICIAR OS MÔDULOS PROPOSTOS LOGO EM CIMA")
+    print("INICIALIZANDO MÔDULOS.")
 
 print()
 print("CARREGANDO 1º MÔDULO (LIVRO DIÁRIO)...")
-time.sleep(5)
+time.sleep(3)
 
 # execução dos môdulos referentes a escrituração:
 time.sleep(.3)
 funcoes_diario.livro_diario()
 funcoes_razao.livro_razao() 
 
-
-
 # em desenvolvimento...
 ascii.em_dev()
 
 # FIM DO PRGRAMA
+print("Programa encerrado, até breve.")
