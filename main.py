@@ -11,8 +11,8 @@
 # imports:
 import ascii # importação do meu arquivo com so ASCII
 import exemplos_modulos # importação do arquivo que contém os exemplos de cada môdulo
-import funcoes_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
-import funcoes_razao # fazendo a importação do arquivo onde ficará as funções do razão (modularizando)
+import livro_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
+import livro_razao # fazendo a importação do arquivo onde ficará as funções do razão (modularizando)
 import datetime # biblioteca para puxar a data do computador
 import os # biblioteca para interagir com o sistema operacional, estou usando para que tudo que esteja acima dela, seja limpo(console ou terminal). fica mais "limpo" de se vizualizar
 import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
@@ -85,8 +85,8 @@ time.sleep(3)
 
 # execução dos môdulos referentes a escrituração:
 time.sleep(.3)
-funcoes_diario.livro_diario()
-funcoes_razao.livro_razao() 
+print(livro_diario)
+print(livro_razao) 
 
 # em desenvolvimento...
 ascii.em_dev()
