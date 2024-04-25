@@ -11,7 +11,6 @@
 # imports:
 import ascii # importação do meu arquivo com so ASCII
 import exemplos_modulos # importação do arquivo que contém os exemplos de cada môdulo
-import cliente # fazendo a importação do arquivo onde ficará as funções do cliente (modularizando)
 import funcoes_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
 import funcoes_razao # fazendo a importação do arquivo onde ficará as funções do razão (modularizando)
 import datetime # biblioteca para puxar a data do computador
@@ -28,35 +27,10 @@ ano = data.year
 os.system('clear || cls') # limpar a tela do console ou terminal, tanto em sistema operacional Windows quanto em Linux
 
 ascii.bem_vindo()
- 
-print("Antes de prosseguir, por favor realize o login ou entre com um usuário existente.")
 print()
 print("CARREGANDO...")
 print()
 time.sleep(4) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
-
-resp = ""
-while resp != "0":
-    # solicitar ao usuário que escolha um dos dois môdulos:
-    os.system('clear || cls')
-    print("|-----------------------------|")
-    print("| Escolha uma forma de Login: |")
-    print("|-----------------------------|")
-    print() 
-    print("1. Usuário Existente")
-    print("2. Usuário Novo")
-    print()  
-    time.sleep(.3) 
-    resp = input("| Digite o môdulo de sua escolha: ")
-
-    if resp == "1":
-        cliente.usuario_existente_1()
-        resp = "0"
-    
-    elif resp == "2":
-        cliente.novo_usuario_2()
-        resp = "0"
-        
 print()
 
 os.system('clear || cls')
@@ -73,7 +47,7 @@ print()
 resp = input("VOCÊ DESEJA VER OS EXEMPLOS DE CADA UM DOS MÔDULOS? ")
 print()
 resp = resp.upper()
-dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM", "OK", "TA", "TÁ"] # possiveis respotas do usuário
+dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM", "OK", "TA", "TÁ"] 
 
 if resp in dic:
 
@@ -118,8 +92,5 @@ funcoes_razao.livro_razao()
 
 # em desenvolvimento...
 ascii.em_dev()
-
-# feito por Diêgo Axel
-ascii.feito_por_diego_axel()
 
 # FIM DO PRGRAMA
