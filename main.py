@@ -5,32 +5,26 @@
 ######                    CAICÓ-RM                    ######
 ############################################################
 
-# OBS: Estou refazendo... Motivos? -> Posso melhorar
-# Em desenvolvimento :)
-
 # imports:
-import ascii # importação do meu arquivo com so ASCII
-import exemplos_modulos # importação do arquivo que contém os exemplos de cada môdulo
-import livro_diario # fazendo a importação do arquivo onde ficará as funções do diário (modularizando)
-import livro_razao # fazendo a importação do arquivo onde ficará as funções do razão (modularizando)
-import datetime # biblioteca para puxar a data do computador
-import os # biblioteca para interagir com o sistema operacional, estou usando para que tudo que esteja acima dela, seja limpo(console ou terminal). fica mais "limpo" de se vizualizar
-import time # da um tempo para as informações sumirem -> time.sleep(o segundo que você quiser aqui quendo dos parenteses)
+import ascii 
+import exemplos_modulos 
+import livro_diario 
+import datetime 
+import os 
+import time 
 
-data = datetime.date.today() # data do dispositivo
+data = datetime.date.today() 
 
 dia = data.day
 mes = data.month
 ano = data.year
 
 # INICIO
-os.system('clear || cls') # limpar a tela do console ou terminal, tanto em sistema operacional Windows quanto em Linux
-
-ascii.bem_vindo()
+os.system('clear || cls') # Se for Linux use "clear" e se for Windowns use "cls"
+print(ascii.bem_vindo())
 print()
 print("CARREGANDO...")
-print()
-time.sleep(2) # espera (n) segundos até a mensagem de cima ser apagada para vir a posterior
+time.sleep(2)
 print()
 
 os.system('clear || cls')
@@ -45,51 +39,43 @@ print("4. Balanço Patrimônial")
 print()
 
 resp = input("VOCÊ DESEJA VER OS EXEMPLOS DE CADA UM DOS MÔDULOS? ")
-print()
+
 resp = resp.upper()
 dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM", "OK", "TA", "TÁ"] 
-
 if resp in dic:
-
-    print("OBS: OS NOMES E VALORES SÃO APENAS PARA FINS DE EXEMPLO.")
+    print()
     time.sleep(3)
     print()
-
-    exemplos_modulos.exemplo_livro_diario()
+    print(exemplos_modulos.exemplo_livro_diario())
     print("CARREGANDO EXEMPLO LIVRO RAZÃO...")
     time.sleep(3)
     print()
-
-    exemplos_modulos.exemplo_livro_razao()
+    print(exemplos_modulos.exemplo_livro_razao())
     print("CARREGANDO EXEMPLO BALANCETE...")
     time.sleep(3)
     print()
-
-    exemplos_modulos.exemplo_balancete()
+    print(exemplos_modulos.exemplo_balancete())
     print("CARREGANDO EXEMPLO BALANÇO PATRIMÔNIAL...")
     time.sleep(3)
     print()
-
-    exemplos_modulos.exemplo_balanco_patrimonial()
+    print(exemplos_modulos.exemplo_balanco_patrimonial())
     time.sleep(3)
     print()
-
     input("tecle <ENTER> para prosseguir...")
-
+    print()    
 else:
     print("INICIALIZANDO MÔDULOS.")
+    print()
 
-print()
 print("CARREGANDO 1º MÔDULO (LIVRO DIÁRIO)...")
 time.sleep(3)
 
 # execução dos môdulos referentes a escrituração:
 time.sleep(.3)
 print(livro_diario)
-print(livro_razao) 
+print()
 
-# em desenvolvimento...
-ascii.em_dev()
+# ASCII de desenvolvimento:
+print(ascii.em_dev())
 
-# FIM DO PRGRAMA
 print("Programa encerrado, até breve.")
