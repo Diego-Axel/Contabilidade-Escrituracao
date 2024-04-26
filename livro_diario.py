@@ -4,7 +4,6 @@ import main
 import ascii
 import datetime 
 import os 
-import time 
 
 data = datetime.date.today()
 
@@ -36,7 +35,7 @@ if num_op == "1":
             valor_d0 = float(input("Digite o valor R$ da conta %s: "%conta_d0))
             print()
             conta_c0 = input("Digite o nome da sua 1ª conta de CRÉDITO: ")
-            valor_c0 = float(input("Digite o valor R$ da conta %s: "%conta_c0))       
+            valor_c0 = float(input("Digite o valor R$ da conta %s: "%conta_c0))  
             if valor_d0 != valor_c0:
                 print("OPS! Os valores das contas não estão batendo com igualdade, por favor insira-os novamente.")
                 print()
@@ -45,6 +44,23 @@ if num_op == "1":
                 valor_c0 = 0
             else:
                 historico0 = input("Digite o histórico referente a está operação: ")
+                print()
+                print(ascii.livro_diario_ascii())
+                print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
+                print("D\t\t-\t\t%s\t\tR$ %.2f"%(conta_d0,valor_d0))
+                print("C\t\t-\t\t%s\t\tR$ %.2f"%(conta_c0,valor_c0))
+                print("Histórico: %s"%historico0)
+                print()
+                input("tecle <ENTER> para continuar...")
+                
+                def prmeira_operacao():
+                    print(ascii.livro_diario_ascii())
+                    print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
+                    print("D\t\t-\t\t%s\t\tR$ %.2f"%(conta_d0,valor_d0))
+                    print("C\t\t-\t\t%s\t\tR$ %.2f"%(conta_c0,valor_c0))
+                    print("Histórico: %s"%historico0)
+                    print()
+                
             
 
 
