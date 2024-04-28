@@ -26,7 +26,6 @@ print()
 print("CARREGANDO...")
 time.sleep(2)
 print()
-
 os.system('clear || cls')
 print("|------------------------------------------------|")
 print("| Môdulos que iram ser executados (em sequência) |")
@@ -37,9 +36,7 @@ print("2. Livrro Razão")
 print("3. Balancete (Opcional)")
 print("4. Balanço Patrimônial")
 print()
-
 resp = input("VOCÊ DESEJA VER OS EXEMPLOS DE CADA UM DOS MÔDULOS? ")
-
 resp = resp.upper()
 dic = ["SIM", "S", "COM CERTEZA", "EU QUERO", "PODE SER", "CLARO", "CLARO QUE SIM", "OK", "TA", "TÁ"] 
 if resp in dic:
