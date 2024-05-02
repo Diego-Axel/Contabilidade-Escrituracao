@@ -22,8 +22,7 @@ os.system('clear || cls') # Se for Linux use "clear" e se for Windowns use "cls"
 ascii.livro_diario_ascii()
 print()
 
-# PEDIR O NÚMERO DE OPERAÇÕES
-num_op = input("Digite quantas operações você deseja realizar (1,2,3,4...): ")
+num_op = input("Digite quantas operações você deseja realizar (1,2,3,4...): ") # PEDIR O NÚMERO DE OPERAÇÕES
 print()
 
 if num_op == "1":
@@ -55,7 +54,7 @@ if num_op == "1":
             else:
                 historico_0 = input("Digite o histórico referente a está operação: ")
                 print()
-                print(ascii.livro_diario_ascii())
+                ascii.livro_diario_ascii()
                 print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                 print("D\t\t-\t\t%s\t\tR$ %.2f,00"%(conta_d0,valor_d0))
                 print("C\t\t-\t\t%s\t\tR$ %.2f,00"%(conta_c0,valor_c0))
@@ -65,7 +64,7 @@ if num_op == "1":
                 valor_nulo = 1
                 def prmeira_operacao_0(): # Função que nela vai estar contida a primeira operação caso precise chamar novamente mais para frente
                     print()
-                    print(ascii.livro_diario_ascii())
+                    ascii.livro_diario_ascii()
                     print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                     print("D\t\t-\t\t%s\t\tR$ %.2f,00"%(conta_d0,valor_d0))
                     print("C\t\t-\t\t%s\t\tR$ %.2f,00"%(conta_c0,valor_c0))
@@ -107,7 +106,7 @@ if num_op == "1":
                 else:
                     historico_0 = input("Digite o histórico referente a está operação: ")
                     print()
-                    print(ascii.livro_diario_ascii())
+                    ascii.livro_diario_ascii()
                     print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                     print("D\t\t-\t\t%s\t\tR$ %.2f,00"%(conta_d0,valor_d0))
                     print("D\t\t-\t\t%s\t\tR$ %.2f,00"%(conta_d1,valor_d1))
@@ -117,7 +116,7 @@ if num_op == "1":
                     input("tecle <ENTER> para continuar...")
                     valor_nulo = 1
                     def primeira_operacao_1D():
-                        print(ascii.livro_diario_ascii())
+                        ascii.livro_diario_ascii()
                         print("Data da operação: %02d/%02d/%d"%(dia,mes,ano))
                         print("D\t\t-\t\t%s\t\tR$ %.2f,00"%(conta_d0,valor_d0))
                         print("D\t\t-\t\t%s\t\tR$ %.2f,00"%(conta_d1,valor_d1))
@@ -125,7 +124,7 @@ if num_op == "1":
                         print("Histórico: %s"%historico_0)
                         print()
         elif tipo_conta in dic_C:
-            
+            print()
             
 
 
