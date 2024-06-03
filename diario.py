@@ -6,4 +6,4 @@ class Livro_Diario:
         self.conta_c = conta_c
         self.valor_cc = valor_cc
         self.historico = historico
-        pass
+        print("DATA OK")
