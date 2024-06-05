@@ -7,16 +7,16 @@
 
 '''imports'''
 import os
-import datetime
-import diario
+import funcoes
+import interfaces
 
-'''datetime'''
-data = datetime.date.today()
-dia = data.day
-mes = data.month
-ano = data.year
+'''programa principal'''
 
-'''código principal'''
-data = float(input("Digite o valor de D: "))
-
-dr = diario.Livro_Diario(data)
+op_princ = ""
+while op_princ != "0":
+    op_princ = interfaces.menu_principal()
+    print()
+    if op_princ == "1":
+        print()
+print()
+interfaces.encerramento()
