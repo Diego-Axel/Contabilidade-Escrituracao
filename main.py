@@ -6,7 +6,6 @@
 ############################################################
 
 '''imports'''
-import os
 import funcoes
 import interfaces
 import banco
@@ -18,6 +17,13 @@ while op_princ != "0":
     op_princ = interfaces.menu_principal()
     print()
     if op_princ == "1":
-        print()
+        op_usuario = ""
+        while op_usuario != "0":
+            op_usuario = interfaces.cadastro_usuario()
+            print()
+            if op_usuario == "1":
+                banco.usuarios()
 print()
 interfaces.encerramento()
+
+'''em desenvolvimento...'''
