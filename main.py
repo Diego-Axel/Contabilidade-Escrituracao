@@ -9,6 +9,7 @@
 import os
 import funcoes
 import interfaces
+import banco
 
 '''programa principal'''
 
