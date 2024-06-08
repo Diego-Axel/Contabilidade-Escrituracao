@@ -1,14 +1,37 @@
-# Contabilidade-Escrituração-Contábil
-projeto para uso pessoal, treinamento e principalmente para eu ver a minha evolução no mundo da programação! Quero ver a minha trajetória neste projeto.
+<p align="center">
+  <img alt="Logo de Diêgo Axel" src="imgs_README/img_logo_Axel.png" width="250px" />
+</p>
+
+<p align="center">
+Escrituração Contábil Básica
+</p>
+
+<p align="center">
+  <a href="#-tecnologia">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-banco_de_dados">Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-ferramenta">Ferramaneta</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre">Sobre</a>
+</p>
 <br>
-<br>
-levando em consideração que eu estou fazendo esse projeto totalmente sozinho, ele ainda está em desenvolvimento, a meses por sinal. É algo que é feito com muitas linhas de código e eu ja refiz do zero muitas vezes até chegar a onde realmente desejo.
-<br>
-<br>
-cada vez que aprendo algo novo relacionado a lingaugem de programação que esse projeto está sendo feito(Python) eu atualizo ele ou até mesmo, refaço do zero. 
-<br>
-<br>
-não vejo isso como um lado negativo, refazer esse projeto do zero, até porque a gama de aprendizagem é muito grande e conhecimento nunca é demais.
-<br> 
-<br>
-<img align="center" alt="Visual Studio Code" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" /><img align="center" alt="Python" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
+
+## 🚀 Tecnologia
+
+Esse projeto foi desenvolvido com a seguinte tecnologia:
+
+- Python
+
+## 🗂️ Banco de Dados
+Esse projeto foi desenvolvido utilizando o seguinte banco de dados:
+
+- PostgreSQL
+
+## 🎮 Ferramenta
+Esse projeto foi desenvolvido com o seguinte editor de código:
+
+- Visual Studio Code
+
+## Sobre
+
+- Este é um programa que serve exclusivamente para eu por a minha aprendizagem em prática.
+
+- Mas o intuito com ele, além de treinar, é que ele possa ser capaz de executar uma Escrituração Contábil Básica passando pelo 4 passos como é visto quando começa a se aprender contabilidade. 
