@@ -17,10 +17,11 @@ def menu_principal(): # Interface do Menu Principal
     print("---------------------------------------")
     print("|        ESCRITURAÇÃO CONTÁBIL        |")
     print("|-------------------------------------|")
-    print("| 1 - Escrituação Contábil (Program)  |")
-    print("| 2 - Exemplos das Demonstrações      |")
-    print("| 3 - Sobre a Escrituração            |")
-    print("| 4 - Sobre o Programa                |")
+    print("| 1 - Cadastro de Usuario Teste :)    |")
+    print("| 2 - Escrituação Contábil (Program)  |")
+    print("| 3 - Exemplos das Demonstrações      |")
+    print("| 4 - Sobre a Escrituração            |")
+    print("| 5 - Sobre o Programa                |")
     print("| 0 - Encerrar Programa               |")
     print("---------------------------------------")
     print()
@@ -89,6 +90,21 @@ def balanco_patrimonial(): # Interface do Balanço Patrimônial
 
 def sobre_escrituracao():
     print()
+
+
+def cadastro_usuario():
+    os.system("clear || cls")
+    print("--------------------------------------------")
+    print("|           CADASTRO DE USUÁRIO            |")
+    print("--------------------------------------------")
+    print("| 1 - Cadastre-se                          |")
+    print("| 0 - Sair                                 |")
+    print("--------------------------------------------")
+    print("| OBJ: Serve somente para FeedBack(s)...   |")
+    print("--------------------------------------------")
+    op_usuario = input("| Escolha sua opção: ")
+    return op_usuario
+
 
 '''INTERFACE SOBRE O PROGRAMA'''
 
