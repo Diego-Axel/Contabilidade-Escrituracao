@@ -9,11 +9,11 @@ import os
 def usuarios():
     try:
         connection = psycopg2.connect(
-            user="postgres",
-            password="palmeiras123",
-            host="localhost",
-            port="5432",
-            database="escrituracao"
+            user= # "Seu usuário do Banco",
+            password= # "A senha do seu banco",
+            host= # O servidor (se for na sua máquina então será um -> localhost),
+            port= # "porta que está no banco",
+            database= # "o nome do database(banco)"
         )
         cursor = connection.cursor()
 
@@ -78,11 +78,11 @@ def usuarios():
 def banco_debito():
     try:
         connection = psycopg2.connect(
-            user="postgres",
-            password="palmeiras123",
-            host="localhost",
-            port="5432",
-            database="escrituracao"
+            user= # "Seu usuário do Banco",
+            password= # "A senha do seu banco",
+            host= # O servidor (se for na sua máquina então será um -> localhost),
+            port= # "porta que está no banco",
+            database= # "o nome do database(banco)"
         )
         cursor = connection.cursor()
         
@@ -135,11 +135,11 @@ def banco_debito():
 def banco_credito():
     try:
         connection = psycopg2.connect(
-            user="postgres",
-            password="palmeiras123",
-            host="localhost",
-            port="5432",
-            database="escrituracao"
+            user= # "Seu usuário do Banco",
+            password= # "A senha do seu banco",
+            host= # O servidor (se for na sua máquina então será um -> localhost),
+            port= # "porta que está no banco",
+            database= # "o nome do database(banco)"
         )
         cursor = connection.cursor()
         
