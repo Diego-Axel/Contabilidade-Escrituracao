@@ -8,7 +8,7 @@
 '''imports'''
 import funcoes
 import interfaces
-import banco
+import usuario
 
 '''programa principal'''
 
@@ -22,7 +22,15 @@ while op_princ != "0":
             op_usuario = interfaces.cadastro_usuario()
             print()
             if op_usuario == "1":
-                banco.usuarios()
+                usuario.usuarios()
+    elif op_princ == "2":
+        pass
+    elif op_princ == "3":
+        pass
+    elif op_princ == "4":
+        interfaces.sobre_escrituracao()
+    elif op_princ == "5":
+        interfaces.sobre_programa()
 print()
 interfaces.encerramento()
 

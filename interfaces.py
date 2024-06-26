@@ -1,8 +1,8 @@
+'''INTERFACES'''
+
 '''imports'''
 import os
-import time
 
-'''INTERFACE MENU PRINCIPAL'''
 
 def menu_principal(): # Interface do Menu Principal 
     os.system('clear || cls')
@@ -27,69 +27,7 @@ def menu_principal(): # Interface do Menu Principal
     print()
     op_princ = input("| Escolha uma opção: ")
     return op_princ
-
-'''INTERFACES DAS DEMONSTRAÇÕES'''
-
-def livro_Diario(): # Interface do Livro Diário 
-    print("""
-     _    _               ___  _          _    
-    | |  (_)_ ___ _ ___  |   \(_)__ _ _ _(_)___ 
-    | |__| \ V / '_/ _ \ | |) | / _` | '_| / _  
-    |____|_|\_/|_| \___/ |___/|_\__,_|_| |_\___/
-          
-    """)
-    print("CARREGANDO...")
-    print()
-    time.sleep(.3)
-
 '''---------------------------------------------------------------------------------------------------------------'''
-
-def livro_razao(): # Interface do Livro Razão
-    print("""
-     _    _               ___                  
-    | |  (_)_ ___ _ ___  | _ \__ _ _____ _ ___ 
-    | |__| \ V / '_/ _ \ |   / _` |_ / _` / _  
-    |____|_|\_/|_| \___/ |_|_\__,_/__\__,_\___/
-                                            
-    """)
-    print("CARREGANDO...")
-    print()
-    time.sleep(.3)
-
-'''---------------------------------------------------------------------------------------------------------------'''
-
-def balancete(): # Interface do Balancete
-    print("""
-     ___      _                  _       
-    | _ )__ _| |__ _ _ _  __ ___| |_ ___ 
-    | _ \ _` | / _` | ' \/ _/ -_)  _/ -_)
-    |___\__,_|_\__,_|_||_\__\___|\__\___|
-                                      
-    """)
-    print("CARREGANDO...")
-    print()
-    time.sleep(.3)
-
-'''---------------------------------------------------------------------------------------------------------------'''
-
-def balanco_patrimonial(): # Interface do Balanço Patrimônial
-    print("""
-     ___      _                    ___      _       _                _      _ 
-    | _ )__ _| |__ _ _ _  __ ___  | _ \__ _| |_ _ _(_)_ __  ___ _ _ (_)__ _| |
-    | _ \ _` | / _` | ' \/ _/ _ \ |  _/ _` |  _| '_| | '  \/ _ \ ' \| / _` | |
-    |___\__,_|_\__,_|_||_\__\___/ |_| \__,_|\__|_| |_|_|_|_\___/_||_|_\__,_|_|
-                                                                           
-    """)
-    print("CARREGANDO...")
-    print()
-    time.sleep(.3)
-
-'''---------------------------------------------------------------------------------------------------------------'''
-
-'''INTERFACE SOBRE A ESCRITURAÇÃO CONTÁBIL'''
-
-def sobre_escrituracao():
-    print()
 
 
 def cadastro_usuario():
@@ -104,6 +42,27 @@ def cadastro_usuario():
     print("--------------------------------------------")
     op_usuario = input("| Escolha sua opção: ")
     return op_usuario
+'''---------------------------------------------------------------------------------------------------------------'''
+
+
+def sobre_escrituracao():
+    os.system('clear || cls')
+    print("-------------------------------------------------")
+    print("|              SOBRE A ESCRITURAÇÃO             |")
+    print("|-----------------------------------------------|")
+    print("| Segundo o site Contablizei ->                 |")
+    print("| https://www.contabilizei.com.br <-            |")
+    print("|                                               |")
+    print("| 'A escrituração contábil consiste no registro |")
+    print("| de todos os fatos e movimentos financeiros de |")
+    print("| os fatos e movimentos financeiros de uma em-  |")
+    print("| presa. O objetivo é o fornecimento de infor-  |")
+    print("| mações sobre o controle de patriônio empresa- |")
+    print("| rial.' Neste programa, você poderá fazer uma  |")
+    print("| escrituração básica completa.                 |")
+    print("-------------------------------------------------")
+    print()
+    input("tecle <ENTER> para retornao ao menu principal ")
 
 
 '''INTERFACE SOBRE O PROGRAMA'''
@@ -122,6 +81,8 @@ def sobre_programa():
     print("| Desenvolvido por: Diêgo Axel                 |")
     print("| GitHub: Diego-Axel                           |")
     print("------------------------------------------------")
+    print()
+    input("tecle <ENTER> para retornao ao menu principal ")
 
 
 '''INTERFACE DE ENCERRAMENTO DO PROGRAMA'''
