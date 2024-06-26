@@ -6,7 +6,6 @@
 ############################################################
 
 '''imports'''
-import funcoes
 import interfaces
 import usuario
 
