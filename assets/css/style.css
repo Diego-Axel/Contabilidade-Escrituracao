@@ -1,66 +1,202 @@
+/* Importando uma fonte mais moderna do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* --- Variáveis de Cor e Estilos Globais --- */
+:root {
+  --primary-color: #007BFF;
+  --primary-hover: #0056b3;
+  --background-color: #f4f7f9;
+  --surface-color: #ffffff;
+  --text-color: #333;
+  --border-color: #dee2e6;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
   margin: 20px;
 }
+
 h1, h2 {
   text-align: center;
+  margin-bottom: 24px;
+  color: var(--primary-color);
 }
-form, .tables {
-  max-width: 800px;
-  margin: auto;
+
+h2 {
+  color: #555;
+  margin-top: 20px;
 }
-form > div {
-  margin-bottom: 10px;
+
+/* --- Container Principal e seções --- */
+.tables, form {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 24px;
+  background-color: var(--surface-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
 }
+
+/* --- Formulário --- */
+form div {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
 label {
-  display: inline-block;
-  width: 120px;
+  flex: 0 0 120px;
+  font-weight: 500;
 }
+
 input[type=text], input[type=number], input[type=date], select {
-  width: calc(100% - 130px);
-  padding: 5px;
-}
-button {
-  padding: 8px 12px;
-}
-table {
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
-th, td {
-  border: 1px solid #ccc;
-  padding: 5px;
-  text-align: left;
+
+input[type=text]:focus, input[type=number]:focus, input[type=date]:focus, select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
+
+button[type=submit] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type=submit]:hover {
+  background-color: var(--primary-hover);
+}
+
+/* --- Abas de Navegação --- */
 .tabs {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin: 20px 0;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid var(--border-color);
 }
+
 .tab {
-  padding: 8px 16px;
-  background: #eee;
+  padding: 10px 20px;
+  background: transparent;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 4px 4px 0 0;
+  border: 1px solid transparent;
+  border-bottom: none;
+  position: relative;
+  bottom: -1px;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 500;
 }
+
+.tab:hover {
+  background-color: #e9ecef;
+}
+
 .tab.active {
-  background: #007BFF;
-  color: #fff;
+  background-color: var(--surface-color);
+  color: var(--primary-color);
+  border-color: var(--border-color);
+  border-bottom: 1px solid var(--surface-color);
 }
+
 .section {
   display: none;
 }
+
 .section.active {
   display: block;
 }
-.t-account {
-  display: inline-block;
-  width: 200px;
-  vertical-align: top;
-  margin: 10px;
-}
-.t-account table {
+
+
+/* --- Tabelas --- */
+table {
   width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f8f9fa;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+
+/* --- Razonetes (T-Accounts) --- */
+#taccountsContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.t-account {
+  flex: 1 1 220px; /* Flexbox para melhor responsividade */
+  max-width: 250px;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: #fafafa;
+}
+
+.t-account strong {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.t-account table {
+  margin-top: 0;
+}
+
+.t-account th, .t-account td {
+  text-align: center;
+}
+
+.t-account tfoot td {
+  font-weight: 600;
+  background-color: #e9ecef;
 }
