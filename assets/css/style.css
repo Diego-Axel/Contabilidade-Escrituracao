@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1, h2 {
+  text-align: center;
+}
+form, .tables {
+  max-width: 800px;
+  margin: auto;
+}
+form > div {
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  width: 120px;
+}
+input[type=text], input[type=number], input[type=date], select {
+  width: calc(100% - 130px);
+  padding: 5px;
+}
+button {
+  padding: 8px 12px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.tab {
+  padding: 8px 16px;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.tab.active {
+  background: #007BFF;
+  color: #fff;
+}
+.section {
+  display: none;
+}
+.section.active {
+  display: block;
+}
+.t-account {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  margin: 10px;
+}
+.t-account table {
+  width: 100%;
+}
